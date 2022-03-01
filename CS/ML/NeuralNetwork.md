@@ -18,10 +18,9 @@ The simplest structure, which is also called *fully connected layer*.
 #### Output
 
 ### Convolution
-* $\text{kernel size}=\text{input size}\times\text{n channels}$
+* $\text{(kernel size)}=\text{(input size)}\times\text{(n channels)}$
 * Activation function introduces non-linearity for the importance of each feature.
 * Kernel is learnable.
-* $\text{rock}$
 
 #### 1x1 Convolution
 [1x1卷積計算在做什麼？](https://medium.com/@chih.sheng.huang821/%E5%8D%B7%E7%A9%8D%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF-convolutional-neural-network-cnn-1-1%E5%8D%B7%E7%A9%8D%E8%A8%88%E7%AE%97%E5%9C%A8%E5%81%9A%E4%BB%80%E9%BA%BC-7d7ebfe34b8): 
