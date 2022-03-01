@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "82ba792d08813b22",
+    "type": "split",
+    "children": [
+      {
+        "id": "aec92d63f68a3ae6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "CS/ML/NeuralNetwork.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "670409161f34aabd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "CS/Python_index.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c6a066f6dd911bae",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8a2685c29f79948",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43fe2b0af0fbd1cb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "09f0dd0ed4f27e49",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#CS/SoftSkills",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "60e2ef8002118a59",
+    "type": "split",
+    "children": [
+      {
+        "id": "b80afe009441e8bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb91db7600ab0053",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CS/ML/NeuralNetwork.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e207c6e0d03246e2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CS/ML/NeuralNetwork.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f3c047da0a526fe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dc4ca348ef516f3c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CS/ML/NeuralNetwork.md"
+              }
+            }
+          },
+          {
+            "id": "3e8d868450c419d6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "17e93a014e34e495",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "aec92d63f68a3ae6",
+  "lastOpenFiles": [
+    "CS/ML/NeuralNetwork.md",
+    "media/15961620376109/遞歸神經網路 Recurrent Neural Network   Back-propagation Through Time   by Tommy Huang   Medium.png.md",
+    "CS/SoftSkills/Version_control_with_git.md",
+    "Private/不動產.md",
+    "CS/JypyterLab_and_Colab.md",
+    "CS/DSA/DSA_index.md",
+    "CS/ML/DataPreprocessing.md",
+    "CS/Python_index.md",
+    "CS/WebDev/WebScraper.md",
+    "CS/SoftSkills/SoftSkills_index.md"
+  ]
+}

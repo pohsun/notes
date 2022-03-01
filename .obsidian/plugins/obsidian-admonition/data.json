@@ -1,0 +1,66 @@
+{
+  "userAdmonitions": {
+    "danger": {
+      "type": "danger",
+      "color": "255, 1, 37",
+      "icon": {
+        "name": "exclamation-triangle",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "danger",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "warninng": {
+      "type": "warninng",
+      "color": "253, 226, 48",
+      "icon": {
+        "name": "exclamation",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "warning",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "success": {
+      "type": "success",
+      "color": "37, 143, 36",
+      "icon": {
+        "name": "check",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "success",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "info": {
+      "type": "info",
+      "color": "13, 143, 242",
+      "icon": {
+        "name": "book",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "info",
+      "injectColor": true,
+      "noTitle": false
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": false,
+  "version": "6.11.0",
+  "warnedAboutNC": true,
+  "autoCollapse": false,
+  "defaultCollapseType": "open",
+  "syncLinks": false,
+  "enableMarkdownProcessor": false,
+  "injectColor": true,
+  "parseTitles": true,
+  "allowMSSyntax": true,
+  "livePreviewMS": true,
+  "dropShadow": true,
+  "hideEmpty": false
+}
