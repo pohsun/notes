@@ -17,17 +17,16 @@
     * [Concurrent Execution](https://docs.python.org/3/library/concurrency.html)
     * [Python的GIL是什么鬼，多线程性能究竟如何](http://cenalulu.github.io/python/gil-in-python/)
     * [PEP 492: Coroutines with async and await syntax](https://www.python.org/dev/peps/pep-0492/)
-* [Module Packaging](mweblib://15865341859077)
-
+* [Python module and packaging](Python_Packaging.md)
 
 # Studied Modules (Except for DevTools)
 
 * Data analysis
     * Data structures in data analysis with Python:  
         含`numpy`, `scikit-hep/awkward-array`, `pandas`, `modin`, `dask`, --`uproot` -- etc..
-    * [`scikit-learn`](mweblib://15835468465195)
-    * [`TensorFlow2`](mweblib://15799504530512)
-    * [`PyTorch`](mweblib://15935263870509)
+    * [`scikit-learn`](https://scikit-learn.org/stable/user_guide.html)
+    * [`Tensorflow2`](ML/Tensorflow2.md)
+    * [`PyTorch`](ML/PyTorch_and_Lightning.md)
 * Interface
     * Web: [Django](WebDev/Django.md), `Flask`, `fastAPI`
     * GUI: `pyQt`

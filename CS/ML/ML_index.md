@@ -32,15 +32,14 @@ Here is a list of some special topics for AI/ML
 ## Tools
 
 * [Jupyter notebook](mweblib://15799246779952)
-* [Data structures in data analysis with Python](mweblib://15990269838267)
-* [Scikit-learn](mweblib://15835468465195)
-* ANN frameworks
-    * [`tensorflow2`](mweblib://15799504530512)
-    * [`PyTorch`](mweblib://15935263870509)
+* pydata
+* [Scikit-learn](https://scikit-learn.org/stable/user_guide.html)
+* NN frameworks
+    * [`tensorflow2`](Tensorflow2.md)
+    * [`PyTorch`](PyTorch_and_Lightning.md)
     * Comparison
         * [Why I Switch From Keras to PyTorch](https://medium.com/swlh/why-i-switch-from-keras-to-pytorch-e48922f5846)
-* TMVA - see [ROOT](mweblib://15799335514192)
-* [Visualization](mweblib://15995359168943) - `matplotlib`, `plotly`, `dash`, etc..
+* [Visualization](Visualization.md)- `matplotlib`, `plotly`, `dash`, etc..
 
 ## Reference
 
