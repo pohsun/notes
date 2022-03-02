@@ -48,7 +48,7 @@ Example could be seen/produced with [`imgaug`](https://github.com/aleju/imgaug) 
 
 ## Scikit-learn
 
-See `sklearn.preprocessing` in [scikit-learn](mweblib://15835468465195)
+See [`sklearn.preprocessing`](https://scikit-learn.org/stable/modules/preprocessing.html) 
 
 ----
 # Reference
