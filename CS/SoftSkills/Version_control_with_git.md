@@ -161,4 +161,4 @@ Create a bare repo with `git init --bare`, then just work as if there is a serve
     ```
 * Handle `error: The requested URL returned error: 403 Forbidden while accessing https://github.com/REPO/USER/info/refs`  
     In `.git/config`, replace all `https://` in url with `ssh://git@` and copy public key to git.   
-   
+* Magic string! `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`
