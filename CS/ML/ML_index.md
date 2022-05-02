@@ -50,7 +50,7 @@ https://github.com/dformoso/deeplearning-mindmap
 * [Deep Learning by I. Goodfellow](https://github.com/exacity/deeplearningbook-chinese), 最好先讀過PRML
 * The Elements of Statistical Learning by Hastie, 中文版是屎翻
 * Understanding machine learning - From theory to algorithms, 在書庫有
-* [Information Theory](mweblib://15826965427558)
+* [InformationTheory](/Math/InformationTheory.md)
 * [李宏毅老師個人網頁](http://speech.ee.ntu.edu.tw/~tlkagk/index.html)
     * [Machine learning](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html)
         * [某人的上課筆記](https://hackmd.io/@shaoeChen/B1CoXxvmm/)

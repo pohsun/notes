@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "670409161f34aabd",
+        "id": "fccfd5a68ea0d1b1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CS/ML/Visualization.md",
+            "file": "CS/JupyterLab_and_Colab.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/ML/Visualization.md",
+                "file": "CS/JupyterLab_and_Colab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/ML/Visualization.md",
+                "file": "CS/JupyterLab_and_Colab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/ML/Visualization.md"
+                "file": "CS/JupyterLab_and_Colab.md"
               }
             }
           },
@@ -138,17 +138,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "670409161f34aabd",
+  "active": "fccfd5a68ea0d1b1",
   "lastOpenFiles": [
-    "CS/ML/Visualization.md",
-    "CS/ML/ML_index.md",
-    "CS/DesignPatterns/REST.md",
-    "CS/DesignPatterns/DesignPatterns_index.md",
+    "CS/JupyterLab_and_Colab.md",
+    "CS/Python_index.md",
     "CS/WebDev/WebDev.md",
-    "CS/DSA/DSA_index.md",
+    "CS/ML/ML_index.md",
+    "CS/ML/ScikitLearn.md",
+    "CS/ML/Losses_Regularizers_and_Optimizers.md",
     "CS/ML/NeuralNetwork.md",
-    "CS/ML/PyTorch.md",
-    "CS/ML/ComputerVision.md",
-    "CS/ML/NaturalLanguageProcessing.md"
+    "CS/ML/DataPreprocessing.md",
+    "CS/ML/NaturalLanguageProcessing.md",
+    "CS/ML/ComputerVision.md"
   ]
 }

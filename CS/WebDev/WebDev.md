@@ -1,6 +1,6 @@
 #index #CS/WebDev
    
-* [HTML+CSS](mweblib://16024191911838) + [JavaScript](mweblib://16024191004515)
+* [HTML_and_CSS](HTML_and_CSS.md)+ [JavaScript](JavaScript.md)
 * Frontend frames
     * JavaScript框架比較
         * [Google trend: `AngularJS` vs `React` vs `Vue.js` in past 5 years](https://trends.google.com/trends/explore?date=today%205-y&q=%2Fm%2F0j45p7w,%2Fm%2F012l1vxv,%2Fg%2F11c0vmgx5d&hl=zh-TW)
@@ -13,7 +13,8 @@
     * Python-based
         * [fastapi]()(Preferred)
         * Flask
-        * Django
+        * Django - 簡單易用
+    * `deno`, `node.js`, and `typescript`
 * Design pattern basics
     * MVW: Model-View-Whatever
     * [REST](../DesignPatterns/REST.md)

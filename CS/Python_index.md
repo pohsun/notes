@@ -104,10 +104,10 @@ Some auxiliary modules are provides to support the concurrency, such as
    * JIT for quick development. However, it's embarrassing for deploying.
    * Use `pyyaml` to globally switch on/off JIT.
    * More [constraints](http://numba.pydata.org/numba-doc/dev/reference/pysupported.html).
-* [`Cython`](mweblib://16026813125593): Slightly `C`-like solution.
+* [`Cython`](https://cython.readthedocs.io/en/stable/index.html): Slightly `C`-like solution.
    * Compile for static lib. Less constraints.  
         Suitable for deploying well developed package.
-* [`pybind11`](mweblib://16044134057405): Pure `C` solution.
+* [`pybind11`](https://pybind11.readthedocs.io/en/stable/index.html): Pure `C` solution.
     * Wrap `C++11` (and beyond) to `Python` module, quite easy to learn and use.
     * Support for `CUDA` and etc..
     * Could be 2x slower than `Numba`.
@@ -115,4 +115,4 @@ Some auxiliary modules are provides to support the concurrency, such as
 
 ## Solution - GPGPU
 
-Please refer to [INDEX: GPGPU](mweblib://16060181128705).
+Please refer to [INDEX: GPGPU]().
