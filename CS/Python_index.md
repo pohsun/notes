@@ -19,7 +19,7 @@
     * [PEP 492: Coroutines with async and await syntax](https://www.python.org/dev/peps/pep-0492/)
 * [Python module and packaging](Python_Packaging.md)
 
-# Studied Modules (Except for DevTools)
+# Useful Modules (Except for DevTools)
 
 * Data analysis
     * Data structures in data analysis with Python:  
@@ -27,6 +27,7 @@
     * [`scikit-learn`](https://scikit-learn.org/stable/user_guide.html)
     * [`Tensorflow2`](ML/Tensorflow2.md)
     * [`PyTorch`](ML/PyTorch.md)
+    * [`statmodels`](https://www.statsmodels.org/stable/index.html)
 * Interface
     * Web: [Django](WebDev/Django.md), `Flask`, `fastAPI`
     * GUI: `pyQt`
@@ -60,7 +61,7 @@
 
 ## Debugger
 
-* [`pdb`](https://docs.python.org/3/library/pdb.html)
+* [`pdb`](https://docs.python.org/3/library/pdb.html) [`pudb`](https://documen.tician.de/pudb/)
 * [`objgraph`](https://pypi.org/project/objgraph/)
 
 ## Unittest
