@@ -46,9 +46,13 @@ Example could be seen/produced with [`imgaug`](https://github.com/aleju/imgaug) 
 
 * For sequential reading, a good randomness could be achieved take reasonable buffer size and shuffle in such buffer. See [discussion on `tensorflow.data.Dataset.shuffle`](https://stackoverflow.com/questions/46444018/meaning-of-buffer-size-in-dataset-map-dataset-prefetch-and-dataset-shuffle)
 
-## Scikit-learn
+### Scikit-learn
 
 See [`sklearn.preprocessing`](https://scikit-learn.org/stable/modules/preprocessing.html) 
+
+## Image
+
+### Einops
 
 ----
 # Reference

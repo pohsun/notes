@@ -26,7 +26,7 @@
         含`numpy`, `scikit-hep/awkward-array`, `pandas`, `modin`, `dask`, --`uproot` -- etc..
     * [`scikit-learn`](https://scikit-learn.org/stable/user_guide.html)
     * [`Tensorflow2`](ML/Tensorflow2.md)
-    * [`PyTorch`](ML/PyTorch_and_Lightning.md)
+    * [`PyTorch`](ML/PyTorch.md)
 * Interface
     * Web: [Django](WebDev/Django.md), `Flask`, `fastAPI`
     * GUI: `pyQt`

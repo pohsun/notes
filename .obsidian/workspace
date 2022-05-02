@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CS/SoftSkills/Version_control_with_git.md",
+            "file": "CS/ML/Visualization.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "mweblib",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 385.5
   },
   "right": {
     "id": "60e2ef8002118a59",
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/SoftSkills/Version_control_with_git.md",
+                "file": "CS/ML/Visualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/SoftSkills/Version_control_with_git.md",
+                "file": "CS/ML/Visualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/SoftSkills/Version_control_with_git.md"
+                "file": "CS/ML/Visualization.md"
               }
             }
           },
@@ -131,23 +131,24 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "670409161f34aabd",
   "lastOpenFiles": [
-    "CS/SoftSkills/Version_control_with_git.md",
-    "CS/Python_index.md",
-    "CS/ML/DataPreprocessing.md",
+    "CS/ML/Visualization.md",
     "CS/ML/ML_index.md",
-    "CS/Python_Packaging.md",
-    "media/15961620376109/遞歸神經網路 Recurrent Neural Network   Back-propagation Through Time   by Tommy Huang   Medium.png.md",
+    "CS/DesignPatterns/REST.md",
+    "CS/DesignPatterns/DesignPatterns_index.md",
+    "CS/WebDev/WebDev.md",
+    "CS/DSA/DSA_index.md",
     "CS/ML/NeuralNetwork.md",
-    "Private/不動產.md",
-    "CS/JypyterLab_and_Colab.md",
-    "CS/DSA/DSA_index.md"
+    "CS/ML/PyTorch.md",
+    "CS/ML/ComputerVision.md",
+    "CS/ML/NaturalLanguageProcessing.md"
   ]
 }

@@ -9,36 +9,33 @@
 
 Quote from the textbook "Machine Learning" by T. Mitchell(1997): *"A computer program is said to learn from experience `E` with respect to some class of tasks `T` and performance measure `P`, if its performance at tasks in `T`, as measured by `P`, improves with experience `E`."*
 
-* [Overview and Theoretical Basis](mweblib://15860793181322)
-* `E`: [Data preprocessing](mweblib://15714761657948)
+* [Overview and Theoretical Basis](/Math/InformationTheory.md)
+* `E`: [Data preprocessing](DataPreprocessing.md)
 * `T`: Tasks (i.e. the algorithms)
-   * [`ANN`](mweblib://15875722324692)
+   * [`ANN`](NeuralNetwork.md)
         * `CNN`, `RNN`, `GNN`, `GAN`
     * `DT`, `SVM`, etc..
 * `P`: Performance measure
     * Supervised, semi-supervised, and unsupervised.
-    * [Losses, Regularizers and Optimizers](mweblib://15833401735857)
+    * [Losses_Regularizers_and_Optimizers](Losses_Regularizers_and_Optimizers.md)
     * Activation functions: Provide non-linear feature in `ANN`.
 
 ----
 
 Here is a list of some special topics for AI/ML
 
-* [Visualization](mweblib://15995359168943)
-* [Jupyter + Colab](mweblib://15799246779952)
-* [Computer Vision](mweblib://15993084318238)
-* [Natural Language Processing](mweblib://15993080297436)
+* [Visualization](Visualization.md)
+* [Jupyter + Colab](/CS/JupyterLab_and_Colab.md)
+* [Computer Vision](ComputerVision.md)
+* [Natural Language Processing](NaturalLanguageProcessing.md)
         
 ## Tools
 
-* [Jupyter notebook](mweblib://15799246779952)
-* pydata
+* [Jupyter notebook][/CS/JupyterLab_and_Colab]
 * [Scikit-learn](https://scikit-learn.org/stable/user_guide.html)
 * NN frameworks
     * [`tensorflow2`](Tensorflow2.md)
-    * [`PyTorch`](PyTorch_and_Lightning.md)
-    * Comparison
-        * [Why I Switch From Keras to PyTorch](https://medium.com/swlh/why-i-switch-from-keras-to-pytorch-e48922f5846)
+    * [`PyTorch`](PyTorch.md)
 * [Visualization](Visualization.md)- `matplotlib`, `plotly`, `dash`, etc..
 
 ## Reference
