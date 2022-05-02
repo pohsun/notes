@@ -17,7 +17,7 @@
     * `deno`, `node.js`, and `typescript`
 * Design pattern basics
     * MVW: Model-View-Whatever
-    * [REST](../DesignPatterns/REST.md)
+    * [REST](/CS/DesignPatterns/REST.md)
 * Advanced topics: System design 如何設計超大型系統
     * https://github.com/donnemartin/system-design-primer
 * Other useful tools

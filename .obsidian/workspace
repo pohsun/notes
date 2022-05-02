@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "fccfd5a68ea0d1b1",
+        "id": "4095667c7f3c2884",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CS/JupyterLab_and_Colab.md",
+            "file": "CS/WebDev/HTML_and_CSS.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/JupyterLab_and_Colab.md",
+                "file": "CS/WebDev/HTML_and_CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/JupyterLab_and_Colab.md",
+                "file": "CS/WebDev/HTML_and_CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/JupyterLab_and_Colab.md"
+                "file": "CS/WebDev/HTML_and_CSS.md"
               }
             }
           },
@@ -138,17 +138,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fccfd5a68ea0d1b1",
+  "active": "4095667c7f3c2884",
   "lastOpenFiles": [
-    "CS/JupyterLab_and_Colab.md",
-    "CS/Python_index.md",
-    "CS/WebDev/WebDev.md",
-    "CS/ML/ML_index.md",
-    "CS/ML/ScikitLearn.md",
-    "CS/ML/Losses_Regularizers_and_Optimizers.md",
-    "CS/ML/NeuralNetwork.md",
-    "CS/ML/DataPreprocessing.md",
-    "CS/ML/NaturalLanguageProcessing.md",
-    "CS/ML/ComputerVision.md"
+    "CS/WebDev/HTML_and_CSS.md",
+    "CS/WebDev/JavaScript.md",
+    "CS/WebDev/WebScraper.md",
+    "CS/Python_Packaging.md",
+    "Private/不動產.md",
+    "Private/PhD_defense_presenter_notes.md",
+    "Private/個人金流.md",
+    "Finance/Finance_index.md",
+    "Private/attachments/借據_蔡秉家.jpg",
+    "Private/attachments/借據_蔡秉家2.jpg"
   ]
 }
