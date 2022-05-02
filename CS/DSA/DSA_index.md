@@ -33,7 +33,9 @@
 
 # References
 **Bold** references are highly recommended.
-* [**Grokking Algorithms**](https://livebook.manning.com/book/grokking-algorithms/about-this-book/) 
+* [**Labuladong的算法小抄**](https://labuladong.github.io/algo/)
+* [**Grokking Algorithms**](https://livebook.manning.com/book/grokking-algorithms/about-this-book/)
+	* 推薦給初學者，雖然有點太簡略了 
 * [**Coding Practice - Advanced Topics**](https://po-jen.gitbooks.io/coding-practice-advanced-topics/content/)
 * [**geeksforgeeks: Data Structure**](https://www.geeksforgeeks.org/data-structures/)
 * [Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)

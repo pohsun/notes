@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CS/WebDev/HTML_and_CSS.md",
+            "file": "CS/DSA/DSA_index.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/WebDev/HTML_and_CSS.md",
+                "file": "CS/DSA/DSA_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/WebDev/HTML_and_CSS.md",
+                "file": "CS/DSA/DSA_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/WebDev/HTML_and_CSS.md"
+                "file": "CS/DSA/DSA_index.md"
               }
             }
           },
@@ -140,15 +140,15 @@
   },
   "active": "4095667c7f3c2884",
   "lastOpenFiles": [
+    "CS/DSA/DSA_index.md",
+    "CS/DBMS/DB_and_DBMS_index.md",
+    "CS/ML/ScikitLearn.md",
     "CS/WebDev/HTML_and_CSS.md",
     "CS/WebDev/JavaScript.md",
     "CS/WebDev/WebScraper.md",
     "CS/Python_Packaging.md",
     "Private/不動產.md",
     "Private/PhD_defense_presenter_notes.md",
-    "Private/個人金流.md",
-    "Finance/Finance_index.md",
-    "Private/attachments/借據_蔡秉家.jpg",
-    "Private/attachments/借據_蔡秉家2.jpg"
+    "Private/個人金流.md"
   ]
 }
