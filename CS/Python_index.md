@@ -23,7 +23,7 @@
 
 * Data analysis
     * Data structures in data analysis with Python:  
-        含`numpy`, `scikit-hep/awkward-array`, `pandas`, `modin`, `dask`, --`uproot` -- etc..
+        含`numpy`, `pandas`, `modin`, `dask`, `scikit-hep/awkward-array`, ~~`uproot`~~ etc..
     * [`scikit-learn`](https://scikit-learn.org/stable/user_guide.html)
     * [`Tensorflow2`](ML/Tensorflow2.md)
     * [`PyTorch`](ML/PyTorch.md)
