@@ -20,6 +20,7 @@
 * [Python module and packaging](Python_Packaging.md)
 * [WTF Python - 一些鮮為人知的特性](https://github.com/satwikkansal/wtfpython)
 
+
 # Useful Modules (Except for DevTools)
 
 * Data analysis
@@ -37,6 +38,8 @@
     * [網路爬蟲大全](WebDev/WebScraper.md)  
 * Utilities
 * Others
+	* [`ast`](https://sadh.life/post/ast/), [`lark`](https://github.com/lark-parser/lark) for  [wiki: LanguageParsing](https://wiki.python.org/moin/LanguageParsing)
+	  And corresponnding [benchmark](https://github.com/goodmami/python-parsing-benchmarks).
 
 # DevTools
 
