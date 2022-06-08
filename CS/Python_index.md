@@ -39,7 +39,7 @@
 * Utilities
 * Others
 	* [`ast`](https://sadh.life/post/ast/), [`lark`](https://github.com/lark-parser/lark) for  [wiki: LanguageParsing](https://wiki.python.org/moin/LanguageParsing)
-	  And corresponnding [benchmark](https://github.com/goodmami/python-parsing-benchmarks).
+	  And corresponding [benchmark](https://github.com/goodmami/python-parsing-benchmarks).
 
 # DevTools
 
