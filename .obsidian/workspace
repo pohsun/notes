@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CS/Python_index.md",
+            "file": "CS/DesignPatterns/DesignPatterns_index.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Python_index.md",
+                "file": "CS/DesignPatterns/DesignPatterns_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Python_index.md",
+                "file": "CS/DesignPatterns/DesignPatterns_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Python_index.md"
+                "file": "CS/DesignPatterns/DesignPatterns_index.md"
               }
             }
           },
@@ -139,6 +139,7 @@
   },
   "active": "4095667c7f3c2884",
   "lastOpenFiles": [
+    "CS/DesignPatterns/DesignPatterns_index.md",
     "CS/Python_index.md",
     "CS/ML/ML_index.md",
     "CS/DSA/DSA_index.md",
@@ -147,7 +148,6 @@
     "CS/WebDev/HTML_and_CSS.md",
     "CS/WebDev/JavaScript.md",
     "CS/WebDev/WebScraper.md",
-    "CS/Python_Packaging.md",
-    "Private/不動產.md"
+    "CS/Python_Packaging.md"
   ]
 }

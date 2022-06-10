@@ -6,6 +6,7 @@
 * [Wiki: Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
 * [圖說設計模式](https://design-patterns.readthedocs.io/zh_CN/latest/)
 * [500 lines or less中文翻譯計畫](https://github.com/HT524/500LineorLess_CN)
+* [設計資料密集型應用](https://github.com/Vonng/ddia/blob/master/zh-tw/README.md)
 * [Udemy: Design pattern in Python](https://www.udemy.com/share/101XbcBEcbc1tbQno=/)
 
 Implementations of some patterns could be retrieved from [**Mastering Python Design Patterns 2nd Ed, published by Packt**](https://github.com/PacktPublishing/Mastering-Python-Design-Patterns-Second-Edition)
