@@ -8,7 +8,7 @@
 
 # Overview
 
-The structure of a project/module could be found as in [the sample namespace project][samplenamespaceproject] provided officially by PyPA. 
+The structure of a project/module could be found as in [the sample namespace project](https://github.com/pypa/sample-namespace-packages) provided officially by PyPA. 
 
 ```
 root
@@ -30,6 +30,8 @@ root
 # Jump into [`setup.py`](https://packaging.python.org/guides/distributing-packages-using-setuptools/)
 
 # Dependency management
+* [`pip freeze` vs `pip list`?](https://stackoverflow.com/questions/18966564/pip-freeze-vs-pip-list)
+	* 總之用 `pip3 freeze > requirements.txt`
 
 # FAQ
 * [`install_reqires` v.s. `Requirements.txt`?](https://packaging.python.org/discussions/install-requires-vs-requirements/) [原文](https://pyzh.readthedocs.io/en/latest/python-setup-dot-py-vs-requirements-dot-txt.html)
@@ -39,8 +41,8 @@ root
 # Recommended reading
 
 * [PEP420: Implicit Namespace Packages](https://www.python.org/dev/peps/pep-0420/)
-	* 非常非常實用的個人工具集打包概念，只需要改動
+	* 非常實用的個人工具集打包概念，只需要改動`src/namespace/__init__.py`
 * [import 概念(及一些測試)](https://blog.hochun836.com/2020/10/03/python/import-concept.html)
-	* [sampleproject]: https://github.com/pypa/sampleproject
-	* [samplenamespaceproject]: https://github.com/pypa/sample-namespace-packages
-
+* PyPA sample projects
+	* [sample project](https://github.com/pypa/sampleproject)
+	* [sample namespace project](https://github.com/pypa/sample-namespace-packages)
