@@ -17,13 +17,14 @@ root
 ├── README.md
 ├── src
 │   └── namespace
-│       ├── __init__.py
+│       ├── __init__.py: Consult `PEP420`
 │       ├── module.py
 │       └── subpackageA
 │           ├── __init__.py
 │           └── pkgA_module.py
 ├── docs: Consult `Sphinx` module
-└── tests: Consult `unitests` module
+└── tests: Consult `pytests`, `coverage` module
+    └── test_XXX.py
 ```
 
 # Jump into [`setup.py`](https://packaging.python.org/guides/distributing-packages-using-setuptools/)
@@ -38,6 +39,7 @@ root
 # Recommended reading
 
 * [PEP420: Implicit Namespace Packages](https://www.python.org/dev/peps/pep-0420/)
+	* 非常非常實用的個人工具集打包概念，只需要改動
 * [import 概念(及一些測試)](https://blog.hochun836.com/2020/10/03/python/import-concept.html)
 	* [sampleproject]: https://github.com/pypa/sampleproject
 	* [samplenamespaceproject]: https://github.com/pypa/sample-namespace-packages

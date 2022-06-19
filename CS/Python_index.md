@@ -9,15 +9,15 @@
 # Features
 
 * [PEP 0: Index of PEP](https://www.python.org/dev/peps/)
-* [PEP 8: Style Guide](https://www.python.org/dev/peps/pep-0008/) 
+* [PEP 8: Style Guide](https://www.python.org/dev/peps/pep-0008/) - 每個開發者都應該從基礎學起
 * [PEP 328: Imports](python.org/dev/peps/pep-0328/)
-* [PEP 420: Implicit Namespace Packages](https://www.python.org/dev/peps/pep-0420/)
 * [PEP 484: Type Hints](https://www.python.org/dev/peps/pep-0484/)
 * `GIL` and `Concurrency` issues
     * [Concurrent Execution](https://docs.python.org/3/library/concurrency.html)
     * [Python的GIL是什么鬼，多线程性能究竟如何](http://cenalulu.github.io/python/gil-in-python/)
     * [PEP 492: Coroutines with async and await syntax](https://www.python.org/dev/peps/pep-0492/)
 * [Python module and packaging](Python_Packaging.md)
+	* * [PEP 420: Implicit Namespace Packages](https://www.python.org/dev/peps/pep-0420/)  - 實用的namespace打包方法
 * [WTF Python - 一些鮮為人知的特性](https://github.com/satwikkansal/wtfpython)
 
 
