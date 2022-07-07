@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CS/Python_Packaging.md",
+            "file": "CS/WebDev/WebDev.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Python_Packaging.md",
+                "file": "CS/WebDev/WebDev.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Python_Packaging.md",
+                "file": "CS/WebDev/WebDev.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Python_Packaging.md"
+                "file": "CS/WebDev/WebDev.md"
               }
             }
           },
@@ -139,6 +139,8 @@
   },
   "active": "d519425fb6cf8b74",
   "lastOpenFiles": [
+    "CS/WebDev/WebDev.md",
+    "CS/SoftSkills/Version_control_with_git.md",
     "CS/Python_Packaging.md",
     "CS/Python_index.md",
     "CS/[.md",
@@ -146,8 +148,6 @@
     "CS/DesignPatterns/DesignPatterns_index.md",
     "CS/ML/ML_index.md",
     "CS/DSA/DSA_index.md",
-    "CS/DBMS/DB_and_DBMS_index.md",
-    "CS/ML/ScikitLearn.md",
-    "CS/WebDev/HTML_and_CSS.md"
+    "CS/DBMS/DB_and_DBMS_index.md"
   ]
 }
