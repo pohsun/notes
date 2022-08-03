@@ -9,7 +9,20 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CS/WebDev/WebDev.md",
+            "file": "CS/Python_index.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "1dc85c34f6a912b5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "CS/Python_Packaging.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -41,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mweblib",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -50,11 +63,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 385.5,
+    "collapsed": true
   },
   "right": {
     "id": "60e2ef8002118a59",
@@ -70,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/WebDev/WebDev.md",
+                "file": "CS/Python_Packaging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/WebDev/WebDev.md",
+                "file": "CS/Python_Packaging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/WebDev/WebDev.md"
+                "file": "CS/Python_Packaging.md"
               }
             }
           },
@@ -135,14 +150,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "d519425fb6cf8b74",
+  "active": "1dc85c34f6a912b5",
   "lastOpenFiles": [
-    "CS/WebDev/WebDev.md",
-    "CS/SoftSkills/Version_control_with_git.md",
     "CS/Python_Packaging.md",
     "CS/Python_index.md",
+    "CS/WebDev/WebDev.md",
+    "CS/SoftSkills/Version_control_with_git.md",
     "CS/[.md",
     "Finance/Finance_index.md",
     "CS/DesignPatterns/DesignPatterns_index.md",

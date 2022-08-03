@@ -17,7 +17,8 @@
     * [Python的GIL是什么鬼，多线程性能究竟如何](http://cenalulu.github.io/python/gil-in-python/)
     * [PEP 492: Coroutines with async and await syntax](https://www.python.org/dev/peps/pep-0492/)
 * [Python module and packaging](Python_Packaging.md)
-	* * [PEP 420: Implicit Namespace Packages](https://www.python.org/dev/peps/pep-0420/)  - 實用的namespace打包方法
+	* [PEP 420: Implicit Namespace Packages](https://www.python.org/dev/peps/pep-0420/)  - 實用的namespace打包方法
+	* [PEP518: `pyproject.toml`]()
 * [WTF Python - 一些鮮為人知的特性](https://github.com/satwikkansal/wtfpython)
 
 

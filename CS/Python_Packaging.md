@@ -13,6 +13,7 @@ The structure of a project/module could be found as in [the sample namespace pro
 ```
 root
 ├── setup.py
+├── pyproject.toml
 ├── LICENSE
 ├── README.md
 ├── src
@@ -27,14 +28,15 @@ root
     └── test_XXX.py
 ```
 
-# Jump into [`setup.py`](https://packaging.python.org/guides/distributing-packages-using-setuptools/)
-
+* Jump into legacy [`setup.py`](https://packaging.python.org/guides/distributing-packages-using-setuptools/)
+* Jump into [`pyproject.toml`](https://python-poetry.org/docs/pyproject/)
 # Dependency management
 * [`pip freeze` vs `pip list`?](https://stackoverflow.com/questions/18966564/pip-freeze-vs-pip-list)
 	* 總之用 `pip3 freeze > requirements.txt`
 
 # FAQ
 * [`install_reqires` v.s. `Requirements.txt`?](https://packaging.python.org/discussions/install-requires-vs-requirements/) [原文](https://pyzh.readthedocs.io/en/latest/python-setup-dot-py-vs-requirements-dot-txt.html)
+
 * [如何發布python package](https://www.jiqizhixin.com/articles/19060901) [原文](https://www.freecodecamp.org/news/from-a-python-project-to-an-open-source-package-an-a-to-z-guide-c34cb7139a22)
 * [How to choose an open source license?](https://choosealicense.com/)
 
@@ -46,3 +48,4 @@ root
 * PyPA sample projects
 	* [sample project](https://github.com/pypa/sampleproject)
 	* [sample namespace project](https://github.com/pypa/sample-namespace-packages)
+* [給新手的Poetry的使用說明書](https://blog.kyomind.tw/python-poetry/)
