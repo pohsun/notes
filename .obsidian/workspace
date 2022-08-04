@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Python_Packaging.md",
+                "file": "CS/Python_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Python_Packaging.md",
+                "file": "CS/Python_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Python_Packaging.md"
+                "file": "CS/Python_index.md"
               }
             }
           },
@@ -153,10 +153,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1dc85c34f6a912b5",
+  "active": "d519425fb6cf8b74",
   "lastOpenFiles": [
-    "CS/Python_Packaging.md",
     "CS/Python_index.md",
+    "CS/Python_Packaging.md",
     "CS/WebDev/WebDev.md",
     "CS/SoftSkills/Version_control_with_git.md",
     "CS/[.md",

@@ -51,7 +51,9 @@
         `ln -s $(brew --cellar python)/* ~/.pyenv/versions/`
 * [`virtualenv` manual](https://virtualenv.pypa.io/en/latest/index.html)
 * [Difference between `venv`, `pyvenv`, `pyenv`, `virtualenv`, `virtualenvwrapper`, `pipenv`](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
-    * `pyenv`(for `Python`) and `virtualenv`(for modules) is good enough for most use case.
+    * `pyenv`(for `Python`) and `venv`(for modules) is good enough for most use case.
+    * After PEP517, we use `Poetry`.
+        * https://github.com/python-poetry/poetry/issues/1783
 * [IPython notebook](https://ipython-books.github.io/)
 * [訂製Python interpreter](https://zhuanlan.zhihu.com/p/54297880)
 
