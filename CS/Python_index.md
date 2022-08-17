@@ -20,6 +20,8 @@
 	* [PEP 420: Implicit Namespace Packages](https://www.python.org/dev/peps/pep-0420/)  - 實用的namespace打包方法
 	* [PEP518: `pyproject.toml`]()
 * [WTF Python - 一些鮮為人知的特性](https://github.com/satwikkansal/wtfpython)
+* 奇技
+	* [Make SUID function on scripts](https://stackoverflow.com/questions/5523279/semantics-of-suid-set-user-id) [一些中文解釋](https://blog.csdn.net/dmjz_lk/article/details/97259258)
 
 
 # Useful Modules (Except for DevTools)

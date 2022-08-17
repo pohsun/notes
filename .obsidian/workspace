@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CS/SoftSkills/Version_control_with_git.md",
+            "file": "CS/Python_index.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -54,7 +54,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 385.5,
+    "collapsed": true
   },
   "right": {
     "id": "60e2ef8002118a59",
@@ -70,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/SoftSkills/Version_control_with_git.md",
+                "file": "CS/Python_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/SoftSkills/Version_control_with_git.md",
+                "file": "CS/Python_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/SoftSkills/Version_control_with_git.md"
+                "file": "CS/Python_index.md"
               }
             }
           },
@@ -140,9 +141,9 @@
   },
   "active": "714e78f5664a2d8a",
   "lastOpenFiles": [
+    "CS/Python_index.md",
     "CS/SoftSkills/Version_control_with_git.md",
     "CS/Python_Packaging.md",
-    "CS/Python_index.md",
     "CS/WebDev/WebDev.md",
     "CS/[.md",
     "Finance/Finance_index.md",
