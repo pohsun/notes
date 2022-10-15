@@ -1,4 +1,4 @@
-#CS/ML #CS/ProgLang/Python 
+#CS/DSA/ML #CS/Lang/Python 
 
 * [Official API](https://pytorch.org/docs/stable/index.html)
 * Supportive packages

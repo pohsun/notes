@@ -1,4 +1,4 @@
-#CS/ProgLang/Python 
+#CS/Lang/Python 
 
 # Module and Packaging
 

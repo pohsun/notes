@@ -1,4 +1,4 @@
-#CS/ML
+#CS/DSA/ML
 
 # Losses, Regularizers, and Optimizers
 

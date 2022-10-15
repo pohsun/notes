@@ -1,4 +1,4 @@
-#index #CS/ProgLang/Python 
+#index #CS/Lang/Python 
 
 真正的基礎王者課程
 [Python 3: Deep Dive (Part 1 - Functional)](https://www.udemy.com/course/python-3-deep-dive-part-1/)
@@ -12,6 +12,7 @@
 * [PEP 8: Style Guide](https://www.python.org/dev/peps/pep-0008/) - 每個開發者都應該從基礎學起
 * [PEP 328: Imports](python.org/dev/peps/pep-0328/)
 * [PEP 484: Type Hints](https://www.python.org/dev/peps/pep-0484/)
+* [PEP 3143 – Standard daemon process library](https://peps.python.org/pep-3143/)
 * `GIL` and `Concurrency` issues
     * [Concurrent Execution](https://docs.python.org/3/library/concurrency.html)
     * [Python的GIL是什么鬼，多线程性能究竟如何](http://cenalulu.github.io/python/gil-in-python/)
@@ -22,7 +23,7 @@
 * [WTF Python - 一些鮮為人知的特性](https://github.com/satwikkansal/wtfpython)
 * 奇技
 	* [Make SUID function on scripts](https://stackoverflow.com/questions/5523279/semantics-of-suid-set-user-id) [一些中文解釋](https://blog.csdn.net/dmjz_lk/article/details/97259258)
-
+	* [Redirecting all kinds of stdout in Python](https://eli.thegreenplace.net/2015/redirecting-all-kinds-of-stdout-in-python/)
 
 # Useful Modules (Except for DevTools)
 
@@ -30,14 +31,13 @@
     * Data structures in data analysis with Python:  
         含`numpy`, `pandas`, `modin`, `dask`, `scikit-hep/awkward-array`, ~~`uproot`~~ etc..
     * [`scikit-learn`](https://scikit-learn.org/stable/user_guide.html)
-    * [`Tensorflow2`](ML/Tensorflow2.md)
-    * [`PyTorch`](ML/PyTorch.md)
+    * [`PyTorch`](PyTorch.md)
+    * [`Tensorflow2`](Tensorflow2.md)
     * [`statmodels`](https://www.statsmodels.org/stable/index.html)
 * Interface
     * Web: [Django](WebDev/Django.md), `Flask`, `fastAPI`
     * GUI: `pyQt`
 * Automator
-
     * ETL
         * [一段 `Airflow` 與資料工程的故事：談如何用 Python 追漫畫連載](https://leemeng.tw/a-story-about-airflow-and-data-engineering-using-how-to-use-python-to-catch-up-with-latest-comics-as-an-example.html)
         * dagster
@@ -47,6 +47,7 @@
 * Utilities
 * Others
 	* [`ast`](https://sadh.life/post/ast/), [`lark`](https://github.com/lark-parser/lark) for  [wiki: LanguageParsing](https://wiki.python.org/moin/LanguageParsing)
+	* python-daemon
 	  And corresponding [benchmark](https://github.com/goodmami/python-parsing-benchmarks).
 
 # DevTools
@@ -62,7 +63,9 @@
     * After PEP517, we use `Poetry`.
         * https://github.com/python-poetry/poetry/issues/1783
 * [IPython notebook](https://ipython-books.github.io/)
-* [訂製Python interpreter](https://zhuanlan.zhihu.com/p/54297880)
+* 原始碼保護
+	* [訂製Python interpreter](https://zhuanlan.zhihu.com/p/54297880)
+	* [python编译后的pyd爆破](https://zhuanlan.zhihu.com/p/357372838)
 
 ## Profilers
 

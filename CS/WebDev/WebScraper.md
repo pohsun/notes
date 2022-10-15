@@ -1,4 +1,4 @@
-#CS/WebDev #CS/ProgLang/Python 
+#CS/WebDev #CS/Lang/Python 
 
 | Category | Description | Packages |
 | :---- | :---- | :---- |

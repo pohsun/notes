@@ -1,4 +1,4 @@
-#index #CS/ML
+#index #CS/DSA/ML
 
 ## Overview
     

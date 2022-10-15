@@ -29,7 +29,7 @@
    
 # Other topics
    
-[Machine learning algorithms](../ML/ML_index.md)
+[Machine learning algorithms](ML_index.md)
 
 # References
 **Bold** references are highly recommended.

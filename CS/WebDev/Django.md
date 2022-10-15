@@ -1,4 +1,4 @@
-#CS/WebDev #CS/ProgLang/Python
+#CS/WebDev #CS/Lang/Python
 
 References
 * [the Django Girls Tutorial](https://tutorial.djangogirls.org/) ([or the Chinese translation](https://carolhsu.gitbooks.io/django-girls-tutorial-traditional-chiness/)).

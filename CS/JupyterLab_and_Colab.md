@@ -1,4 +1,4 @@
-#CS/ProgLang/Python #CS/ProgLang/Julia 
+#CS/Lang/Python #CS/Lang/Julia 
 # Jupyter
 
 * IPython

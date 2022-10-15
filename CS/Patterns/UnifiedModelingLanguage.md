@@ -1,4 +1,4 @@
-#CS/DesignPattern 
+#CS/Patterns 
 
 # Unified Modeling Language
 

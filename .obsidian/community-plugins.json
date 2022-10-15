@@ -12,7 +12,8 @@
   "obsidian-autocomplete-plugin",
   "media-extended",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-checklist-plugin",
   "sliding-panes-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-linter",
+  "code-block-copy"
 ]

@@ -1,6 +1,6 @@
-#CS/ML 
+#CS/DSA/ML 
 
-#ScikitLearn
+# ScikitLearn
 
 * https://scikit-learn.org/stable/user_guide.html
 This note is based on [PRML/2e by Bishop](https://dl.acm.org/doi/book/10.5555/1162264).

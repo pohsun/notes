@@ -1,4 +1,4 @@
-#CS/ProgLang/Python #CS/ML 
+#CS/Lang/Python #CS/DSA/ML 
 # API
 
 * [TF2 official doc](https://www.tensorflow.org/guide)
