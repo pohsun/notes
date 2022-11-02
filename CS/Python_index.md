@@ -46,9 +46,10 @@
     * [網路爬蟲大全](WebDev/WebScraper.md)  
 * Utilities
 * Others
-	* [`ast`](https://sadh.life/post/ast/), [`lark`](https://github.com/lark-parser/lark) for  [wiki: LanguageParsing](https://wiki.python.org/moin/LanguageParsing)
+	* [`ast`](https://sadh.life/post/ast/), [`lark`](https://github.com/lark-parser/lark) for [wiki: LanguageParsing](https://wiki.python.org/moin/LanguageParsing)
 	* python-daemon
 	  And corresponding [benchmark](https://github.com/goodmami/python-parsing-benchmarks).
+	* Socket programming with [pyzmq](https://pyzmq.readthedocs.io/en/latest/index.html)
 
 # DevTools
 
