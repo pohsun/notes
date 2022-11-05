@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "35f7dbd35a96f53f",
+        "id": "88240aa51eb5e55e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Private/不動產.md",
+            "file": "CS/Patterns/ZeroMQ.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/不動產.md",
+                "file": "CS/Patterns/ZeroMQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Private/不動產.md",
+                "file": "CS/Patterns/ZeroMQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/不動產.md"
+                "file": "CS/Patterns/ZeroMQ.md"
               }
             }
           }
@@ -130,17 +130,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "35f7dbd35a96f53f",
+  "active": "88240aa51eb5e55e",
   "lastOpenFiles": [
-    "2022-10-06.md",
-    "Private/金融服務.md",
-    "Private/不動產.md",
     "CS/Python_index.md",
-    "Playground.md",
-    "CS/DSA/ML/PyTorch.md",
-    "CS/DSA/ML/ScikitLearn.md",
-    "CS/WebDev/HTML_and_CSS.md",
-    "CS/DSA/ML/ML_index.md",
-    "CS/DSA/DSA_index.md"
+    "CS/Patterns/ZeroMQ.md",
+    "CS/Patterns/UnifiedModelingLanguage.md",
+    "[.md",
+    "CS/Python_Packaging.md",
+    "CS/Patterns/Architectures_index.md",
+    "CS/Patterns/DesignPatterns_index.md",
+    "Private/不動產.md",
+    "2022-10-06.md",
+    "Private/金融服務.md"
   ]
 }
