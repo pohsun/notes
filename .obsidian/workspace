@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "88240aa51eb5e55e",
+        "id": "6a4d54281676ad44",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -130,17 +130,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "88240aa51eb5e55e",
+  "active": "6a4d54281676ad44",
   "lastOpenFiles": [
-    "CS/Python_index.md",
+    "CS/JupyterLab_and_Colab.md",
     "CS/Patterns/ZeroMQ.md",
+    "2022-11-06.md",
+    "CS/Python_index.md",
     "CS/Patterns/UnifiedModelingLanguage.md",
     "[.md",
     "CS/Python_Packaging.md",
     "CS/Patterns/Architectures_index.md",
     "CS/Patterns/DesignPatterns_index.md",
-    "Private/不動產.md",
-    "2022-10-06.md",
-    "Private/金融服務.md"
+    "Private/不動產.md"
   ]
 }
