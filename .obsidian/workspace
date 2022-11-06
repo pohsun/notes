@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CS/Lang/Python",
+                "query": "tag:#CS/Patterns",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,10 +127,9 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "6a4d54281676ad44",
+  "active": "56d3e6d340256aa5",
   "lastOpenFiles": [
     "CS/JupyterLab_and_Colab.md",
     "CS/Patterns/ZeroMQ.md",
