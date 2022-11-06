@@ -4,5 +4,5 @@
   "useTab": false,
   "showFrontmatter": true,
   "autoPairMarkdown": false,
-  "spellcheck": false
+  "spellcheck": true
 }

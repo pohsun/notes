@@ -19,19 +19,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0445407af71d0aac",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.3"
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -142,23 +132,24 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "0445407af71d0aac",
+  "active": "6a4d54281676ad44",
   "lastOpenFiles": [
-    "CS/JupyterLab_and_Colab.md",
+    "CS/Patterns/DesignPatterns_index.md",
     "CS/Patterns/ZeroMQ.md",
+    "CS/Patterns/UnifiedModelingLanguage.md",
+    "CS/Patterns/REST.md",
+    "CS/Python_Packaging.md",
+    "CS/JupyterLab_and_Colab.md",
     "2022-11-06.md",
     "CS/Python_index.md",
-    "CS/Patterns/UnifiedModelingLanguage.md",
     "[.md",
-    "CS/Python_Packaging.md",
-    "CS/Patterns/Architectures_index.md",
-    "CS/Patterns/DesignPatterns_index.md",
-    "Private/不動產.md"
+    "CS/Patterns/Architectures_index.md"
   ]
 }
