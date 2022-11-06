@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "6cc0182270d57e8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0b45689515554cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a4d54281676ad44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Patterns/ZeroMQ.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0445407af71d0aac",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "006020ba3d5df758",
+    "type": "split",
+    "children": [
+      {
+        "id": "53fe3792119b1dfc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56d3e6d340256aa5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "08ed22ced2ad7aaf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#CS/Patterns",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ff881ecb26abad58",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271
+  },
+  "right": {
+    "id": "f0e8884e467bd2c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "b089bebaad2f3ab9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2449b1b34bed9ab1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CS/Patterns/ZeroMQ.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "71ffcd6281b7e678",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CS/Patterns/ZeroMQ.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b6f8207e80c35a1f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e75706f0fbb8a052",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CS/Patterns/ZeroMQ.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "0445407af71d0aac",
+  "lastOpenFiles": [
+    "CS/JupyterLab_and_Colab.md",
+    "CS/Patterns/ZeroMQ.md",
+    "2022-11-06.md",
+    "CS/Python_index.md",
+    "CS/Patterns/UnifiedModelingLanguage.md",
+    "[.md",
+    "CS/Python_Packaging.md",
+    "CS/Patterns/Architectures_index.md",
+    "CS/Patterns/DesignPatterns_index.md",
+    "Private/不動產.md"
+  ]
+}
