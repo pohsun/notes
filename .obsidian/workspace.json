@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c3bff210a2867512",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Patterns/UnifiedModelingLanguage.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "stacked": true
@@ -136,14 +149,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "6a4d54281676ad44",
+  "active": "e75706f0fbb8a052",
   "lastOpenFiles": [
-    "CS/Patterns/DesignPatterns_index.md",
     "CS/Patterns/ZeroMQ.md",
     "CS/Patterns/UnifiedModelingLanguage.md",
+    "CS/Patterns/DesignPatterns_index.md",
     "CS/Patterns/REST.md",
     "CS/Python_Packaging.md",
     "CS/JupyterLab_and_Colab.md",
