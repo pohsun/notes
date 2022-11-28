@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Patterns/ZeroMQ.md",
+                "file": "CS/DSA/ML/DataPreprocessing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa9611f698d84160",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/DSA/ML/PyTorch.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CS/Patterns",
+                "query": "pandas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Patterns/ZeroMQ.md",
+                "file": "CS/DSA/ML/DataPreprocessing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Patterns/ZeroMQ.md",
+                "file": "CS/DSA/ML/DataPreprocessing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Patterns/ZeroMQ.md"
+                "file": "CS/DSA/ML/DataPreprocessing.md"
               }
             }
           }
@@ -151,17 +164,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "e75706f0fbb8a052",
+  "active": "6a4d54281676ad44",
   "lastOpenFiles": [
-    "CS/Patterns/ZeroMQ.md",
-    "CS/Patterns/UnifiedModelingLanguage.md",
-    "CS/Patterns/DesignPatterns_index.md",
-    "CS/Patterns/REST.md",
-    "CS/Python_Packaging.md",
-    "CS/JupyterLab_and_Colab.md",
-    "2022-11-06.md",
+    "CS/DSA/ML/NaturalLanguageProcessing.md",
+    "CS/DSA/ML/NeuralNetwork.md",
+    "CS/DSA/ML/PyTorch.md",
+    "CS/DSA/ML/ScikitLearn.md",
+    "CS/DSA/ML/Visualization.md",
+    "CS/DSA/ML/Tensorflow2.md",
     "CS/Python_index.md",
-    "[.md",
-    "CS/Patterns/Architectures_index.md"
+    "CS/Python_Packaging.md",
+    "CS/DBMS/DB_and_DBMS_index.md",
+    "CS/DSA/ML/DataPreprocessing.md"
   ]
 }

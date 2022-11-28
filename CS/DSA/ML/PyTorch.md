@@ -17,6 +17,8 @@
     * [PyTorch handbook中文](https://github.com/zergtant/pytorch-handbook)
 * Visualization
     * https://github.com/szagoruyko/pytorchviz
+* Performance
+    * [Optimize PyTorch Performance for Speed and Memory Efficiency (2022) | by Jack Chih-Hsu Lin | Towards Data Science](https://towardsdatascience.com/optimize-pytorch-performance-for-speed-and-memory-efficiency-2022-84f453916ea6)
 
 ## Workflow
 
