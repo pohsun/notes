@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6a4d54281676ad44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/DSA/ML/DataPreprocessing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fa9611f698d84160",
             "type": "leaf",
             "state": {
@@ -164,7 +151,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "6a4d54281676ad44",
+  "active": "56d3e6d340256aa5",
   "lastOpenFiles": [
     "CS/DSA/ML/NaturalLanguageProcessing.md",
     "CS/DSA/ML/NeuralNetwork.md",

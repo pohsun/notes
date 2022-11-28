@@ -42,7 +42,7 @@ When there is no sufficient input data, we generate more data from existing data
 Example could be seen/produced with [`imgaug`](https://github.com/aleju/imgaug) module.
 
 ----
-# Technical issues
+# Performance issues
 
 * [如何在pandas中有效節省記憶體，把資料縮小90%. | by Yung-Hui Hsu | Medium](https://medium.com/@YungHui_Med/%E8%BC%95%E9%AC%86%E9%A7%95%E9%A6%AD%E5%B7%A8%E9%87%8F%E7%B4%9Adataframes-%E8%87%B3%E5%B0%91%E5%9C%A8%E8%A8%98%E6%86%B6%E9%AB%94%E6%96%B9%E9%9D%A2-2d8cc8a3e26e)
 * For sequential reading, a good randomness could be achieved take reasonable buffer size and shuffle in such buffer. See [discussion on `tensorflow.data.Dataset.shuffle`](https://stackoverflow.com/questions/46444018/meaning-of-buffer-size-in-dataset-map-dataset-prefetch-and-dataset-shuffle)
