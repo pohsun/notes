@@ -1,11 +1,10 @@
 #CS/DSA/ML #CS/Lang/Python 
 
-* [Official API](https://pytorch.org/docs/stable/index.html)
+* [Official API](https://pytorch.org/docs/stable/index.html), [official tutorials](https://pytorch.org/tutorials/) and [Advanced topics: The incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)
 * Supportive packages
     * [`pytorch-lightning`: High-level lib to help training and evaluating](https://github.com/PyTorchLightning/pytorch-lightning)
     * [`torchsummary`: Better way showing the figure](https://github.com/sksq96/pytorch-summary)
 * [CheatSheat](https://hackmd.io/@rh0jTfFDTO6SteMDq91tgg/HkDRHKLrU)
-* [Advanced topics: The incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)
 
 ## Tutorials
 
