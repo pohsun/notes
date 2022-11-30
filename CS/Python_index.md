@@ -1,10 +1,10 @@
 #index #CS/Lang/Python 
 
-真正的基礎王者課程
-[Python 3: Deep Dive (Part 1 - Functional)](https://www.udemy.com/course/python-3-deep-dive-part-1/)
-[Python 3: Deep Dive (Part 2 - Iteration, Generators)](https://www.udemy.com/course/python-3-deep-dive-part-2/)
-[Python 3: Deep Dive (Part 3 - Hash Maps)](https://www.udemy.com/course/python-3-deep-dive-part-3/)
-[Python 3: Deep Dive (Part 4 - OOP)](https://www.udemy.com/course/python-3-deep-dive-part-4/)
+打基礎王者課程
+* [Python 3: Deep Dive (Part 1 - Functional)](https://www.udemy.com/course/python-3-deep-dive-part-1/)
+* [Python 3: Deep Dive (Part 2 - Iteration, Generators)](https://www.udemy.com/course/python-3-deep-dive-part-2/)
+* [Python 3: Deep Dive (Part 3 - Hash Maps)](https://www.udemy.com/course/python-3-deep-dive-part-3/)
+* [Python 3: Deep Dive (Part 4 - OOP)](https://www.udemy.com/course/python-3-deep-dive-part-4/)
 
 # Features
 
@@ -24,7 +24,7 @@
 * 奇技
 	* [Make SUID function on scripts](https://stackoverflow.com/questions/5523279/semantics-of-suid-set-user-id) [一些中文解釋](https://blog.csdn.net/dmjz_lk/article/details/97259258)
 	* [Redirecting all kinds of stdout in Python](https://eli.thegreenplace.net/2015/redirecting-all-kinds-of-stdout-in-python/)
-
+        * [Python bytecode explained](https://github.com/MoserMichael/pyasmtool/blob/master/bytecode_disasm.md)
 # Useful Modules (Except for DevTools)
 
 * Data analysis
