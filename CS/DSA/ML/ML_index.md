@@ -28,7 +28,9 @@ Here is a list of some special topics for AI/ML
 * [Jupyter + Colab](/CS/JupyterLab_and_Colab.md)
 * [Computer Vision](ComputerVision.md)
 * [Natural Language Processing](NaturalLanguageProcessing.md)
-        
+* Generative models
+    * [[Diffusion model]]
+            
 ## Tools
 
 * [Jupyter notebook][/CS/JupyterLab_and_Colab]
@@ -40,9 +42,11 @@ Here is a list of some special topics for AI/ML
 
 ## Reference
 
-https://colah.github.io/
-https://github.com/dformoso/machine-learning-mindmap
-https://github.com/dformoso/deeplearning-mindmap
+### News
+
+[Lil'Log (lilianweng.github.io)](https://lilianweng.github.io/)
+[colah's blog](https://colah.github.io/)
+[Papers With Code](https://paperswithcode.com/)
 
 ### Theoretical references
 
@@ -51,9 +55,8 @@ https://github.com/dformoso/deeplearning-mindmap
 * The Elements of Statistical Learning by Hastie, 中文版是屎翻
 * Understanding machine learning - From theory to algorithms, 在書庫有
 * [InformationTheory](/Math/InformationTheory.md)
-* [李宏毅老師個人網頁](http://speech.ee.ntu.edu.tw/~tlkagk/index.html)
-    * [Machine learning](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html)
-        * [某人的上課筆記](https://hackmd.io/@shaoeChen/B1CoXxvmm/)
+* [Hung-yi Lee (李宏毅) (ntu.edu.tw)](https://speech.ee.ntu.edu.tw/~hylee/index.php))
+        * [某人的2020 ML上課筆記](https://hackmd.io/@shaoeChen/B1CoXxvmm/)
     * [Next step of ML](https://www.youtube.com/watch?v=XnyM3-xtxHs&list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4)
     * [Deep learning theory](http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html)
     * [NLP](http://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html)
@@ -63,9 +66,7 @@ https://github.com/dformoso/deeplearning-mindmap
 
 ### Technical references
 
-* [TMVA Users Guide](https://github.com/root-project/root/blob/master/documentation/tmva/UsersGuide/TMVAUsersGuide.pdf)
-* [Keras](https://keras.io/)
-* [PyTorch](https://pytorch.org/docs/stable/)
-    * [PyTorch cheatsheet](https://hackmd.io/@rh0jTfFDTO6SteMDq91tgg/HkDRHKLrU)
+* [Dive into Deep Learning (d2l.ai)](https://d2l.ai/)
+* 動手深度學習
     * [動手深度學習 - PyTorch版](https://tangshusen.me/Dive-into-DL-PyTorch/)
-* [動手深度學習 - TF2.0版](https://trickygo.github.io/Dive-into-DL-TensorFlow2.0/)
+    * [動手深度學習 - TF2.0版](https://trickygo.github.io/Dive-into-DL-TensorFlow2.0/)
