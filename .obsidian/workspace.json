@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pandas",
+                "query": "tag:#CS/Patterns",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -165,7 +166,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "b6f8207e80c35a1f",
+  "active": "08ed22ced2ad7aaf",
   "lastOpenFiles": [
     "CS/DSA/ML/ML_index.md",
     "CS/DSA/ML/PyTorch.md",

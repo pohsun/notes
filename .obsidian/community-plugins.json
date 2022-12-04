@@ -14,5 +14,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-git",
   "obsidian-linter",
-  "code-block-copy"
+  "code-block-copy",
+  "dataview"
 ]
