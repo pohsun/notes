@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "房",
+                "query": "tag:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -154,12 +154,12 @@
   },
   "active": "3823602f6472d529",
   "lastOpenFiles": [
+    "CS/DSA/ML/PyTorch.md",
+    "CS/Python_index.md",
     "Private/不動產.md",
     "CS/DSA/ML/Diffusion model.md",
     "CS/DSA/ML/ML_index.md",
-    "CS/DSA/ML/PyTorch.md",
     "CS/Patterns/UnifiedModelingLanguage.md",
-    "CS/Python_index.md",
     "CS/DSA/ML/DataPreprocessing.md",
     "CS/DSA/ML/NaturalLanguageProcessing.md",
     "CS/DSA/ML/NeuralNetwork.md",
