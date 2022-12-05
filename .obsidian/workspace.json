@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Python_index.md",
-                "mode": "source",
+                "file": "Private/不動產.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Python_index.md",
+                "file": "Private/不動產.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Python_index.md",
+                "file": "Private/不動產.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Python_index.md"
+                "file": "Private/不動產.md"
               }
             }
           }
@@ -155,8 +155,8 @@
   "active": "3823602f6472d529",
   "lastOpenFiles": [
     "CS/DSA/ML/PyTorch.md",
-    "CS/Python_index.md",
     "Private/不動產.md",
+    "CS/Python_index.md",
     "CS/DSA/ML/Diffusion model.md",
     "CS/DSA/ML/ML_index.md",
     "CS/Patterns/UnifiedModelingLanguage.md",

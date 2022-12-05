@@ -4,5 +4,7 @@
   "useTab": false,
   "showFrontmatter": true,
   "autoPairMarkdown": false,
-  "spellcheck": true
+  "spellcheck": true,
+  "livePreview": true,
+  "autoPairBrackets": false
 }
