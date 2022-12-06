@@ -13,6 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "CS/Python_index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62dc444cd98bd0a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/OS/Linux_index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "67d03b02de02c3e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Private/不動產.md",
                 "mode": "source",
                 "backlinks": true,
@@ -21,6 +47,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -71,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271,
-    "collapsed": true
+    "width": 271
   },
   "right": {
     "id": "f0e8884e467bd2c2",
@@ -88,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/不動產.md",
+                "file": "CS/OS/Linux_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Private/不動產.md",
+                "file": "CS/OS/Linux_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/不動產.md"
+                "file": "CS/OS/Linux_index.md"
               }
             }
           }
@@ -139,12 +165,12 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "3823602f6472d529",
+  "active": "62dc444cd98bd0a9",
   "lastOpenFiles": [
-    "Private/金融服務.md",
-    "Private/不動產.md",
-    "CS/DSA/ML/PyTorch.md",
     "CS/Python_index.md",
+    "Private/不動產.md",
+    "Private/金融服務.md",
+    "CS/DSA/ML/PyTorch.md",
     "CS/DSA/ML/Diffusion model.md",
     "CS/DSA/ML/ML_index.md",
     "CS/Patterns/UnifiedModelingLanguage.md",
