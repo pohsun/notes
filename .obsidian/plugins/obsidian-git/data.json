@@ -22,6 +22,5 @@
   "changedFilesInStatusBar": false,
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 7000,
-  "showBranchStatusBar": false,
-  "setLastSaveToLastCommit": false
+  "showBranchStatusBar": true
 }

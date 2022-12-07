@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/Linux_index.md",
+                "file": "Private/不動產.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/OS/Linux_index.md",
+                "file": "Private/不動產.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/Linux_index.md",
+                "file": "Private/不動產.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/OS/Linux_index.md"
+                "file": "Private/不動產.md"
               }
             }
           }
@@ -167,6 +167,7 @@
   },
   "active": "62dc444cd98bd0a9",
   "lastOpenFiles": [
+    "CS/OS/Linux_index.md",
     "CS/Python_index.md",
     "Private/不動產.md",
     "Private/金融服務.md",
@@ -175,7 +176,6 @@
     "CS/DSA/ML/ML_index.md",
     "CS/Patterns/UnifiedModelingLanguage.md",
     "CS/DSA/ML/DataPreprocessing.md",
-    "CS/DSA/ML/NaturalLanguageProcessing.md",
-    "CS/DSA/ML/NeuralNetwork.md"
+    "CS/DSA/ML/NaturalLanguageProcessing.md"
   ]
 }
