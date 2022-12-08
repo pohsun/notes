@@ -28,8 +28,8 @@ root
     └── test_XXX.py
 ```
 
-* Jump into legacy [`setup.py`](https://packaging.python.org/guides/distributing-packages-using-setuptools/)
-* Jump into [`pyproject.toml`](https://python-poetry.org/docs/pyproject/)
+* Jump into legacy [`setup.py` with `setuptools`](https://packaging.python.org/guides/distributing-packages-using-setuptools/)
+* Jump into [`pyproject.toml` with `poetry`](https://python-poetry.org/docs/pyproject/)
 # Dependency management
 * [`pip freeze` vs `pip list`?](https://stackoverflow.com/questions/18966564/pip-freeze-vs-pip-list)
 	* 總之用 `pip3 freeze > requirements.txt`
