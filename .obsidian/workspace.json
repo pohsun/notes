@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Python_index.md",
+                "file": "CS/Patterns/DesignPatterns_index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Python_index.md",
+                "file": "CS/Patterns/DesignPatterns_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Python_index.md",
+                "file": "CS/Patterns/DesignPatterns_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Python_index.md"
+                "file": "CS/Patterns/DesignPatterns_index.md"
               }
             }
           }
@@ -140,15 +140,15 @@
   },
   "active": "1aedc320567e0acb",
   "lastOpenFiles": [
+    "CS/Patterns/REST.md",
+    "CS/Patterns/DesignPatterns_index.md",
+    "CS/Patterns/Architectures_index.md",
+    "CS/Patterns/UnifiedModelingLanguage.md",
+    "CS/WebDev/WebDev_index.md",
+    "CS/Python_index.md",
     "python.org/dev/peps/pep-0328 1.md",
     "Private/不動產.md",
     "python.org/dev/peps/pep-0328 2.md",
-    "CS/Python_index.md",
-    "python.org/dev/peps/pep-0328.md",
-    "CS/OS/Linux_index.md",
-    "Private/金融服務.md",
-    "CS/DSA/ML/PyTorch.md",
-    "CS/DSA/ML/Diffusion model.md",
-    "CS/DSA/ML/ML_index.md"
+    "python.org/dev/peps/pep-0328.md"
   ]
 }

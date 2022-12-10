@@ -2,6 +2,8 @@
 
 * [微軟的課程](https://microsoft.github.io/Web-Dev-For-Beginners/#/)
 * [HTML_and_CSS](HTML_and_CSS.md)+ [JavaScript](JavaScript.md)
+* 基礎概念
+    * [brandon-rhodes/fopnp: Foundations of Python Network Programming](https://github.com/brandon-rhodes/fopnp)
 * Frontend frames
     * JavaScript框架比較
         * [Google trend: `AngularJS` vs `React` vs `Vue.js` in past 5 years](https://trends.google.com/trends/explore?date=today%205-y&q=%2Fm%2F0j45p7w,%2Fm%2F012l1vxv,%2Fg%2F11c0vmgx5d&hl=zh-TW)

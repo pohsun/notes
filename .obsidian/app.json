@@ -6,5 +6,7 @@
   "autoPairMarkdown": false,
   "spellcheck": true,
   "livePreview": true,
-  "autoPairBrackets": false
+  "autoPairBrackets": false,
+  "showLineNumber": true,
+  "attachmentFolderPath": "./"
 }
