@@ -12,9 +12,10 @@
 # Features
 
 * [PEP 0: Index of PEP](https://www.python.org/dev/peps/)
-* [PEP 8: Style Guide](https://www.python.org/dev/peps/pep-0008/) - 每個開發者都應該從基礎學起
-* [PEP 328: Imports](python.org/dev/peps/pep-0328/)
-* [PEP 484: Type Hints](https://www.python.org/dev/peps/pep-0484/)
+* [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/) - 每個開發者都應該從基礎學起
+* [PEP 328 – Imports: Multi-Line and Absolute/Relative](https://peps.python.org/pep-0328/)
+* [PEP 484 – Type Hints](https://peps.python.org/pep-0484/)
+* [PEP 517 – A build-system independent format for source trees](https://peps.python.org/pep-0517/)
 * [PEP 3143 – Standard daemon process library](https://peps.python.org/pep-3143/)
 * `GIL` and `Concurrency` issues
     * [Concurrent Execution](https://docs.python.org/3/library/concurrency.html)
@@ -55,16 +56,14 @@
 
 # DevTools
 
-## Environment
+## Environment setup
 
 * [Introduction to `pyenv`](https://realpython.com/intro-to-pyenv/)
     * [Tip: Use `Python` from `homebrew` in `pyenv`](https://stackoverflow.com/questions/30499795/how-can-i-make-homebrews-python-and-pyenv-live-together).  
         `ln -s $(brew --cellar python)/* ~/.pyenv/versions/`
-* [`virtualenv` manual](https://virtualenv.pypa.io/en/latest/index.html)
 * [Difference between `venv`, `pyvenv`, `pyenv`, `virtualenv`, `virtualenvwrapper`, `pipenv`](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
-    * `pyenv`(for `Python`) and `venv`(for modules) is good enough for most use case.
-    * After PEP517, we use `Poetry`.
-        * https://github.com/python-poetry/poetry/issues/1783
+    * After PEP517, we use `Poetry` [Poetry 完全入門指南](https://blog.kyomind.tw/python-poetry/) - 取代venv + pip
+    * `pyenv` for `Python` itself and `venv` for modules is good enough for most use case.
 * [IPython notebook](https://ipython-books.github.io/)
 * 原始碼保護
 	* [訂製Python interpreter](https://zhuanlan.zhihu.com/p/54297880)
