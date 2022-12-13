@@ -40,7 +40,7 @@
     * [`statmodels`](https://www.statsmodels.org/stable/index.html)
 * Interface
     * Web: [Django](WebDev/Django.md), `Flask`, `fastAPI`
-    * GUI: `pyQt`
+    * GUI: `pyQt`, GU
 * Automator
     * ETL
         * [一段 `Airflow` 與資料工程的故事：談如何用 Python 追漫畫連載](https://leemeng.tw/a-story-about-airflow-and-data-engineering-using-how-to-use-python-to-catch-up-with-latest-comics-as-an-example.html)
@@ -133,7 +133,7 @@ Some auxiliary modules are provides to support the concurrency, such as
     * Wrap `C++11` (and beyond) to `Python` module, quite easy to learn and use.
     * Support for `CUDA` and etc..
     * Could be 2x slower than `Numba`.
-* (Optional) [Python C API](https://docs.python.org/3/c-api/index.html)
+* (Optional) [Python C API](https://docs.python.org/3/c-api/index.html) 
 
 ## Solution - GPGPU
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Patterns/DesignPatterns_index.md",
+                "file": "CS/Python_index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Patterns/DesignPatterns_index.md",
+                "file": "CS/Python_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Patterns/DesignPatterns_index.md",
+                "file": "CS/Python_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Patterns/DesignPatterns_index.md"
+                "file": "CS/Python_index.md"
               }
             }
           }
@@ -140,8 +140,8 @@
   },
   "active": "1aedc320567e0acb",
   "lastOpenFiles": [
-    "CS/Patterns/REST.md",
     "CS/Patterns/DesignPatterns_index.md",
+    "CS/Patterns/REST.md",
     "CS/Patterns/Architectures_index.md",
     "CS/Patterns/UnifiedModelingLanguage.md",
     "CS/WebDev/WebDev_index.md",
