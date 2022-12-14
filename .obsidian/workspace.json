@@ -21,6 +21,19 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "cb913f8a6fb476ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/DSA/ML/DataPreprocessing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "stacked": true
@@ -142,15 +155,15 @@
   },
   "active": "1aedc320567e0acb",
   "lastOpenFiles": [
+    "CS/DSA/ML/DataPreprocessing.md",
+    "CS/Python_index.md",
     "CS/Patterns/DesignPatterns_index.md",
     "CS/Patterns/REST.md",
     "CS/Patterns/Architectures_index.md",
     "CS/Patterns/UnifiedModelingLanguage.md",
     "CS/WebDev/WebDev_index.md",
-    "CS/Python_index.md",
     "python.org/dev/peps/pep-0328 1.md",
     "Private/不動產.md",
-    "python.org/dev/peps/pep-0328 2.md",
-    "python.org/dev/peps/pep-0328.md"
+    "python.org/dev/peps/pep-0328 2.md"
   ]
 }

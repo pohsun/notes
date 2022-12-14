@@ -35,17 +35,13 @@
     * Data structures for data analysis with Python:  
         含`numpy`, `pandas`/`modin`, `dask`, `scikit-hep/awkward-array`, ~~`uproot`~~ etc..
     * [`scikit-learn`](https://scikit-learn.org/stable/user_guide.html)
-    * [`PyTorch`](PyTorch.md)
-    * [`Tensorflow2`](Tensorflow2.md)
+    * [[PyTorch]]
+    * [[Tensorflow2]]
     * [`statmodels`](https://www.statsmodels.org/stable/index.html)
 * Interface
     * Web: [Django](WebDev/Django.md), `Flask`, `fastAPI`
     * GUI: `pyQt`, GU
 * Automator
-    * ETL
-        * [一段 `Airflow` 與資料工程的故事：談如何用 Python 追漫畫連載](https://leemeng.tw/a-story-about-airflow-and-data-engineering-using-how-to-use-python-to-catch-up-with-latest-comics-as-an-example.html)
-        * dagster
-        * pyperunner
     * [網路爬蟲大全](WebDev/WebScraper.md)  
 * Utilities
 * Others
