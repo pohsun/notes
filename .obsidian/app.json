@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "vimMode": true,
+  "vimMode": false,
   "useTab": false,
   "showFrontmatter": true,
   "autoPairMarkdown": false,
