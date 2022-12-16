@@ -21,19 +21,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "cb913f8a6fb476ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/DSA/ML/DataPreprocessing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
         "stacked": true
@@ -97,6 +84,27 @@
         "type": "tabs",
         "children": [
           {
+            "id": "e75706f0fbb8a052",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CS/Python_index.md"
+              }
+            }
+          },
+          {
+            "id": "b6f8207e80c35a1f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
             "id": "2449b1b34bed9ab1",
             "type": "leaf",
             "state": {
@@ -124,30 +132,9 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "b6f8207e80c35a1f",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "e75706f0fbb8a052",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "CS/Python_index.md"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -155,8 +142,8 @@
   },
   "active": "1aedc320567e0acb",
   "lastOpenFiles": [
-    "CS/DSA/ML/DataPreprocessing.md",
     "CS/Python_index.md",
+    "CS/DSA/ML/DataPreprocessing.md",
     "CS/Patterns/DesignPatterns_index.md",
     "CS/Patterns/REST.md",
     "CS/Patterns/Architectures_index.md",
