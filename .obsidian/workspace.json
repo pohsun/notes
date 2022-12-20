@@ -21,8 +21,24 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "85caeabdd04d57ab",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Private/不動產.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -89,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Python_index.md"
+                "file": "Private/不動產.md"
               }
             }
           },
@@ -110,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Python_index.md",
+                "file": "Private/不動產.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,30 +143,29 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Python_index.md",
+                "file": "Private/不動產.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1aedc320567e0acb",
+  "active": "e75706f0fbb8a052",
   "lastOpenFiles": [
-    "CS/Patterns/Architectures_index.md",
+    "Private/金融服務.md",
+    "Private/不動產.md",
     "CS/Python_index.md",
+    "CS/Patterns/Architectures_index.md",
     "CS/DSA/ML/DataPreprocessing.md",
     "CS/Patterns/DesignPatterns_index.md",
     "CS/Patterns/REST.md",
     "CS/Patterns/UnifiedModelingLanguage.md",
     "CS/WebDev/WebDev_index.md",
-    "python.org/dev/peps/pep-0328 1.md",
-    "Private/不動產.md",
-    "python.org/dev/peps/pep-0328 2.md"
+    "python.org/dev/peps/pep-0328 1.md"
   ]
 }
