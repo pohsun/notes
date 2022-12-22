@@ -170,6 +170,8 @@
   },
   "active": "f40b15e6df24f7f5",
   "lastOpenFiles": [
+    "CS/DSA/ML/ML_index.md",
+    "CS/Patterns/ZeroMQ.md",
     "CS/Python_index.md",
     "Private/不動產.md",
     "Private/金融服務.md",
@@ -177,8 +179,6 @@
     "CS/DSA/ML/DataPreprocessing.md",
     "CS/Patterns/DesignPatterns_index.md",
     "CS/Patterns/REST.md",
-    "CS/Patterns/UnifiedModelingLanguage.md",
-    "CS/WebDev/WebDev_index.md",
-    "python.org/dev/peps/pep-0328 1.md"
+    "CS/Patterns/UnifiedModelingLanguage.md"
   ]
 }
