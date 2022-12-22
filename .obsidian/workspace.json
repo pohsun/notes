@@ -36,8 +36,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "f40b15e6df24f7f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Patterns/ZeroMQ.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -104,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Python_index.md"
+                "file": "CS/Patterns/ZeroMQ.md"
               }
             }
           },
@@ -125,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Python_index.md",
+                "file": "CS/Patterns/ZeroMQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Python_index.md",
+                "file": "CS/Patterns/ZeroMQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,11 +168,11 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1aedc320567e0acb",
+  "active": "f40b15e6df24f7f5",
   "lastOpenFiles": [
+    "CS/Python_index.md",
     "Private/不動產.md",
     "Private/金融服務.md",
-    "CS/Python_index.md",
     "CS/Patterns/Architectures_index.md",
     "CS/DSA/ML/DataPreprocessing.md",
     "CS/Patterns/DesignPatterns_index.md",
