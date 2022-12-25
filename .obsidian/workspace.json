@@ -49,9 +49,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "93ccbc85cc7b6586",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -168,15 +178,24 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c9efc0496cb525f9",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "93ccbc85cc7b6586",
   "lastOpenFiles": [
+    "CS/Patterns/Architectures_index.md",
     "CS/Patterns/ZeroMQ.md",
-    "CS/Python_index.md",
     "Private/不動產.md",
+    "CS/Python_index.md",
     "CS/WebDev/WebDev_index.md",
     "CS/DSA/ML/ML_index.md",
     "Private/金融服務.md",
-    "CS/Patterns/Architectures_index.md",
     "CS/DSA/ML/DataPreprocessing.md",
     "CS/Patterns/DesignPatterns_index.md",
     "CS/Patterns/REST.md"

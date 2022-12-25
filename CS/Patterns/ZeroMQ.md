@@ -14,8 +14,9 @@ References:
 ## REP
 ## STREAM
 
-/
-
+```python
+PATH: ./attachments/
+```
 
 [zguide]: https://zguide.zeromq.org/
 [pyzmq]: https://pyzmq.readthedocs.io/en/latest/
