@@ -28,6 +28,7 @@ Here is a list of some special topics for AI/ML
 * [Jupyter + Colab](/CS/JupyterLab_and_Colab.md)
 * [Computer Vision](ComputerVision.md)
 * [Natural Language Processing](NaturalLanguageProcessing.md)
+* [ML compiling課程](https://mlc.ai/summer22-zh/)
 * Generative models
     * [[Diffusion model]]
             
