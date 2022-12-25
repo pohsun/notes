@@ -36,32 +36,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "c9efc0496cb525f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Patterns/ZeroMQ.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93ccbc85cc7b6586",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.9"
-              }
-            }
           }
         ],
-        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -128,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Patterns/ZeroMQ.md"
+                "file": "CS/Python_index.md"
               }
             }
           },
@@ -149,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Patterns/ZeroMQ.md",
+                "file": "CS/Python_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Patterns/ZeroMQ.md",
+                "file": "CS/Python_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,17 +163,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "93ccbc85cc7b6586",
+  "active": "1aedc320567e0acb",
   "lastOpenFiles": [
-    "CS/Patterns/Architectures_index.md",
-    "CS/Patterns/ZeroMQ.md",
     "Private/不動產.md",
+    "CS/Patterns/ZeroMQ.md",
+    "unlinked files output.md",
+    "CS/Patterns/Architectures_index.md",
     "CS/Python_index.md",
     "CS/WebDev/WebDev_index.md",
     "CS/DSA/ML/ML_index.md",
     "Private/金融服務.md",
     "CS/DSA/ML/DataPreprocessing.md",
-    "CS/Patterns/DesignPatterns_index.md",
-    "CS/Patterns/REST.md"
+    "CS/Patterns/DesignPatterns_index.md"
   ]
 }

@@ -8,5 +8,6 @@
   "livePreview": true,
   "autoPairBrackets": false,
   "showLineNumber": true,
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "showUnsupportedFiles": true
 }

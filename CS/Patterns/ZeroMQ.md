@@ -14,9 +14,11 @@ References:
 ## REP
 ## STREAM
 
-```python
-PATH: ./attachments/
+```embed-python
+PATH: vault://CS/Patterns/attachments/zmq_stream.py
 ```
+
+
 
 [zguide]: https://zguide.zeromq.org/
 [pyzmq]: https://pyzmq.readthedocs.io/en/latest/
