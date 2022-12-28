@@ -7,6 +7,8 @@
 # All you have to learn
    
 ## Algorithms
+
+* [The Algorithms (the-algorithms.com)](https://the-algorithms.com/)
    
 ## Data structure
    
