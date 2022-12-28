@@ -8,7 +8,7 @@
    
 ## Algorithms
 
-* [The Algorithms (the-algorithms.com)](https://the-algorithms.com/)
+* [The Algorithms project](https://the-algorithms.com/)
    
 ## Data structure
    
@@ -34,14 +34,18 @@
 [Machine learning algorithms](ML_index.md)
 
 # References
+
 **Bold** references are highly recommended.
-* [**Labuladong的算法小抄**](https://labuladong.github.io/algo/)
-* [**Grokking Algorithms**](https://livebook.manning.com/book/grokking-algorithms/about-this-book/)
-	* 推薦給初學者，雖然有點太簡略了 
-* [**Coding Practice - Advanced Topics**](https://po-jen.gitbooks.io/coding-practice-advanced-topics/content/)
-* [**geeksforgeeks: Data Structure**](https://www.geeksforgeeks.org/data-structures/)
-* [Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
-* [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
-* [TheAlgorithms project](https://github.com/TheAlgorithms)
-* [Second Round: 資料結構與演算法目錄](http://alrightchiu.github.io/SecondRound/mu-lu-yan-suan-fa-yu-zi-liao-jie-gou.html)
-* [Data structures in practice](https://www.data-structures-in-practice.com/)
+* 刷題與入門
+    * [**Labuladong的算法小抄**](https://labuladong.github.io/algo/)
+    * [**Grokking Algorithms**](https://livebook.manning.com/book/grokking-algorithms/about-this-book/)
+    	* 推薦給初學者，雖然有點太簡略了 
+    * [**geeksforgeeks: DSA roadmap**](https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/)
+    * [**Coding Practice - Advanced Topics**](https://po-jen.gitbooks.io/coding-practice-advanced-topics/content/)
+* DSA百科全書
+    * [TheAlgorithms project](https://github.com/TheAlgorithms)
+
+    * [Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
+    * [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
+    * [Second Round: 資料結構與演算法目錄](http://alrightchiu.github.io/SecondRound/mu-lu-yan-suan-fa-yu-zi-liao-jie-gou.html)
+    * [Data structures in practice](https://www.data-structures-in-practice.com/)
