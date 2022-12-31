@@ -3,6 +3,7 @@
 # vim: set sw=4 ts=4 fdm=indent fdl=0 fdn=2 ft=python et:
 
 from __future__ import print_function, division
+from re import A
 
 import sys
 
@@ -30,22 +31,37 @@ class XAppFSM(object):
     def state(self):
         return self._state
 
+    def reset(self):
+        if self.state is not XAppStates.TERMINATED or self.state is not XAppStates.FAULT:
+            self._state = XAppStates.INIT
+        else:
+            raise RuntimeError(
+                "Bad transition from {} to {}.".format(self.state, XAppStates.TERMINATED))
+
     def to_ready(self):
         if self.state is XAppStates.INIT:
             self._state = XAppStates.READY
         else:
             raise RuntimeError(
-                "Bad transition from {} to {}.".format(self.state, "READY"))
+                "Bad transition from {} to {}.".format(self.state, XAppStates.READY))
 
     def to_run(self):
-        pass
+        if self.state is XAppStates.READY:
+            self._state = XAppStates.RUN
+        else:
+            raise RuntimeError(
+                "Bad transition from {} to {}.".format(self.state, XAppStates.RUN))
 
     def to_terminated(self):
-        pass
+        if self.state is not XAppStates.RUN or self.state is not XAppStates.FAULT:
+            self._state = XAppStates.TERMINATED
+        else:
+            raise RuntimeError(
+                "Bad transition from {} to {}.".format(self.state, XAppStates.TERMINATED))
 
     def to_fault(self):
-        pass
-    
+        self._state = XAppStates.FAULT
+
 
 class AbsXServerApp(ABC):
     def __init__(self, server):
@@ -57,8 +73,12 @@ class AbsXServerApp(ABC):
         return (args, kwargs)
 
     def setup(self, args, kwargs):
-        output = self._setup(*args, **kwargs)
-        self._state = 
+        try:
+            output = self._setup(*args, **kwargs)
+            self._fsm.to_ready()
+        except:
+            self._fsm.to_fault()
+        else:
         return output
 
     def _setup(self):
