@@ -5,7 +5,6 @@
 from __future__ import print_function, division
 
 import sys
-import copy
 
 # py2, py3 compatible abc.
 # https://stackoverflow.com/a/38668373/2008784
@@ -16,11 +15,11 @@ import threading
 
 
 class XAppStates(object):
-    INIT = copy.copy(0)
-    READY = copy.copy(1)
-    RUN = copy.copy(2)
-    TERMINATED = copy.copy(3)
-    FAULT = copy.copy(-1)
+    INIT = "INIT"
+    READY = "READY"
+    RUN = "RUN"
+    TERMINATED = "TERMINATED"
+    FAULT = "FAULT"
 
 
 class XAppFSM(object):
@@ -32,7 +31,11 @@ class XAppFSM(object):
         return self._state
 
     def to_ready(self):
-        pass
+        if self.state is XAppStates.INIT:
+            self._state = XAppStates.READY
+        else:
+            raise RuntimeError(
+                "Bad transition from {} to {}.".format(self.state, "READY"))
 
     def to_run(self):
         pass
