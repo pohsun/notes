@@ -6,6 +6,7 @@ from __future__ import print_function, division
 from re import A
 
 import sys
+import traceback
 
 # py2, py3 compatible abc.
 # https://stackoverflow.com/a/38668373/2008784
@@ -67,6 +68,7 @@ class AbsXServerApp(ABC):
     def __init__(self, server):
         self._server = server  # type: socketserver.TCPServer
         self._fsm = XAppFSM()
+        self._traceback = None
         self._handleThread = None
         self._handleOutput = None
 
