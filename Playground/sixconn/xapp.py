@@ -94,7 +94,7 @@ class AbsXServerApp(ABC):
         def autoexit_handle():
             try:
                 self._fsm.to_run()
-                self._handle(self._handleOutput, *args, **kwargs)
+                self._handleOutput = self._handle(*args, **kwargs)
             except:
                 self._traceback = sys.exc_info()
                 self._fsm.to_fault()
@@ -113,7 +113,7 @@ class AbsXServerApp(ABC):
             raise
 
     @abc.abstractmethod
-    def _handle(self, output, *args, **kwargs)
+    def _handle(self, *args, **kwargs)
         raise NotImplementedError
 
     def join(self, timeout=None):
@@ -148,6 +148,21 @@ class AbsXServerApp(ABC):
     
     def _finish(self):
         return 
+
+    def reset(self):
+        try:
+            self._fsm.reset()
+            self._reset(*args, **kwargs)
+        except:
+            self._traceback = sys.exc_info()
+            self._fsm.to_fault()
+            raise
+        else:
+            self._fsm.to_terminated()
+        finally:
+            # As `autoexit_run` is called in a thread, only the thread exits.
+            sys.exit()
+        
 
     def _reset(self):
         self._fsm.reset()
