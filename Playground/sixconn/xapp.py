@@ -67,14 +67,17 @@ class AbsXServerApp(ABC):
     def __init__(self, server):
         self._server = server  # type: socketserver.TCPServer
         self._fsm = XAppFSM()
-        self._runThread = None
-        self._runOutput = None
+        self._handleThread = None
+        self._handleOutput = None
 
     def echo(self, args, kwargs):
         return (args, kwargs)
 
     def setup(self, args, kwargs):
         try:
+            self._fsm.to_ready()
+            self._handleThread = None
+            self._handleOutput = None
             output = self._setup(*args, **kwargs)
             return output
         except:
@@ -82,15 +85,13 @@ class AbsXServerApp(ABC):
             raise
 
     def _setup(self):
-        self._fsm.to_ready()
-        self._runThread = None
-        self._runOutput = None
+        pass
 
-    def run(self, args, kwargs):
-        def autoexit_run():
+    def handle(self, args, kwargs):
+        def autoexit_handle():
             try:
                 self._fsm.to_run()
-                self._run(self._runOutput, *args, **kwargs)
+                self._handle(self._handleOutput, *args, **kwargs)
             except:
                 self._fsm.to_fault()
                 raise
@@ -101,40 +102,52 @@ class AbsXServerApp(ABC):
                 sys.exit()
 
         try:
-            self._runThread = threading.Thread(
-                target=autoexit_run)
-            self._runThread.start()
+            self._handleThread = threading.Thread(
+                target=autoexit_handle)
+            self._handleThread.start()
         except:
             raise
 
     @abc.abstractmethod
-    def _run(self, output, *args, **kwargs)
+    def _handle(self, output, *args, **kwargs)
         raise NotImplementedError
 
     def join(self, timeout=None):
         """ This method returns True just before the run() method starts until just after the run() method terminates. """
         if self._fsm.state is XAppStates.RUN:
             try:
-                self._runThread.join(timeout=timeout)
+                self._handleThread.join(timeout=timeout)
             except RuntimeError:
                 # join() raises a RuntimeError if an attempt is made to join the
                 # current thread as that would cause a deadlock. It is also an
                 # error to join() a thread before it has been started and attempts
                 # to do so raises the same exception.
                 pass
-            return self._runThread.is_alive()
+            return self._handleThread.is_alive()
         else:
             return False
 
-    def terminate(self, args, kwargs):
+    def finish(self, args, kwargs):
         if self._fsm.state is XAppStates.TERMINATED:
-            return self._terminate(*args, **kwargs)
+            try:
+                self._finish(*args, **kwargs)
+                return self._handleOutput
+            except:
+                self._fsm.to_fault()
+                raise
         elif self._fsm.state is XAppStates.FAULT:
+            try:
+            finally:
+                self._reset()
+        else:
+            raise RuntimeError(
+                "`finish` can be called only when a task is terminated or run into error.")
     
-    def _terminate(self):
+    def _finish(self):
         return 
 
     def _reset(self):
+        self._fsm.reset()
 
 
     def shutdown(self):
