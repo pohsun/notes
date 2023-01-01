@@ -21,7 +21,7 @@ if __name__ == '__main__':
             constants.TEST_ADDR,
             allow_none=True)
 
-    app = xapp.AbsXServerApp(server)
+    app = xapp.EchoXServerApp(server)
     server.register_instance(app)
 
     server.register_introspection_functions()

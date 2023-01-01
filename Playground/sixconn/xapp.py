@@ -3,10 +3,8 @@
 # vim: set sw=4 ts=4 fdm=indent fdl=0 fdn=2 ft=python et:
 
 from __future__ import print_function, division
-from re import A
 
 import sys
-import traceback
 
 # py2, py3 compatible abc.
 # https://stackoverflow.com/a/38668373/2008784
@@ -69,7 +67,7 @@ class AbsXServerApp(ABC):
         self._server = server  # type: socketserver.TCPServer
         self._fsm = XAppFSM()
         self._traceback = None
-        self._handleThread = None
+        self._handleThread = None  # type: Optional[threading.Thread]
         self._handleOutput = None
 
     def echo(self, args, kwargs):
@@ -113,7 +111,7 @@ class AbsXServerApp(ABC):
             raise
 
     @abc.abstractmethod
-    def _handle(self, *args, **kwargs)
+    def _handle(self, *args, **kwargs):
         raise NotImplementedError
 
     def join(self, timeout=None):
@@ -134,12 +132,14 @@ class AbsXServerApp(ABC):
     def finish(self, args, kwargs):
         if self._fsm.state is XAppStates.TERMINATED:
             try:
-                self._finish(*args, **kwargs)
                 return self._handleOutput
-            except:
-                self._traceback = sys.exc_info()
-                self._fsm.to_fault()
-                raise
+            finally:
+                try:
+                    self._finish(*args, **kwargs)
+                except:
+                    self._traceback = sys.exc_info()
+                    self._fsm.to_fault()
+                    raise
         elif self._fsm.state is XAppStates.FAULT:
             return self._traceback
         else:
@@ -147,26 +147,12 @@ class AbsXServerApp(ABC):
                 "`finish` can be called only when a task is terminated or run into error.")
     
     def _finish(self):
-        return 
-
-    def reset(self):
-        try:
-            self._fsm.reset()
-            self._reset(*args, **kwargs)
-        except:
-            self._traceback = sys.exc_info()
-            self._fsm.to_fault()
-            raise
-        else:
-            self._fsm.to_terminated()
-        finally:
-            # As `autoexit_run` is called in a thread, only the thread exits.
-            sys.exit()
-        
-
-    def _reset(self):
-        self._fsm.reset()
-
+        self.shutdown()
 
     def shutdown(self):
         threading.Thread(target=self._server.shutdown).start()
+
+
+class EchoXServerApp(AbsXServerApp):
+    def _handle(self, *args, **kwargs):
+        return (args, kwargs)

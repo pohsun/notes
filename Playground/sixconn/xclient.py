@@ -15,7 +15,7 @@ from . import constants
 
 if __name__ == '__main__':
     cli = rpcclient.ServerProxy(
-        "http://{}:{}".format(constants.TEST_ADDR),
+        "http://{}:{}".format(*constants.TEST_ADDR),
         allow_none=True)
     print(cli.system.listMethods())
     print(cli.echo((None, 1, 2), {"A": 1, "B": 2}))
