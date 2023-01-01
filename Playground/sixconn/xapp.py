@@ -64,16 +64,18 @@ class XAppFSM(object):
 
 class AbsXServerApp(ABC):
     def __init__(self, server):
-        self._server = server  # type: socketserver.TCPServer
+        self._server = server  # type: ignore
         self._fsm = XAppFSM()
         self._traceback = None
-        self._handleThread = None  # type: Optional[threading.Thread]
+        self._handleThread = None  # type: None | threading.Thread
         self._handleOutput = None
 
-    def echo(self, args, kwargs):
-        return (args, kwargs)
+    def _state(self):
+        return self._fsm.state
 
-    def setup(self, args, kwargs):
+    def setup(self, args=None, kwargs=None):
+        args = () if args is None else args
+        kwargs = {} if kwargs is None else kwargs
         try:
             self._fsm.to_ready()
             self._handleThread = None
@@ -88,7 +90,9 @@ class AbsXServerApp(ABC):
     def _setup(self):
         pass
 
-    def handle(self, args, kwargs):
+    def handle(self, args=None, kwargs=None):
+        args = () if args is None else args
+        kwargs = {} if kwargs is None else kwargs
         def autoexit_handle():
             try:
                 self._fsm.to_run()
@@ -112,7 +116,7 @@ class AbsXServerApp(ABC):
 
     @abc.abstractmethod
     def _handle(self, *args, **kwargs):
-        raise NotImplementedError
+        return (args, kwargs)
 
     def join(self, timeout=None):
         """ This method returns True just before the run() method starts until just after the run() method terminates. """
@@ -129,7 +133,9 @@ class AbsXServerApp(ABC):
         else:
             return False
 
-    def finish(self, args, kwargs):
+    def finish(self, args=None, kwargs=None):
+        args = () if args is None else args
+        kwargs = {} if kwargs is None else kwargs
         if self._fsm.state is XAppStates.TERMINATED:
             try:
                 return self._handleOutput
@@ -145,7 +151,7 @@ class AbsXServerApp(ABC):
         else:
             raise RuntimeError(
                 "`finish` can be called only when a task is terminated or run into error.")
-    
+
     def _finish(self):
         self.shutdown()
 
