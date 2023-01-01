@@ -83,6 +83,7 @@ class AbsXServerApp(ABC):
             output = self._setup(*args, **kwargs)
             return output
         except:
+            self._traceback = sys.exc_info()
             self._fsm.to_fault()
             raise
 
@@ -95,6 +96,7 @@ class AbsXServerApp(ABC):
                 self._fsm.to_run()
                 self._handle(self._handleOutput, *args, **kwargs)
             except:
+                self._traceback = sys.exc_info()
                 self._fsm.to_fault()
                 raise
             else:
@@ -135,12 +137,11 @@ class AbsXServerApp(ABC):
                 self._finish(*args, **kwargs)
                 return self._handleOutput
             except:
+                self._traceback = sys.exc_info()
                 self._fsm.to_fault()
                 raise
         elif self._fsm.state is XAppStates.FAULT:
-            try:
-            finally:
-                self._reset()
+            return self._traceback
         else:
             raise RuntimeError(
                 "`finish` can be called only when a task is terminated or run into error.")
