@@ -5,6 +5,7 @@
 from __future__ import print_function, division
 
 import sys
+import traceback
 
 # py2, py3 compatible abc.
 # https://stackoverflow.com/a/38668373/2008784
@@ -98,7 +99,7 @@ class AbsXServerApp(ABC):
                 self._fsm.to_run()
                 self._handleOutput = self._handle(*args, **kwargs)
             except:
-                self._traceback = sys.exc_info()
+                self._traceback = traceback.format_exc()
                 self._fsm.to_fault()
                 raise
             else:
