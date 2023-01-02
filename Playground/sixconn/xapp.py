@@ -170,9 +170,17 @@ class AbsXApp(ABC):
         If you want to close app, call `self.shutdown`.
         If you want to reuse setuped app, call `self._fsm.to_ready`.
         """
-        pass
+        self._handleThread = None
+        self._handleOutput = None
+        self._fsm.to_ready()
 
-    def shutdown(self):
+    def system_echo(self, args=None, kwargs=None):
+        args = () if args is None else args
+        kwargs = {} if kwargs is None else kwargs
+        return (args, kwargs)
+
+    def system_shutdown(self):
+        """ Shutdown the serveer. """
         threading.Thread(target=self._server.shutdown).start()
 
 
