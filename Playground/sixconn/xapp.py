@@ -63,7 +63,7 @@ class XAppFSM(object):
         self._state = XAppStates.FAULT
 
 
-class AbsXServerApp(ABC):
+class AbsXApp(ABC):
     def __init__(self, server):
         self._server = server  # type: ignore
         self._fsm = XAppFSM()
@@ -101,19 +101,15 @@ class AbsXServerApp(ABC):
             except:
                 self._traceback = traceback.format_exc()
                 self._fsm.to_fault()
-                raise
             else:
                 self._fsm.to_terminated()
             finally:
                 # As `autoexit_run` is called in a thread, only the thread exits.
                 sys.exit()
 
-        try:
-            self._handleThread = threading.Thread(
-                target=autoexit_handle)
-            self._handleThread.start()
-        except:
-            raise
+        self._handleThread = threading.Thread(
+            target=autoexit_handle)
+        self._handleThread.start()
 
     @abc.abstractmethod
     def _handle(self, *args, **kwargs):
@@ -160,6 +156,6 @@ class AbsXServerApp(ABC):
         threading.Thread(target=self._server.shutdown).start()
 
 
-class EchoXServerApp(AbsXServerApp):
+class EchoXServerApp(AbsXApp):
     def _handle(self, *args, **kwargs):
         return (args, kwargs)
