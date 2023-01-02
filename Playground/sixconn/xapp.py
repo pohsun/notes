@@ -144,21 +144,19 @@ class AbsXApp(ABC):
             XAppStates.TERMINATED: self._finish_success,
             XAppStates.FAULT: self._finish_exception
         }
-        if self._fsm.state is XAppStates.TERMINATED or self._fsm.state is XAppStates.FAULT:
-            try:
-                return output[self._fsm.state]
-            except KeyError:
-                raise RuntimeError(
-                    "`finish` can be called only when a task is terminated or run into error.")
 
-            finally:
-                try:
-                    callback[self._fsm.state](*args, **kwargs)
-                except:
-                    self._traceback = sys.exc_info()
-                    self._fsm.to_fault()
-                    raise
-        else:
+        try:
+            return output[self._fsm.state]
+        except KeyError:
+            raise RuntimeError(
+                "`finish` can be called only when a task is terminated or run into error.")
+        finally:
+            try:
+                callback[self._fsm.state](*args, **kwargs)
+            except:
+                self._traceback = sys.exc_info()
+                self._fsm.to_fault()
+                raise
 
     def _finish_success(self):
         """ 
