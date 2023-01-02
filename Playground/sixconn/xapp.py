@@ -39,7 +39,7 @@ class XAppFSM(object):
                 "Bad transition from {} to {}.".format(self.state, XAppStates.TERMINATED))
 
     def to_ready(self):
-        if self.state is XAppStates.INIT:
+        if self.state is XAppStates.INIT or self.state is XAppStates.TERMINATED:
             self._state = XAppStates.READY
         else:
             raise RuntimeError(
@@ -94,22 +94,25 @@ class AbsXApp(ABC):
     def handle(self, args=None, kwargs=None):
         args = () if args is None else args
         kwargs = {} if kwargs is None else kwargs
-        def autoexit_handle():
-            try:
-                self._fsm.to_run()
-                self._handleOutput = self._handle(*args, **kwargs)
-            except:
-                self._traceback = traceback.format_exc()
-                self._fsm.to_fault()
-            else:
-                self._fsm.to_terminated()
-            finally:
-                # As `autoexit_run` is called in a thread, only the thread exits.
-                sys.exit()
 
         self._handleThread = threading.Thread(
-            target=autoexit_handle)
+            target=self._handle_worker,
+            args=args,
+            kwargs=kwargs)
         self._handleThread.start()
+
+    def _handle_worker(self, *args, **kwargs):
+        try:
+            self._fsm.to_run()
+            self._handleOutput = self._handle(*args, **kwargs)
+        except:
+            self._traceback = traceback.format_exc()
+            self._fsm.to_fault()
+        else:
+            self._fsm.to_terminated()
+        finally:
+            # As `autoexit_run` is called in a thread, only the thread exits.
+            sys.exit()
 
     @abc.abstractmethod
     def _handle(self, *args, **kwargs):
@@ -133,24 +136,43 @@ class AbsXApp(ABC):
     def finish(self, args=None, kwargs=None):
         args = () if args is None else args
         kwargs = {} if kwargs is None else kwargs
-        if self._fsm.state is XAppStates.TERMINATED:
+        output = {
+            XAppStates.TERMINATED: self._handleOutput,
+            XAppStates.FAULT: self._traceback
+        }
+        callback = {
+            XAppStates.TERMINATED: self._finish_success,
+            XAppStates.FAULT: self._finish_exception
+        }
+        if self._fsm.state is XAppStates.TERMINATED or self._fsm.state is XAppStates.FAULT:
             try:
-                return self._handleOutput
+                return output[self._fsm.state]
+            except KeyError:
+                raise RuntimeError(
+                    "`finish` can be called only when a task is terminated or run into error.")
+
             finally:
                 try:
-                    self._finish(*args, **kwargs)
+                    callback[self._fsm.state](*args, **kwargs)
                 except:
                     self._traceback = sys.exc_info()
                     self._fsm.to_fault()
                     raise
-        elif self._fsm.state is XAppStates.FAULT:
-            return self._traceback
         else:
-            raise RuntimeError(
-                "`finish` can be called only when a task is terminated or run into error.")
 
-    def _finish(self):
+    def _finish_success(self):
+        """ 
+        If you want to close app, call `self.shutdown`.
+        If you want to reuse setuped app, call `self._fsm.to_ready`.
+        """
         self.shutdown()
+
+    def _finish_exception(self):
+        """ 
+        If you want to close app, call `self.shutdown`.
+        If you want to reuse setuped app, call `self._fsm.to_ready`.
+        """
+        pass
 
     def shutdown(self):
         threading.Thread(target=self._server.shutdown).start()
