@@ -175,9 +175,13 @@ class AbsXApp(ABC):
         self._fsm.to_ready()
 
     def system_echo(self, args=None, kwargs=None):
+        """ For users convenience to see what arguement is passed. """
         args = () if args is None else args
         kwargs = {} if kwargs is None else kwargs
         return (args, kwargs)
+
+    def system_address(self):
+        return self._server.server_address
 
     def system_shutdown(self):
         """ Shutdown the serveer. """
