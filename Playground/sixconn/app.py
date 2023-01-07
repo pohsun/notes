@@ -6,6 +6,7 @@ from __future__ import print_function, division
 
 import sys
 import traceback
+import functools
 
 # py2, py3 compatible abc.
 # https://stackoverflow.com/a/38668373/2008784
@@ -14,59 +15,12 @@ ABC = abc.ABCMeta('ABC', (object,), {'__slots__': ()})
 
 import threading
 
+from .fsm import AppStates, AppFSM
 
-class XAppStates(object):
-    INIT = "INIT"
-    READY = "READY"
-    RUN = "RUN"
-    TERMINATED = "TERMINATED"
-    FAULT = "FAULT"
-
-
-class XAppFSM(object):
-    def __init__(self):
-        self._state = XAppStates.INIT
-
-    @property
-    def state(self):
-        return self._state
-
-    def reset(self):
-        if self.state is not XAppStates.TERMINATED or self.state is not XAppStates.FAULT:
-            self._state = XAppStates.INIT
-        else:
-            raise RuntimeError(
-                "Bad transition from {} to {}.".format(self.state, XAppStates.TERMINATED))
-
-    def to_ready(self):
-        if self.state is XAppStates.INIT or self.state is XAppStates.TERMINATED:
-            self._state = XAppStates.READY
-        else:
-            raise RuntimeError(
-                "Bad transition from {} to {}.".format(self.state, XAppStates.READY))
-
-    def to_run(self):
-        if self.state is XAppStates.READY:
-            self._state = XAppStates.RUN
-        else:
-            raise RuntimeError(
-                "Bad transition from {} to {}.".format(self.state, XAppStates.RUN))
-
-    def to_terminated(self):
-        if self.state is not XAppStates.RUN or self.state is not XAppStates.FAULT:
-            self._state = XAppStates.TERMINATED
-        else:
-            raise RuntimeError(
-                "Bad transition from {} to {}.".format(self.state, XAppStates.TERMINATED))
-
-    def to_fault(self):
-        self._state = XAppStates.FAULT
-
-
-class AbsXApp(ABC):
+class AbsApp(ABC):
     def __init__(self, server):
         self._server = server  # type: ignore
-        self._fsm = XAppFSM()
+        self._fsm = AppFSM()
         self._traceback = None
         self._handleThread = None  # type: None | threading.Thread
         self._handleOutput = None
@@ -120,7 +74,7 @@ class AbsXApp(ABC):
 
     def join(self, timeout=None):
         """ This method returns True just before the run() method starts until just after the run() method terminates. """
-        if self._fsm.state is XAppStates.RUN:
+        if self._fsm.state is AppStates.RUN:
             try:
                 self._handleThread.join(timeout=timeout)
             except RuntimeError:
@@ -137,12 +91,12 @@ class AbsXApp(ABC):
         args = () if args is None else args
         kwargs = {} if kwargs is None else kwargs
         output = {
-            XAppStates.TERMINATED: self._handleOutput,
-            XAppStates.FAULT: self._traceback
+            AppStates.TERMINATED: self._handleOutput,
+            AppStates.FAULT: self._traceback
         }
         callback = {
-            XAppStates.TERMINATED: self._finish_success,
-            XAppStates.FAULT: self._finish_exception
+            AppStates.TERMINATED: self._finish_success,
+            AppStates.FAULT: self._finish_exception
         }
 
         try:
@@ -158,32 +112,47 @@ class AbsXApp(ABC):
                 self._fsm.to_fault()
                 raise
 
+    @staticmethod
+    def dec_post_finish_shutdown(fcn):
+        @functools.wraps
+        def wrapped(self, *args, **kwargs):
+            fcn(*args, **kwargs)
+            self.shutdown()
+        return wrapped
+
+    @staticmethod
+    def dec_post_finish_reset(fcn):
+        @functools.wraps
+        def wrapped(self, *args, **kwargs):
+            fcn(*args, **kwargs)
+            self._handleThread = None
+            self._handleOutput = None
+            self._fsm.to_fault()
+            self._fsm.to_terminated()
+            self._fsm.to_ready()
+        return wrapped
+
+    @abc.abstractmethod
     def _finish_success(self):
         """ 
         If you want to close app, call `self.shutdown`.
         If you want to reuse setuped app, call `self._fsm.to_ready`.
         """
-        self.shutdown()
+        pass
 
+    @abc.abstractmethod
     def _finish_exception(self):
         """ 
         If you want to close app, call `self.shutdown`.
         If you want to reuse setuped app, call `self._fsm.to_ready`.
         """
-        self._handleThread = None
-        self._handleOutput = None
-        self._fsm.to_fault()
-        self._fsm.to_terminated()
-        self._fsm.to_ready()
+        pass
 
     def system_echo(self, args=None, kwargs=None):
         """ For users convenience to see what arguement is passed. """
         args = () if args is None else args
         kwargs = {} if kwargs is None else kwargs
         return (args, kwargs)
-
-    def system_address(self):
-        return self._server.server_address
 
     def system_shutdown(self):
         """ Shutdown the serveer. """
@@ -194,6 +163,14 @@ class BaseSingleShotApp(AbsApp):
     pass
 
 
-class EchoXServerApp(AbsXApp):
+class BaseMultiShotsApp(AbsApp):
+    @AbsApp.dec_post_finish_shutdown
+    def _finish_success(self):
+        pass
+
+
+
+
+class EchoApp(AbsApp):
     def _handle(self, *args, **kwargs):
         return (args, kwargs)

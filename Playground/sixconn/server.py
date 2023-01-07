@@ -13,7 +13,7 @@ else:
 import threading
 
 from . import constants
-from . import xapp
+from . import app
 
 
 if __name__ == '__main__':
@@ -21,7 +21,7 @@ if __name__ == '__main__':
             constants.TEST_ADDR,
             allow_none=True)
 
-    app = xapp.EchoXServerApp(server)
+    app = app.EchoApp(server)
     server.register_instance(app)
 
     server.register_introspection_functions()
