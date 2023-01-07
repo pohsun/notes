@@ -40,7 +40,7 @@
     * [`statmodels`](https://www.statsmodels.org/stable/index.html)
 * Interface
     * Web: [Django](WebDev/Django.md), `Flask`, `fastAPI`
-    * GUI: `pyQt`, GU
+    * GUI: `pyQt`, [`kivy`](https://kivy.org/)
 * Automator
     * [網路爬蟲大全](WebDev/WebScraper.md)  
 * Utilities
@@ -117,15 +117,17 @@ Some auxiliary modules are provides to support the concurrency, such as
 
 ### Tools
 
-* `Numba`: Most pythonic solution
+* `Numba`: The most pythonic solution
    * [Manual](http://numba.pydata.org/numba-doc/latest/user/index.html)
    * JIT for quick development. However, it's embarrassing for deploying.
    * Use `pyyaml` to globally switch on/off JIT.
    * More [constraints](http://numba.pydata.org/numba-doc/dev/reference/pysupported.html).
 * [`Cython`](https://cython.readthedocs.io/en/stable/index.html): Slightly `C`-like solution.
    * Compile for static lib. Less constraints.  
-        Suitable for deploying well developed package.
-* [`pybind11`](https://pybind11.readthedocs.io/en/stable/index.html): Pure `C` solution.
+        Suitable for deploying well developed package. 
+   * A widely adopted solution for mature projects in python community.
+   * Offers guides for improving performance.
+* [`pybind11`](https://pybind11.readthedocs.io/en/stable/index.html): Pure `C` solution to create a python API.
     * Wrap `C++11` (and beyond) to `Python` module, quite easy to learn and use.
     * Support for `CUDA` and etc..
     * Could be 2x slower than `Numba`.
@@ -134,3 +136,7 @@ Some auxiliary modules are provides to support the concurrency, such as
 ## Solution - GPGPU
 
 Please refer to [INDEX: GPGPU]().
+
+# Embedding python in other language
+
+If you insist, see [official doc](https://docs.python.org/3/extending/embedding.html). But, it is suggested to take advantage of socket programming such as using [[ZeroMQ]].
