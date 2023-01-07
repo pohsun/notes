@@ -24,13 +24,19 @@ def create_server(addr):
 
 class ThreadedServer(object):
     def __init__(self, addr):
-        self, 
+        self._server = rpcserver.SimpleXMLRPCServer(
+            addr,
+            allow_none=True)
+        self._thread = None
 
-    def run_thread(self, app):
+    def start(self, app):
+        if self._thread is not None:
+            raise RuntimeError("You cannot start a new thread when another one is running.")
         app.bind_server(self._server)
         self._thread = threading.Thread(target=server.serve_forever)
         self._thread.start()
-        return t
+        return self._thread
+
 
 
 
