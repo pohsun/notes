@@ -15,15 +15,30 @@ import abc
 ABC = abc.ABCMeta('ABC', (object,), {'__slots__': ()})
 
 from .app_fsm import AppStates, AppFSM
+from ..constants import DEVMODE
 
 
 class AbsApp(ABC):
-    def __init__(self, server):
-        self._server = server  # type: ignore
+    def __init__(self):
         self._fsm = AppFSM()
         self._traceback = None
         self._handleThread = None  # type: None | threading.Thread
         self._handleOutput = None
+
+        self._server = None  # type: ignore
+
+    def bind_server(self, server):
+        self._server = server
+        self._server.register_function(self.setup)
+        self._server.register_function(self.handle)
+        self._server.register_function(self.finish)
+        for fcn in self.__dict__:
+            if fcn.startswith("system_") or fcn.startswith("server_"):
+                self._server.register_function(getattr(self, fcn))
+        if DEVMODE:
+            for fcn in self.__dict__:
+                if fcn.startswith("_system_") or fcn.startswith("_server_"):
+                    self._server.register_function(getattr(self, fcn))
 
     def setup(self, args=None, kwargs=None):
         args = () if args is None else args
@@ -145,6 +160,12 @@ class AbsApp(ABC):
         """
         pass
 
+    def system_echo(self, args=None, kwargs=None):
+        """ For users convenience to see what arguement is passed. """
+        args = () if args is None else args
+        kwargs = {} if kwargs is None else kwargs
+        return (args, kwargs)
+
     def _system_get_state(self):
         return self._fsm.state
 
@@ -154,12 +175,6 @@ class AbsApp(ABC):
     def _system_get_traceback(self):
         return self._traceback
 
-    def system_echo(self, args=None, kwargs=None):
-        """ For users convenience to see what arguement is passed. """
-        args = () if args is None else args
-        kwargs = {} if kwargs is None else kwargs
-        return (args, kwargs)
-
-    def system_shutdown(self):
+    def server_shutdown(self):
         """ Shutdown the serveer. """
         threading.Thread(target=self._server.shutdown).start()

@@ -16,29 +16,30 @@ from .. import constants
 from ..example_app import EchoApp
 
 
-class Server(object):
-    def __init__(self, addr, app_cls):
-        self._server = rpcserver.SimpleXMLRPCServer(
-            constants.TEST_ADDR,
-            allow_none=True)
-        
-        self._app = 
-    
+def create_server(addr):
+    server = rpcserver.SimpleXMLRPCServer(
+        addr,
+        allow_none=True)
+    return server
+
+class ThreadedServer(object):
+    def __init__(self, addr):
+        self, 
+
+    def run_thread(self, app):
+        app.bind_server(self._server)
+        self._thread = threading.Thread(target=server.serve_forever)
+        self._thread.start()
+        return t
+
+
 
 
 if __name__ == '__main__':
-    server = rpcserver.SimpleXMLRPCServer(
+    server = create_server(constants.TEST_ADDR)
 
-    app = EchoApp(server)
-    server.register_function(app.setup)
-    server.register_function(app.handle)
-    server.register_function(app.finish)
-    server.register_function(app.system_shutdown)
-    server.register_function(app.system_echo)
-    if constants.DEVMODE:
-        server.register_function(app._system_get_state)
-        server.register_function(app._system_get_handleOutput)
-        server.register_function(app._system_get_traceback)
+    app = EchoApp()
+    app.bind_server(server)
 
     server.register_introspection_functions()
     t = threading.Thread(target=server.serve_forever)
