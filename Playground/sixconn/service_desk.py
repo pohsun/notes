@@ -4,6 +4,11 @@
 
 from __future__ import print_function, division
 
-DEVMODE = True
-DEBUG = False
-TEST_ADDR = ("127.0.0.1", 8000)
+
+from .core.app import AbsApp
+
+
+class ServiceDesk(AbsApp):
+    def __init__(self, server):
+        super().__init__(server)
+        self

@@ -6,6 +6,7 @@ from __future__ import print_function, division
 
 import sys
 import traceback
+import threading
 import functools
 
 # py2, py3 compatible abc.
@@ -13,9 +14,8 @@ import functools
 import abc
 ABC = abc.ABCMeta('ABC', (object,), {'__slots__': ()})
 
-import threading
+from .app_fsm import AppStates, AppFSM
 
-from .fsm import AppStates, AppFSM
 
 class AbsApp(ABC):
     def __init__(self, server):
@@ -24,9 +24,6 @@ class AbsApp(ABC):
         self._traceback = None
         self._handleThread = None  # type: None | threading.Thread
         self._handleOutput = None
-
-    def _state(self):
-        return self._fsm.state
 
     def setup(self, args=None, kwargs=None):
         args = () if args is None else args
@@ -148,6 +145,15 @@ class AbsApp(ABC):
         """
         pass
 
+    def _system_get_state(self):
+        return self._fsm.state
+
+    def _system_get_handleOutput(self):
+        return self._handleOutput
+
+    def _system_get_traceback(self):
+        return self._traceback
+
     def system_echo(self, args=None, kwargs=None):
         """ For users convenience to see what arguement is passed. """
         args = () if args is None else args
@@ -157,20 +163,3 @@ class AbsApp(ABC):
     def system_shutdown(self):
         """ Shutdown the serveer. """
         threading.Thread(target=self._server.shutdown).start()
-
-
-class BaseSingleShotApp(AbsApp):
-    pass
-
-
-class BaseMultiShotsApp(AbsApp):
-    @AbsApp.dec_post_finish_shutdown
-    def _finish_success(self):
-        pass
-
-
-
-
-class EchoApp(AbsApp):
-    def _handle(self, *args, **kwargs):
-        return (args, kwargs)
