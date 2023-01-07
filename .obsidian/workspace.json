@@ -38,12 +38,12 @@
             }
           },
           {
-            "id": "2157667baada117d",
+            "id": "ed6a703dab80e079",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/DSA/DSA_index.md",
+                "file": "Private/Tax.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/不動產.md"
+                "file": "Private/Tax.md"
               }
             }
           },
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/不動產.md",
+                "file": "Private/Tax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Private/不動產.md",
+                "file": "Private/Tax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,17 +177,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b4a80e93369c60d",
+  "active": "ed6a703dab80e079",
   "lastOpenFiles": [
+    "Private/不動產.md",
+    "Private/Tax.md",
+    "Private/金融服務.md",
     "CS/DSA/DSA_index.md",
     "CS/Python_index.md",
-    "Private/不動產.md",
     "Finance/Stock.md",
     "Finance/Finance_index.md",
     "Playground/Playground.md",
     "CS/DSA/ML/ML_index.md",
-    "CS/Patterns/ZeroMQ.md",
-    "unlinked files output.md",
-    "CS/Patterns/Architectures_index.md"
+    "CS/Patterns/ZeroMQ.md"
   ]
 }
