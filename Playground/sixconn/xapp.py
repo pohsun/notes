@@ -172,6 +172,8 @@ class AbsXApp(ABC):
         """
         self._handleThread = None
         self._handleOutput = None
+        self._fsm.to_fault()
+        self._fsm.to_terminated()
         self._fsm.to_ready()
 
     def system_echo(self, args=None, kwargs=None):
@@ -186,6 +188,10 @@ class AbsXApp(ABC):
     def system_shutdown(self):
         """ Shutdown the serveer. """
         threading.Thread(target=self._server.shutdown).start()
+
+
+class BaseSingleShotApp(AbsApp):
+    pass
 
 
 class EchoXServerApp(AbsXApp):
