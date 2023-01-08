@@ -82,8 +82,8 @@
     "Tensorflow2": {
       "Tensorflow2": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1671031759564
+          "count": 3,
+          "lastUpdated": 1673156575375
         }
       }
     },
@@ -124,6 +124,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1673076782190
+        }
+      }
+    },
+    "PyTorch": {
+      "PyTorch": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1673156566412
+        }
+      }
+    },
+    "ZeroMQ": {
+      "ZeroMQ": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1673156630704
         }
       }
     }

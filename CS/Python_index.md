@@ -35,8 +35,8 @@
     * Data structures for data analysis with Python:  
         含`numpy`, `pandas`/`modin`, `dask`, `scikit-hep/awkward-array`, ~~`uproot`~~ etc..
     * [`scikit-learn`](https://scikit-learn.org/stable/user_guide.html)
-    * [[PyTorch]]
-    * [[Tensorflow2]]
+    * [PyTorch](PyTorch.md) 
+    * [Tensorflow2](Tensorflow2.md) 
     * [`statmodels`](https://www.statsmodels.org/stable/index.html)
 * Interface
     * Web: [Django](WebDev/Django.md), `Flask`, `fastAPI`
@@ -48,7 +48,7 @@
 	* [`ast`](https://sadh.life/post/ast/), [`lark`](https://github.com/lark-parser/lark) for [wiki: LanguageParsing](https://wiki.python.org/moin/LanguageParsing)
 	* python-daemon
 	  And corresponding [benchmark](https://github.com/goodmami/python-parsing-benchmarks).
-	* Socket programming with [pyzmq](https://pyzmq.readthedocs.io/en/latest/index.html), See also [[ZeroMQ]]
+	* Socket programming with [pyzmq](https://pyzmq.readthedocs.io/en/latest/index.html), See also [ZeroMQ](ZeroMQ.md) 
 
 # DevTools
 

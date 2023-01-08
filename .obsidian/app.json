@@ -9,5 +9,6 @@
   "autoPairBrackets": false,
   "showLineNumber": true,
   "attachmentFolderPath": "./",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "useMarkdownLinks": true
 }
