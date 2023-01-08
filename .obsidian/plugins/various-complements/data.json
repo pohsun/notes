@@ -146,6 +146,14 @@
           "lastUpdated": 1673162308394
         }
       }
+    },
+    "message-processing": {
+      "message-processing": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1673163340046
+        }
+      }
     }
   }
 }
