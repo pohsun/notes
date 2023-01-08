@@ -11,6 +11,6 @@
   "attachmentFolderPath": "./",
   "showUnsupportedFiles": true,
   "useMarkdownLinks": true,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "relative",
   "newFileLocation": "current"
 }

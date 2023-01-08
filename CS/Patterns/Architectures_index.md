@@ -5,9 +5,9 @@
     * [閒談軟體架構 – Medium](https://medium.com/%E9%96%92%E8%AB%87%E8%BB%9F%E9%AB%94%E6%9E%B6%E6%A7%8B)
 * Design 
 	* [The C4 model for visualising software architecture](https://c4model.com/)
-	* [[REST]]
+	* [REST](CS/Patterns/REST.md)
 * Commonly used tools
-	* [[UnifiedModelingLanguage]]
+	* [UnifiedModelingLanguage](CS/Patterns/UnifiedModelingLanguage.md)
 	* Socket programming
-		* [[ZeroMQ]]
-		* 
+		* [ Foundations of Python Network Programming](https://github.com/brandon-rhodes/fopnp)
+		* [ZeroMQ](CS/Patterns/ZeroMQ.md)
