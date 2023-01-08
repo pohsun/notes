@@ -35,8 +35,8 @@
     * Data structures for data analysis with Python:  
         含`numpy`, `pandas`/`modin`, `dask`, `scikit-hep/awkward-array`, ~~`uproot`~~ etc..
     * [`scikit-learn`](https://scikit-learn.org/stable/user_guide.html)
-    * [PyTorch](PyTorch.md) 
-    * [Tensorflow2](Tensorflow2.md) 
+    * [PyTorch](CS/DSA/ML/PyTorch.md) 
+    * [Tensorflow2](CS/DSA/ML/Tensorflow2.md) 
     * [`statmodels`](https://www.statsmodels.org/stable/index.html)
 * Interface
     * Web: [Django](WebDev/Django.md), `Flask`, `fastAPI`

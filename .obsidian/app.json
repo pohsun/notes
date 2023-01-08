@@ -10,5 +10,7 @@
   "showLineNumber": true,
   "attachmentFolderPath": "./",
   "showUnsupportedFiles": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute",
+  "newFileLocation": "current"
 }
