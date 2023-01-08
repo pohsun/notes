@@ -139,4 +139,4 @@ Please refer to [INDEX: GPGPU]().
 
 # Embedding python in other language
 
-If you insist, see [official doc](https://docs.python.org/3/extending/embedding.html). But, it is suggested to take advantage of socket programming such as using [[ZeroMQ]].
+If you insist, see [official doc](https://docs.python.org/3/extending/embedding.html). But, it is suggested to take advantage of socket programming such as using [ZeroMQ](Patterns/ZeroMQ.md).
