@@ -4,6 +4,7 @@
 ----
 
 * [Wiki: Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
+* [Design Patterns (refactoring.guru)](https://refactoring.guru/design-patterns)
 * [圖說設計模式](https://design-patterns.readthedocs.io/zh_CN/latest/)
 * [500 lines or less中文翻譯計畫](https://github.com/HT524/500LineorLess_CN)
 * [設計資料密集型應用](https://github.com/Vonng/ddia/blob/master/zh-tw/README.md)
