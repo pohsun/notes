@@ -51,7 +51,6 @@
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Patterns/DesignPatterns_index.md"
+                "file": "CS/Python_index.md"
               }
             }
           },
@@ -139,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Patterns/DesignPatterns_index.md",
+                "file": "CS/Python_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Patterns/DesignPatterns_index.md",
+                "file": "CS/Python_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,8 +185,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "20be2d8268702086",
+  "active": "1aedc320567e0acb",
   "lastOpenFiles": [
+    "CS/Patterns/DesignPatterns_index.md",
     "CS/Python_index.md",
     "Private/不動產.md",
     "Private/培茵的抱怨.md",
@@ -196,7 +196,6 @@
     "Misc/Obsidian dataview.md",
     "CS/Patterns/ZeroMQ.md",
     "CS/WebDev/WebDev_index.md",
-    "Private/金融服務.md",
-    "Private/萬萬稅.md"
+    "Private/金融服務.md"
   ]
 }
