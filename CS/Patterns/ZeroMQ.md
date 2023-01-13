@@ -10,6 +10,7 @@ References:
 * [The zguide][zguide]
     * Python users should also pay attention to [this repo](https://github.com/booksbyus/zguide/blob/master/examples/Python)
 * [PyZMQ Documentation][pyzmq ]
+* [The Architecture of Open Source Applications (Volume 2): ZeroMQ (aosabook.org)](https://www.aosabook.org/en/zeromq.html)
 
 # The Sockets
 ## REQ
