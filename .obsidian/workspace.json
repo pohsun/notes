@@ -38,12 +38,12 @@
             }
           },
           {
-            "id": "2fac4357e766339e",
+            "id": "b6044f686844acfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "汽機車.md",
+                "file": "CS/SoftSkills/Functional_Programming.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CS/DSA",
+                "query": "functional",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/房地產.md"
+                "file": "CS/SoftSkills/Functional_Programming.md"
               }
             }
           },
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/房地產.md",
+                "file": "CS/SoftSkills/Functional_Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Private/房地產.md",
+                "file": "CS/SoftSkills/Functional_Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,17 +186,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b4a80e93369c60d",
+  "active": "b6044f686844acfc",
   "lastOpenFiles": [
-    "汽機車.md",
+    "CS/Patterns/Architectures_index.md",
+    "CS/SoftSkills/Functional_Programming.md",
     "Private/房地產.md",
-    "Private/培茵的叮囑.md",
-    "CS/Patterns/ZeroMQ.md",
-    "CS/Python_index.md",
+    "CS/SoftSkills/Refactoring.md",
+    "CS/SoftSkills/Object_Oriented_Programming.md",
     "CS/Patterns/DesignPatterns_index.md",
-    "Finance/Finance_index.md",
-    "Finance/Stock.md",
-    "Misc/Obsidian dataview.md",
-    "CS/WebDev/WebDev_index.md"
+    "CS/SoftSkills/Version_control_with_git.md",
+    "CS/SoftSkills/SoftSkills_index.md",
+    "汽機車.md",
+    "Private/培茵的叮囑.md"
   ]
 }
