@@ -49,9 +49,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "20158566348b0731",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/SoftSkills/SoftSkills_index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -118,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/SoftSkills/Functional_Programming.md"
+                "file": "CS/SoftSkills/SoftSkills_index.md"
               }
             }
           },
@@ -139,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/SoftSkills/Functional_Programming.md",
+                "file": "CS/SoftSkills/SoftSkills_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/SoftSkills/Functional_Programming.md",
+                "file": "CS/SoftSkills/SoftSkills_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,17 +199,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6044f686844acfc",
+  "active": "20158566348b0731",
   "lastOpenFiles": [
-    "CS/Python_index.md",
+    "CS/SoftSkills/Performance_tuning.md",
+    "CS/SoftSkills/SoftSkills_index.md",
     "CS/SoftSkills/Functional_Programming.md",
+    "CS/Patterns/ZeroMQ.md",
+    "CS/Python_index.md",
     "CS/Patterns/Architectures_index.md",
     "Private/房地產.md",
     "CS/SoftSkills/Refactoring.md",
     "CS/SoftSkills/Object_Oriented_Programming.md",
-    "CS/Patterns/DesignPatterns_index.md",
-    "CS/SoftSkills/Version_control_with_git.md",
-    "CS/SoftSkills/SoftSkills_index.md",
-    "汽機車.md"
+    "CS/Patterns/DesignPatterns_index.md"
   ]
 }
