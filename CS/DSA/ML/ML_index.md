@@ -10,7 +10,7 @@
 Quote from the textbook "Machine Learning" by T. Mitchell(1997): *"A computer program is said to learn from experience `E` with respect to some class of tasks `T` and performance measure `P`, if its performance at tasks in `T`, as measured by `P`, improves with experience `E`."*
 
 * [Overview and Theoretical Basis](/Math/InformationTheory.md)
-* `E`: [Data preprocessing](DataPreprocessing.md)
+* `E`: [Data preprocessing](Data_preprocessing.md)
 * `T`: Tasks (i.e. the algorithms)
    * [`ANN`](NeuralNetwork.md)
         * `CNN`, `RNN`, `GNN`, `GAN`
@@ -30,7 +30,7 @@ Here is a list of some special topics for AI/ML
 * [Natural Language Processing](NaturalLanguageProcessing.md)
 * [ML compiling課程](https://mlc.ai/summer22-zh/)
 * Generative models
-    * [[Diffusion model]]
+    * [[Diffusion_model]]
             
 ## Tools
 

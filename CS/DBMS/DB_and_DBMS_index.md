@@ -7,9 +7,12 @@
 
 ## SQL (Relational)
 * [1KeyData: 中文語法速查](https://www.1keydata.com/tw/sql/sql.html)
-* [python3 interface: sqlite3](https://docs.python.org/3/library/sqlite3.html)
+* [sqlite3](sqlite3.md)
 
 ## [Redis](https://github.com/redis/redis) (In memory Key-Value pairs)
+
+## MongoDB
+* [MongoDB: The Developer Data Platform | MongoDB](https://www.mongodb.com/)
 
 ## neo4j (Graph)
 * [docs](https://neo4j.com/docs/)
@@ -20,7 +23,6 @@
 
 ## [Database Normalization](https://en.wikipedia.org/wiki/Database_normalization)
 * [RulesOfDataNormalization](http://cc.cust.edu.tw/~ccchen/doc/db_04.pdf)
-
 
 # Database Management System
 
