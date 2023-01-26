@@ -38,25 +38,12 @@
             }
           },
           {
-            "id": "b6044f686844acfc",
+            "id": "09c5590380ddcf8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/DBMS/DB_and_DBMS_index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3894e6fd0a3e9e85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/DBMS/sqlite3.md",
+                "file": "Finance/Finance_index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -131,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/DBMS/DB_and_DBMS_index.md"
+                "file": "Finance/Finance_index.md"
               }
             }
           },
@@ -152,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/DBMS/DB_and_DBMS_index.md",
+                "file": "Finance/Finance_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/DBMS/DB_and_DBMS_index.md",
+                "file": "Finance/Finance_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,17 +187,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6044f686844acfc",
+  "active": "09c5590380ddcf8b",
   "lastOpenFiles": [
-    "CS/DBMS/sqlite3.md",
+    "Private/房地產.md",
+    "Finance/Finance_index.md",
+    "Finance/Stock.md",
     "CS/DBMS/DB_and_DBMS_index.md",
+    "CS/DBMS/sqlite3.md",
+    "CS/DBMS/redis.md",
     "CS/Python_index.md",
     "CS/JupyterLab_and_Colab.md",
     "CS/Julia_index.md",
-    "CS/SoftSkills/Functional_Programming.md",
-    "CS/DSA/ML/Losses_Regularizers_and_Optimizers.md",
-    "CS/DSA/ML/Diffusion_model.md",
-    "CS/DSA/ML/Data_preprocessing.md",
-    "CS/SoftSkills/SoftSkills_index.md"
+    "CS/SoftSkills/Functional_Programming.md"
   ]
 }
