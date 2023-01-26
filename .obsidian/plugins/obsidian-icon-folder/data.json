@@ -5,8 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
-      "⚛",
-      "🛝"
+      "🚫",
+      "🛣",
+      "💌",
+      "🎓",
+      "💵"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -18,5 +21,12 @@
     }
   },
   "Playground": "🛝",
-  "Physics": "⚛"
+  "Physics": "⚛",
+  "Private/房地產.md": "🏡",
+  "Private/萬萬稅.md": "💸",
+  "Private/金融服務.md": "💵",
+  "Private/PhD_defense_presenter_notes.md": "🎓",
+  "Private/培茵的叮囑.md": "💌",
+  "Private/汽機車.md": "🛣",
+  "Private": "🚫"
 }
