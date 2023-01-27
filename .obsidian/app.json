@@ -12,5 +12,8 @@
   "showUnsupportedFiles": true,
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "readableLineLength": true,
+  "strictLineBreaks": true,
+  "tabSize": 2
 }

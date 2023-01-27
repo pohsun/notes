@@ -1,5 +1,8 @@
 {
   "cssTheme": "Obsidian gruvbox",
   "theme": "obsidian",
-  "accentColor": ""
+  "accentColor": "",
+  "showViewHeader": true,
+  "nativeMenus": true,
+  "translucency": false
 }
