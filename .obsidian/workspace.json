@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Finance/Stock.md",
+                "file": "Finance/財務報表基礎.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Finance/Stock.md"
+                "file": "Finance/財務報表基礎.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Finance/Stock.md",
+                "file": "Finance/財務報表基礎.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Finance/Stock.md",
+                "file": "Finance/財務報表基礎.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,8 +201,8 @@
   },
   "active": "250d8ac2df21c777",
   "lastOpenFiles": [
-    "Finance/Finance_index.md",
     "Finance/Stock.md",
+    "Finance/Finance_index.md",
     "Finance/財務報表基礎.md",
     "Private/資金運用最佳化.md",
     "Private/房地產.md",
