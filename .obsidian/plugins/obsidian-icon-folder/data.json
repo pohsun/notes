@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🧮",
       "🚫",
       "🛣",
       "💌",
-      "🎓",
-      "💵"
+      "🎓"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -28,5 +28,6 @@
   "Private/PhD_defense_presenter_notes.md": "🎓",
   "Private/培茵的叮囑.md": "💌",
   "Private/汽機車.md": "🛣",
-  "Private": "🚫"
+  "Private": "🚫",
+  "Private/資金運用最佳化.md": "🧮"
 }
