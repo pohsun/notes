@@ -38,7 +38,7 @@
             }
           },
           {
-            "id": "250d8ac2df21c777",
+            "id": "5798f4dcdac11c66",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -186,13 +186,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "250d8ac2df21c777",
+  "active": "5798f4dcdac11c66",
   "lastOpenFiles": [
+    "Private/房地產.md",
+    "Finance/財務報表基礎.md",
     "Finance/Stock.md",
     "Finance/Finance_index.md",
-    "Finance/財務報表基礎.md",
     "Private/資金運用最佳化.md",
-    "Private/房地產.md",
     "Private/萬萬稅.md",
     "CS/Python_index.md",
     "Private/汽機車.md",

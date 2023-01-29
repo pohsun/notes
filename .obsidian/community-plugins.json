@@ -12,7 +12,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-git",
   "obsidian-linter",
-  "code-block-copy",
   "dataview",
   "obsidian-charts",
   "obsidian-icon-folder",
@@ -20,5 +19,6 @@
   "various-complements",
   "execute-code",
   "embed-code-file",
-  "obsidian-emoji-toolbar"
+  "obsidian-emoji-toolbar",
+  "code-block-copy"
 ]
