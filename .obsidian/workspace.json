@@ -38,6 +38,19 @@
             }
           },
           {
+            "id": "6e5fcbd925869beb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Finance/財務報表基礎.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5798f4dcdac11c66",
             "type": "leaf",
             "state": {
@@ -186,15 +199,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5798f4dcdac11c66",
+  "active": "56d3e6d340256aa5",
   "lastOpenFiles": [
-    "Playground/Playground.md",
+    "Private/萬萬稅.md",
     "Private/房地產.md",
     "Finance/財務報表基礎.md",
+    "Playground/Playground.md",
     "Finance/Stock.md",
     "Finance/Finance_index.md",
     "Private/資金運用最佳化.md",
-    "Private/萬萬稅.md",
     "CS/Python_index.md",
     "Private/汽機車.md",
     "Private/Untitled.canvas"

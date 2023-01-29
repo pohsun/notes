@@ -37,8 +37,10 @@ class ThreadedServer(object):
         self._thread.start()
         return self._thread
 
-
-
+    def __getattr__(self, name):
+        if name not in self.__dict__:
+            return getattr(self._thread, name)
+        return super(ThreadedServer, )
 
 
 if __name__ == '__main__':
