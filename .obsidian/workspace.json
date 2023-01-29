@@ -49,9 +49,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a5c9fdf6200a0232",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Finance/Stock.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -186,17 +199,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "250d8ac2df21c777",
+  "active": "a5c9fdf6200a0232",
   "lastOpenFiles": [
-    "Finance/Finance_index.md",
+    "Finance/財務報表基礎.md",
     "Finance/Stock.md",
-    "Private/房地產.md",
-    "CS/Python_index.md",
+    "Finance/Finance_index.md",
     "Private/資金運用最佳化.md",
-    "Private/汽機車.md",
+    "Private/房地產.md",
     "Private/萬萬稅.md",
+    "CS/Python_index.md",
+    "Private/汽機車.md",
     "Private/Untitled.canvas",
-    "CS/DBMS/redis.md",
-    "Private/macbook pro 2018.md"
+    "CS/DBMS/redis.md"
   ]
 }
