@@ -2,7 +2,7 @@
   "server_url": "",
   "header": "",
   "debounce": 3,
-  "localJar": "/User/pchen/local/bin/plantuml-1.2023.0.jar",
+  "localJar": "",
   "javaPath": "java",
   "defaultProcessor": "png"
 }
