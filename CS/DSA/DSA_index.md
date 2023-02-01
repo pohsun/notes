@@ -32,6 +32,7 @@
 # Other topics
    
 [Machine learning algorithms](ML_index.md)
+[](https://en.algorithmica.org/hpc/)
 
 # References
 
@@ -46,6 +47,8 @@
     * [TheAlgorithms project](https://github.com/TheAlgorithms)
     * [Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
     * [1500 most common data structures and algorithms solutions ](https://kalkicode.com/data-structure/1500-most-common-data-structures-and-algorithms-solutions)
+    * [Algorithmica](https://en.algorithmica.org/)
+        * [Algorithms for Modern Hardware](https://en.algorithmica.org/hpc/)
     * [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
     * [Second Round: 資料結構與演算法目錄](http://alrightchiu.github.io/SecondRound/mu-lu-yan-suan-fa-yu-zi-liao-jie-gou.html)
     * [Data structures in practice](https://www.data-structures-in-practice.com/)
