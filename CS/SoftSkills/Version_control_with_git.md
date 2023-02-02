@@ -5,6 +5,7 @@ tags: #CS/SoftSkills
 * [Github official help](https://help.github.com/en)
 * [Pro Git](https://git-scm.com/book)
 * [Git魔法書](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_tw/)
+* https://www.gitmecmd.xyz/
 * [快速上手](https://zlargon.gitbooks.io/git-tutorial/content/)
 * [為你自己學git](https://gitbook.tw/)
     * [練習場](https://gitbook.tw/playground)

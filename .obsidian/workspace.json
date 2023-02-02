@@ -93,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "functional",
+                "query": "version control with",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -201,6 +202,8 @@
   },
   "active": "dfd4b9bc9202e3af",
   "lastOpenFiles": [
+    "CS/SoftSkills/Version_control_with_git.md",
+    "CS/DSA/DSA_index.md",
     "Finance/Stock.md",
     "Finance/財務報表分析基礎.md",
     "CS/Patterns/Architectures_index.md",
@@ -208,8 +211,6 @@
     "Private/萬萬稅.md",
     "Playground/Playground.md",
     "Finance/Finance_index.md",
-    "Private/資金運用最佳化.md",
-    "CS/Python_index.md",
-    "Private/汽機車.md"
+    "Private/資金運用最佳化.md"
   ]
 }
