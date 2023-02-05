@@ -194,6 +194,86 @@
           "lastUpdated": 1675090845563
         }
       }
+    },
+    "annual_interest_rate": {
+      "annual_interest_rate": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675568799558
+        }
+      }
+    },
+    "monthly_interest_rate": {
+      "monthly_interest_rate": {
+        "currentFile": {
+          "count": 7,
+          "lastUpdated": 1675570522733
+        }
+      }
+    },
+    "initial_loan": {
+      "initial_loan": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1675569559108
+        }
+      }
+    },
+    "calc_repayment": {
+      "calc_repayment": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675569326350
+        }
+      }
+    },
+    "n_month": {
+      "n_month": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675569516582
+        }
+      }
+    },
+    "calc_monthly_repayment": {
+      "calc_monthly_repayment": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675569756139
+        }
+      }
+    },
+    "n_months": {
+      "n_months": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675570508919
+        }
+      }
+    },
+    "payed_loan_at": {
+      "payed_loan_at": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675570132887
+        }
+      }
+    },
+    "left_loan_ratio_at": {
+      "left_loan_ratio_at": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1675571104422
+        }
+      }
+    },
+    "total_months": {
+      "total_months": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675570533106
+        }
+      }
     }
   }
 }
