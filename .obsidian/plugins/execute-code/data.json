@@ -24,7 +24,7 @@
   "pythonPath": "/Users/pchen/.pyenv/shims/python3",
   "pythonArgs": "",
   "pythonEmbedPlots": true,
-  "pythonInject": "import numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt",
+  "pythonInject": "",
   "shellPath": "bash",
   "shellArgs": "",
   "shellFileExtension": "sh",
