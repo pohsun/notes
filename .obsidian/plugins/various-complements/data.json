@@ -55,14 +55,6 @@
         }
       }
     },
-    "1500-most-common-data-structures-and-algorithms-solutions": {
-      "1500-most-common-data-structures-and-algorithms-solutions": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1672843295048
-        }
-      }
-    },
     "0711-0745": {
       "0711-0745": {
         "currentFile": {
@@ -272,6 +264,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1675570533106
+        }
+      }
+    },
+    "matplotlib": {
+      "matplotlib": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675571888622
         }
       }
     }
