@@ -198,16 +198,16 @@
     "monthly_interest_rate": {
       "monthly_interest_rate": {
         "currentFile": {
-          "count": 7,
-          "lastUpdated": 1675570522733
+          "count": 9,
+          "lastUpdated": 1675572846840
         }
       }
     },
     "initial_loan": {
       "initial_loan": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1675569559108
+          "count": 4,
+          "lastUpdated": 1675572945037
         }
       }
     },
@@ -262,8 +262,8 @@
     "total_months": {
       "total_months": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675570533106
+          "count": 4,
+          "lastUpdated": 1675572932814
         }
       }
     },
@@ -272,6 +272,22 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1675571888622
+        }
+      }
+    },
+    "default_monthly_interest_rate": {
+      "default_monthly_interest_rate": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1675572863318
+        }
+      }
+    },
+    "default_total_months": {
+      "default_total_months": {
+        "currentFile": {
+          "count": 5,
+          "lastUpdated": 1675572936185
         }
       }
     }
