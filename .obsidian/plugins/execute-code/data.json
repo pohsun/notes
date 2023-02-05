@@ -21,7 +21,7 @@
   "csPath": "dotnet-script",
   "csArgs": "",
   "csInject": "",
-  "pythonPath": "python3.8",
+  "pythonPath": "/Users/pchen/.pyenv/shims/python3",
   "pythonArgs": "",
   "pythonEmbedPlots": true,
   "pythonInject": "",
