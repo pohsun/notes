@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/房地產.md"
+                "file": "Private/資金運用最佳化.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/房地產.md",
+                "file": "Private/資金運用最佳化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Private/房地產.md",
+                "file": "Private/資金運用最佳化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,17 +200,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b4a80e93369c60d",
+  "active": "ec49d84957259939",
   "lastOpenFiles": [
-    "Finance/財務報表分析基礎.md",
+    "CS/Python_index.md",
     "Private/房地產.md",
+    "Finance/財務報表分析基礎.md",
     "Private/資金運用最佳化.md",
     "CS/DSA/DSA_index.md",
     "CS/SoftSkills/Version_control_with_git.md",
     "Finance/Stock.md",
     "CS/Patterns/Architectures_index.md",
     "Private/萬萬稅.md",
-    "Playground/Playground.md",
-    "Finance/Finance_index.md"
+    "Playground/Playground.md"
   ]
 }

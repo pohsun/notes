@@ -18,9 +18,10 @@
 * [PEP 517 – A build-system independent format for source trees](https://peps.python.org/pep-0517/)
 * [PEP 3143 – Standard daemon process library](https://peps.python.org/pep-3143/)
 * `GIL` and `Concurrency` issues
-    * [Concurrent Execution](https://docs.python.org/3/library/concurrency.html)
     * [Python的GIL是什么鬼，多线程性能究竟如何](http://cenalulu.github.io/python/gil-in-python/)
+    * [Concurrent Execution](https://docs.python.org/3/library/concurrency.html)
     * [PEP 492: Coroutines with async and await syntax](https://www.python.org/dev/peps/pep-0492/)
+        * [asyncio從不會到上路](https://myapollo.com.tw/zh-tw/begin-to-asyncio/)
 * [Python module and packaging](Python_Packaging.md)
 	* [PEP 420: Implicit Namespace Packages](https://www.python.org/dev/peps/pep-0420/)  - 實用的namespace打包方法
 	* [PEP518: `pyproject.toml`]()
