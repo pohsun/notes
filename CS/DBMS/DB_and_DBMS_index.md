@@ -2,9 +2,10 @@
  
 ## Reference
 
-* [數據庫系統概念(Database System Concepts)](https://www.db-book.com/)
+* [經典: 數據庫系統概念(Database System Concepts)](https://www.db-book.com/)
     * https://www.tenlong.com.tw/products/9787111681816
 * [DB-engines](https://db-engines.com/en/ranking)
+* [Database 一代代的演化和傳承 ~2023](https://tachunwu.github.io/posts/db-history/)
 
 ## SQL (Relational model)
 
@@ -13,8 +14,9 @@
 
 ## NoSQL (Not only SQL)
 
-* [MongoDB: The Developer Data Platform | MongoDB](https://www.mongodb.com/)
-* [redis](redis.md) 
+* Documents 系: [MongoDB: The Developer Data Platform | MongoDB](https://www.mongodb.com/)
+* Key-value pair 系: [redis](redis.md) 
+* Wide column 系: cassandra
 * [neo4j](https://neo4j.com/docs/) - A graph-based database
 
 ## Database design

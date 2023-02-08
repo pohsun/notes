@@ -62,9 +62,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "efa6869ad7cade08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/DBMS/DB_and_DBMS_index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "version control with",
+                "query": "db",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,8 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5,
-    "collapsed": true
+    "width": 211.5
   },
   "right": {
     "id": "f0e8884e467bd2c2",
@@ -132,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/資金運用最佳化.md"
+                "file": "CS/DBMS/DB_and_DBMS_index.md"
               }
             }
           },
@@ -153,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/資金運用最佳化.md",
+                "file": "CS/DBMS/DB_and_DBMS_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Private/資金運用最佳化.md",
+                "file": "CS/DBMS/DB_and_DBMS_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,12 +212,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec49d84957259939",
+  "active": "efa6869ad7cade08",
   "lastOpenFiles": [
+    "Private/資金運用最佳化.md",
     "CS/Python_index.md",
     "Private/房地產.md",
     "Finance/財務報表分析基礎.md",
-    "Private/資金運用最佳化.md",
     "CS/DSA/DSA_index.md",
     "CS/SoftSkills/Version_control_with_git.md",
     "Finance/Stock.md",
