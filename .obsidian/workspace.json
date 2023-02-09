@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/資金運用最佳化.md"
+                "file": "Private/房地產.md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/資金運用最佳化.md",
+                "file": "Private/房地產.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Private/資金運用最佳化.md",
+                "file": "Private/房地產.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,11 +199,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec49d84957259939",
+  "active": "5b4a80e93369c60d",
   "lastOpenFiles": [
+    "Private/資金運用最佳化.md",
     "Private/房地產.md",
     "Finance/財務報表分析基礎.md",
-    "Private/資金運用最佳化.md",
     "CS/DBMS/DB_and_DBMS_index.md",
     "CS/Python_index.md",
     "CS/DSA/DSA_index.md",
