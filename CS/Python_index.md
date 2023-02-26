@@ -25,6 +25,7 @@
 * [Python module and packaging](Python_Packaging.md)
 	* [PEP 420: Implicit Namespace Packages](https://www.python.org/dev/peps/pep-0420/)  - 實用的namespace打包方法
 	* [PEP518: `pyproject.toml`]()
+	* [利用 pkgutil & importlib 打造可擴充式模組](https://myapollo.com.tw/blog/python-pkgutil-importlib/)
 * [WTF Python - 一些鮮為人知的特性](https://github.com/satwikkansal/wtfpython)
 * 奇技
 	* [Make SUID function on scripts](https://stackoverflow.com/questions/5523279/semantics-of-suid-set-user-id) [一些中文解釋](https://blog.csdn.net/dmjz_lk/article/details/97259258)
