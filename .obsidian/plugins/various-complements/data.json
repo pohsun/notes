@@ -278,8 +278,8 @@
     "total_months": {
       "total_months": {
         "currentFile": {
-          "count": 4,
-          "lastUpdated": 1675572932814
+          "count": 5,
+          "lastUpdated": 1677485174091
         }
       }
     },
@@ -302,8 +302,8 @@
     "default_total_months": {
       "default_total_months": {
         "currentFile": {
-          "count": 7,
-          "lastUpdated": 1677387449423
+          "count": 9,
+          "lastUpdated": 1677485178850
         }
       }
     },
@@ -368,6 +368,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1677385593600
+        }
+      }
+    },
+    "loan_increase_rate": {
+      "loan_increase_rate": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677485137693
         }
       }
     }
