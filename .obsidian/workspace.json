@@ -30,7 +30,7 @@
               "type": "markdown",
               "state": {
                 "file": "Private/房地產.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
@@ -200,10 +200,10 @@
   },
   "active": "5b4a80e93369c60d",
   "lastOpenFiles": [
+    "Finance/財務報表分析基礎.md",
     "Private/資金運用最佳化.md",
     "Private/房地產.md",
     "CS/Python_index.md",
-    "Finance/財務報表分析基礎.md",
     "CS/DBMS/DB_and_DBMS_index.md",
     "CS/DSA/DSA_index.md",
     "CS/SoftSkills/Version_control_with_git.md",

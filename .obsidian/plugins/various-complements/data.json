@@ -214,8 +214,8 @@
     "monthly_interest_rate": {
       "monthly_interest_rate": {
         "currentFile": {
-          "count": 18,
-          "lastUpdated": 1675576062745
+          "count": 19,
+          "lastUpdated": 1677488906791
         }
       }
     },
@@ -254,8 +254,8 @@
     "n_months": {
       "n_months": {
         "currentFile": {
-          "count": 4,
-          "lastUpdated": 1675575896920
+          "count": 14,
+          "lastUpdated": 1677491977242
         }
       }
     },
@@ -278,8 +278,8 @@
     "total_months": {
       "total_months": {
         "currentFile": {
-          "count": 5,
-          "lastUpdated": 1677485174091
+          "count": 6,
+          "lastUpdated": 1677487674734
         }
       }
     },
@@ -302,8 +302,8 @@
     "default_total_months": {
       "default_total_months": {
         "currentFile": {
-          "count": 9,
-          "lastUpdated": 1677485178850
+          "count": 10,
+          "lastUpdated": 1677487681095
         }
       }
     },
@@ -342,16 +342,16 @@
     "r_stock_refund": {
       "r_stock_refund": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677318257666
+          "count": 4,
+          "lastUpdated": 1677489447379
         }
       }
     },
     "r_house_price": {
       "r_house_price": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677318427584
+          "count": 5,
+          "lastUpdated": 1677489518588
         }
       }
     },
@@ -376,6 +376,110 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1677485137693
+        }
+      }
+    },
+    "house_price": {
+      "house_price": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1677487546514
+        }
+      }
+    },
+    "r_house_rent": {
+      "r_house_rent": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1677491946794
+        }
+      }
+    },
+    "r_house_lifetime": {
+      "r_house_lifetime": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677487971501
+        }
+      }
+    },
+    "interest_rate": {
+      "interest_rate": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1677490635044
+        }
+      }
+    },
+    "house_age": {
+      "house_age": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1677489639642
+        }
+      }
+    },
+    "loan_interest_rate": {
+      "loan_interest_rate": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677487659425
+        }
+      }
+    },
+    "stock_refund_rate": {
+      "stock_refund_rate": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677488536099
+        }
+      }
+    },
+    "lru_cache": {
+      "lru_cache": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677488653556
+        }
+      }
+    },
+    "expenses": {
+      "expenses": {
+        "currentFile": {
+          "count": 5,
+          "lastUpdated": 1677491735073
+        }
+      }
+    },
+    "c_house_lifetime": {
+      "c_house_lifetime": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677489622366
+        }
+      }
+    },
+    "incomes": {
+      "incomes": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1677491732320
+        }
+      }
+    },
+    "profit_house": {
+      "profit_house": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677489937500
+        }
+      }
+    },
+    "profit_stock": {
+      "profit_stock": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677491903167
         }
       }
     }
