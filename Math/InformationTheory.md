@@ -3,7 +3,7 @@
 # Information Theory
 
 * Textbook: Elements of Information Theory 2nd Ed, by T. M. Cover, J. A. Thomas
-    * Check your ebook lib, there's also a solution manual.
+    * Check [your ebook lib](https://drive.google.com/drive/folders/1GHlxWdmw6oAYDPc8s8BV1tYGbVltihRs), there's also a solution manual.
 
 # Basics
 
