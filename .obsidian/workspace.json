@@ -142,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CS/DSA/DSA_index.md"
-              }
+              "state": {}
             }
           },
           {
@@ -164,7 +162,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/DSA/DSA_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +178,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/DSA/DSA_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,10 +209,10 @@
   },
   "active": "eac87dc30ac63003",
   "lastOpenFiles": [
-    "Private/資金運用最佳化.md",
-    "CS/DSA/DSA_index.md",
-    "CS/OS/Linux_index.md",
     "Private/房地產.md",
+    "CS/DSA/DSA_index.md",
+    "Private/資金運用最佳化.md",
+    "CS/OS/Linux_index.md",
     "Math/InformationTheory.md",
     "Finance/財務報表分析基礎.md",
     "CS/Python_index.md",
