@@ -20,7 +20,7 @@
    
 ### Tree
 
-[Linux 核心的紅黑樹 - HackMD](https://hackmd.io/@sysprog/linux-rbtree) 
+[Linux 核心的紅黑樹](https://hackmd.io/@sysprog/linux-rbtree) 
 
 ### Graph
    
@@ -34,7 +34,7 @@
 # Other topics
    
 [Machine learning algorithms](ML_index.md)
-[](https://en.algorithmica.org/hpc/)
+* [Algorithms for Modern Hardware/HPC](https://en.algorithmica.org/hpc/)
 
 # References
 
