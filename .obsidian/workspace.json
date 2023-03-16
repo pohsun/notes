@@ -30,7 +30,7 @@
               "type": "markdown",
               "state": {
                 "file": "Private/房地產.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
@@ -77,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Private/房地產.md"
+              }
             }
           },
           {
@@ -162,6 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Private/房地產.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Private/房地產.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,10 +211,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eac87dc30ac63003",
+  "active": "5b4a80e93369c60d",
   "lastOpenFiles": [
-    "Private/房地產.md",
     "CS/DSA/DSA_index.md",
+    "Private/房地產.md",
     "Private/資金運用最佳化.md",
     "CS/OS/Linux_index.md",
     "Math/InformationTheory.md",
