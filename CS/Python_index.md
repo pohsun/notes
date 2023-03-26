@@ -93,6 +93,8 @@
 
 ## Solution - Concurrency
 
+* A short(?) intro to the python async core implementations: [Build Your Own Async](https://www.youtube.com/watch?v=Y4Gt3Xjd7G8)
+
 Be careful about the definition of the jargons:
 * `concurrency`: Multiple tasks make progress **together** in a period of time. The tasks may(`parallelism`) or may not(`non-blocking`) run on multiple threads.
 * `parallelism`: Surely another thread is spawned to take care of a task.
