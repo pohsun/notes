@@ -1,6 +1,10 @@
 {
   "strategy": "english-only",
+  "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "prefix",
+  "fuzzyMatch": true,
+  "matchingWithoutEmoji": true,
+  "treatAccentDiacriticsAsAlphabeticCharacters": false,
   "maxNumberOfSuggestions": 5,
   "maxNumberOfWordsAsPhrase": 3,
   "minNumberOfCharactersTriggered": 0,
@@ -10,6 +14,11 @@
   "disableSuggestionsDuringImeOn": false,
   "insertAfterCompletion": true,
   "firstCharactersDisableSuggestions": ":/^",
+  "useCommonPrefixCompletionOfSuggestion": false,
+  "patternsToSuppressTrigger": [
+    "^~~~.*",
+    "^```.*"
+  ],
   "showMatchStrategy": false,
   "showComplementAutomatically": true,
   "showIndexingStatus": false,
@@ -38,6 +47,12 @@
   "enableInternalLinkComplement": false,
   "suggestInternalLinkWithAlias": false,
   "excludeInternalLinkPathPrefixPatterns": "",
+  "updateInternalLinksOnSave": true,
+  "insertAliasTransformedFromDisplayedInternalLink": {
+    "enabled": false,
+    "beforeRegExp": "",
+    "after": ""
+  },
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
@@ -45,6 +60,7 @@
     "maxDaysToKeepHistory": 30,
     "maxNumberOfHistoryToKeep": 0
   },
+  "disableOnMobile": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
     "25000": {
@@ -52,162 +68,6 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1677382788436
-        }
-      }
-    },
-    "9548304": {
-      "9548304": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675574723724
-        }
-      }
-    },
-    "Tensorflow2": {
-      "Tensorflow2": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1673162189460
-        }
-      }
-    },
-    "0711-0745": {
-      "0711-0745": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673023019887
-        }
-      }
-    },
-    "Embedding": {
-      "Embedding": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673076782190
-        }
-      }
-    },
-    "PyTorch": {
-      "PyTorch": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1673156566412
-        }
-      }
-    },
-    "ZeroMQ": {
-      "ZeroMQ": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1673162428124
-        },
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673162308394
-        }
-      }
-    },
-    "message-processing": {
-      "message-processing": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673163340046
-        }
-      }
-    },
-    "table": {
-      "table": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673167617934
-        }
-      }
-    },
-    "PullTest": {
-      "PullTest": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674437513305
-        }
-      }
-    },
-    "MongoDB": {
-      "MongoDB": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1674561829065
-        }
-      }
-    },
-    "graph-based": {
-      "graph-based": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1674705964279
-        }
-      }
-    },
-    "endditaa": {
-      "endditaa": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1674975525841
-        }
-      }
-    },
-    "Person1": {
-      "Person1": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1674976227184
-        }
-      }
-    },
-    "startuml": {
-      "startuml": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1674976692891
-        }
-      }
-    },
-    "財務報表基礎": {
-      "財務報表基礎": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1674993890565
-        }
-      }
-    },
-    "Visualizing": {
-      "Visualizing": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1675090705334
-        }
-      }
-    },
-    "Visualization": {
-      "Visualization": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1675090854963
-        }
-      }
-    },
-    "Commonly": {
-      "Commonly": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675090845563
-        }
-      }
-    },
-    "annual_interest_rate": {
-      "annual_interest_rate": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675568799558
         }
       }
     },
@@ -219,59 +79,11 @@
         }
       }
     },
-    "initial_loan": {
-      "initial_loan": {
-        "currentFile": {
-          "count": 10,
-          "lastUpdated": 1675576805039
-        }
-      }
-    },
-    "calc_repayment": {
-      "calc_repayment": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675569326350
-        }
-      }
-    },
-    "n_month": {
-      "n_month": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675569516582
-        }
-      }
-    },
-    "calc_monthly_repayment": {
-      "calc_monthly_repayment": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1675575844210
-        }
-      }
-    },
     "n_months": {
       "n_months": {
         "currentFile": {
           "count": 16,
           "lastUpdated": 1677505530235
-        }
-      }
-    },
-    "payed_loan_at": {
-      "payed_loan_at": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675570132887
-        }
-      }
-    },
-    "left_loan_ratio_at": {
-      "left_loan_ratio_at": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1675571104422
         }
       }
     },
@@ -283,59 +95,11 @@
         }
       }
     },
-    "matplotlib": {
-      "matplotlib": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1675571888622
-        }
-      }
-    },
-    "default_monthly_interest_rate": {
-      "default_monthly_interest_rate": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1675575453117
-        }
-      }
-    },
     "default_total_months": {
       "default_total_months": {
         "currentFile": {
           "count": 10,
           "lastUpdated": 1677487681095
-        }
-      }
-    },
-    "left_loan_proportion_at": {
-      "left_loan_proportion_at": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1675575892516
-        }
-      }
-    },
-    "1947268881436": {
-      "1947268881436": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675574564257
-        }
-      }
-    },
-    "default_initial_loan": {
-      "default_initial_loan": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675575505520
-        }
-      }
-    },
-    "calc_total_cost": {
-      "calc_total_cost": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675575949770
         }
       }
     },
