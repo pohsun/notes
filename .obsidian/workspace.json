@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Finance/財務報表分析基礎.md",
+                "file": "CS/Python_index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,9 +62,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f98fbe97e2c38523",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -93,7 +103,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "obsi",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +120,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Finance/財務報表分析基礎.md"
+                "file": "CS/Python_index.md"
               }
             }
           },
@@ -151,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Finance/財務報表分析基礎.md",
+                "file": "CS/Python_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Finance/財務報表分析基礎.md",
+                "file": "CS/Python_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,16 +209,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5798f4dcdac11c66",
+  "active": "f98fbe97e2c38523",
   "lastOpenFiles": [
+    "Private/房地產.md",
+    "Finance/財務報表分析基礎.md",
     "Private/資金運用最佳化.md",
     "Private/汽車.md",
     "Private/培茵的叮囑.md",
-    "Private/房地產.md",
     "CS/DSA/DSA_index.md",
     "CS/OS/Linux_index.md",
     "Math/InformationTheory.md",
-    "Finance/財務報表分析基礎.md",
     "CS/Python_index.md",
     "CS/DBMS/DB_and_DBMS_index.md"
   ]
