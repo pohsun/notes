@@ -62,19 +62,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f98fbe97e2c38523",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.16"
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -103,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obsi",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -209,7 +198,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f98fbe97e2c38523",
+  "active": "56d3e6d340256aa5",
   "lastOpenFiles": [
     "Private/房地產.md",
     "Finance/財務報表分析基礎.md",
