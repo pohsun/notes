@@ -8,6 +8,16 @@
         "type": "tabs",
         "children": [
           {
+            "id": "7cef03a402524e6b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
             "id": "1aedc320567e0acb",
             "type": "leaf",
             "pinned": true,
@@ -88,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 217.5
   },
   "right": {
     "id": "f0e8884e467bd2c2",
@@ -104,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/房地產.md"
+                "file": "CS/Python_index.md"
               }
             }
           },
@@ -125,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/房地產.md",
+                "file": "CS/Python_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Private/房地產.md",
+                "file": "CS/Python_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 284.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,13 +182,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b4a80e93369c60d",
+  "active": "1aedc320567e0acb",
   "lastOpenFiles": [
+    "Untitled 1.canvas",
     "Untitled.canvas",
+    "Private/房地產.md",
+    "media/15799246779952/jupyterCheatsheet.pdf.md",
+    "media/15799246779952",
+    "media",
     "CS/Python_index.md",
     "CS/DSA/ML/Diffusion_model.md",
     "CS/DSA/ML/PyTorch.md",
-    "Private/房地產.md",
     "Math/InformationTheory.md",
     "CS/DSA/ML/Losses_Regularizers_and_Optimizers.md",
     "CS/DSA/ML/ComputerVision.md",
