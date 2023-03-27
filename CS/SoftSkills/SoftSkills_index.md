@@ -8,7 +8,8 @@
 * Test driven development(TDD)
     * Unit test, integration test, end-to-end test
     * Coverage test
+* Performance profiling
 * Performance tuning
 
 ## Programming practice
-
+* 計算機概論(?) [CS:APP 3e](CSAPP3e/Index.md)
