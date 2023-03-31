@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/SoftSkills/SoftSkills_index.md",
+                "file": "Finance/Stock.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/SoftSkills/SoftSkills_index.md"
+                "file": "Finance/Stock.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/SoftSkills/SoftSkills_index.md",
+                "file": "Finance/Stock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/SoftSkills/SoftSkills_index.md",
+                "file": "Finance/Stock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,6 +197,13 @@
   },
   "active": "6a83210322e2029c",
   "lastOpenFiles": [
+    "Math/InformationTheory.md",
+    "Private/培茵的叮囑.md",
+    "Private/macbook pro 2018.md",
+    "Private/PhD_defense_presenter_notes.md",
+    "Private/萬萬稅.md",
+    "Private/資金運用最佳化.md",
+    "CS/SoftSkills/SoftSkills_index.md",
     "CS/SoftSkills/CSAPP3e/Index.md",
     "CS/Python_index.md",
     "CS/SoftSkills/CSAPP3e",
@@ -208,16 +215,13 @@
     "media",
     "CS/DSA/ML/Diffusion_model.md",
     "CS/DSA/ML/PyTorch.md",
-    "Math/InformationTheory.md",
     "CS/DSA/ML/Losses_Regularizers_and_Optimizers.md",
     "CS/DSA/ML/ComputerVision.md",
     "CS/DSA/ML/Data_preprocessing.md",
     "CS/DBMS/DB_and_DBMS_index.md",
     "CS/DSA/DSA_index.md",
     "Finance/財務報表分析基礎.md",
-    "Private/資金運用最佳化.md",
     "Private/汽車.md",
-    "Private/培茵的叮囑.md",
     "CS/OS/Linux_index.md"
   ]
 }

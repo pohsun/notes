@@ -6,3 +6,4 @@
 [槓桿型 ETF 適不適合長期持有？回測 TQQQ | havocFuture](https://havocfuture.tw/blog/backtesting-tqqq)
 [資產為什麼要配置債券？回測S&P500加20年期以上美國公債ETF | havocFuture](https://havocfuture.tw/blog/backtesting-spy-tlt) 
 [財務報表分析基礎](財務報表分析基礎.md)
+[Re: [請益] 幫小孩長期投資要買大盤還是正2？ - 看板Stock - PTT網頁版 (pttweb.cc)](https://www.pttweb.cc/bbs/Stock/M.1680245227.A.032)
