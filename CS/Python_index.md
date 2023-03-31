@@ -3,6 +3,11 @@
 ---
 #index #CS/Lang/Python 
 
+```dataview
+LIST
+FROM #CS/Lang/Python
+```
+
 打基礎王者課程
 * [Python 3: Deep Dive (Part 1 - Functional)](https://www.udemy.com/course/python-3-deep-dive-part-1/)
 * [Python 3: Deep Dive (Part 2 - Iteration, Generators)](https://www.udemy.com/course/python-3-deep-dive-part-2/)
