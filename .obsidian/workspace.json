@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Finance/Stock.md",
+                "file": "CS/SoftSkills/Refactoring.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Finance/Stock.md"
+                "file": "CS/SoftSkills/Refactoring.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Finance/Stock.md",
+                "file": "CS/SoftSkills/Refactoring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Finance/Stock.md",
+                "file": "CS/SoftSkills/Refactoring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,6 +197,7 @@
   },
   "active": "6a83210322e2029c",
   "lastOpenFiles": [
+    "Finance/Stock.md",
     "Math/InformationTheory.md",
     "Private/培茵的叮囑.md",
     "Private/macbook pro 2018.md",
