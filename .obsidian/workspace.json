@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/JupyterLab_and_Colab.md"
+                "file": "CS/Python_index.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/JupyterLab_and_Colab.md",
+                "file": "CS/Python_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/JupyterLab_and_Colab.md",
+                "file": "CS/Python_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "e75706f0fbb8a052",
+  "active": "1aedc320567e0acb",
   "lastOpenFiles": [
     "CS/JupyterLab_and_Colab.md",
     "media/15799246779952/jupyterCheatsheet.pdf.md",
