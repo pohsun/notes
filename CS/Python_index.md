@@ -4,11 +4,12 @@
 #index #CS/Lang/Python 
 
 ```dataview
-LIST
+TABLE file.tags AS "Tags", file.mday AS "Last Modified"
 FROM #CS/Lang/Python
 ```
 
-打基礎王者課程
+# Basics
+
 * [Python 3: Deep Dive (Part 1 - Functional)](https://www.udemy.com/course/python-3-deep-dive-part-1/)
 * [Python 3: Deep Dive (Part 2 - Iteration, Generators)](https://www.udemy.com/course/python-3-deep-dive-part-2/)
 * [Python 3: Deep Dive (Part 3 - Hash Maps)](https://www.udemy.com/course/python-3-deep-dive-part-3/)
@@ -36,6 +37,7 @@ FROM #CS/Lang/Python
 	* [Make SUID function on scripts](https://stackoverflow.com/questions/5523279/semantics-of-suid-set-user-id) [一些中文解釋](https://blog.csdn.net/dmjz_lk/article/details/97259258)
 	* [Redirecting all kinds of stdout in Python](https://eli.thegreenplace.net/2015/redirecting-all-kinds-of-stdout-in-python/)
         * [Python bytecode explained](https://github.com/MoserMichael/pyasmtool/blob/master/bytecode_disasm.md)
+
 # Useful Modules (Except for DevTools)
 
 * Data analysis

@@ -36,6 +36,19 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "c7ba4675171cc93d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misc/Obsidian dataview.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -155,7 +168,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,18 +186,19 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "1aedc320567e0acb",
+  "active": "b6f8207e80c35a1f",
   "lastOpenFiles": [
+    "Misc/Obsidian dataview.md",
+    "CS/Python_index.md",
+    "CS/WebDev/WebScraper.md",
     "CS/JupyterLab_and_Colab.md",
     "media/15799246779952/jupyterCheatsheet.pdf.md",
     "media/15799246779952",
     "media",
-    "CS/Python_index.md",
     "CS/Patterns/Architectures_index.md",
     "Private/房地產.md",
     "Untitled.canvas",
     "Physics/PullTest.md",
-    "Misc/Obsidian dataview.md",
     "CS/SoftSkills/Refactoring.md",
     "CS/SoftSkills/[How.md",
     "Finance/Stock.md",
