@@ -5,8 +5,7 @@
     * [IPython Cookbook](https://ipython-books.github.io/)
 * [Jupyter notebook doc](https://jupyter.readthedocs.io/en/latest/index.html)
     * [Jupyter notebook 進階教程](https://zhuanlan.zhihu.com/p/76541978)
-* [JupyterLab official doc](https://jupyterlab.readthedocs.io/en/stable/index.html)
-    * [jupyterCheatsheet](media/15799246779952/jupyterCheatsheet.pdf)
+* [JupyterLab official doc](https://jupyterlab.readthedocs.io/en/stable/index.html)  
     * [跟著官方手冊開發 JupyterLab Extension](https://medium.com/@qrtt1/%E8%B7%9F%E8%91%97%E5%AE%98%E6%96%B9%E6%89%8B%E5%86%8A%E9%96%8B%E7%99%BC-jupyterlab-extension-677ab218ea2f)
 
 ## Tips
