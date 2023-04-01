@@ -18,7 +18,9 @@
   "various-complements",
   "execute-code",
   "embed-code-file",
-  "obsidian-emoji-toolbar",
   "code-block-copy",
-  "oz-image-plugin"
+  "oz-image-plugin",
+  "obsidian-hover-editor",
+  "dbfolder",
+  "buttons"
 ]
