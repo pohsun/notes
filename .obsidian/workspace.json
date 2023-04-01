@@ -38,19 +38,20 @@
             }
           },
           {
-            "id": "c7ba4675171cc93d",
+            "id": "f330ea40c37a087e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/Obsidian dataview.md",
+                "file": "CS/Patterns/Architectures_index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -79,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#CS/Lang/Julia",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +97,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Python_index.md"
+                "file": "CS/Patterns/Architectures_index.md"
               }
             }
           },
@@ -126,7 +128,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
             }
@@ -137,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Python_index.md",
+                "file": "CS/Patterns/Architectures_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Python_index.md",
+                "file": "CS/Patterns/Architectures_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,10 +188,11 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "b6f8207e80c35a1f",
+  "active": "08ed22ced2ad7aaf",
   "lastOpenFiles": [
-    "Misc/Obsidian dataview.md",
+    "Untitled.canvas",
     "CS/Python_index.md",
+    "Misc/Obsidian dataview.md",
     "CS/WebDev/WebScraper.md",
     "CS/JupyterLab_and_Colab.md",
     "media/15799246779952/jupyterCheatsheet.pdf.md",
@@ -197,7 +200,6 @@
     "media",
     "CS/Patterns/Architectures_index.md",
     "Private/房地產.md",
-    "Untitled.canvas",
     "Physics/PullTest.md",
     "CS/SoftSkills/Refactoring.md",
     "CS/SoftSkills/[How.md",
@@ -217,7 +219,6 @@
     "CS/DSA/ML/Losses_Regularizers_and_Optimizers.md",
     "CS/DSA/ML/ComputerVision.md",
     "CS/DSA/ML/Data_preprocessing.md",
-    "CS/DBMS/DB_and_DBMS_index.md",
-    "CS/DSA/DSA_index.md"
+    "CS/DBMS/DB_and_DBMS_index.md"
   ]
 }

@@ -1,7 +1,7 @@
 ---
 
 ---
-#index #CS/Lang/Python 
+#ZZZ/index #CS/Lang/Python 
 
 ```dataview
 TABLE file.tags AS "Tags", file.mday AS "Last Modified"

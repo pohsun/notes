@@ -1,4 +1,4 @@
-#index #CS/Patterns
+#ZZZ/index #CS/Patterns
 
 # Design Patterns
 ----

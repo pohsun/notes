@@ -1,4 +1,4 @@
-#index #CS/Lang/Julia
+#ZZZ/index #CS/Lang/Julia
 
 * [Syntax cheat sheet](https://juliadocs.github.io/Julia-Cheat-Sheet/)
 * [Official Manual](https://docs.julialang.org/en/v1/)
