@@ -1,0 +1,4 @@
+#CS/CoreSkills 
+
+## SOLID
+* 

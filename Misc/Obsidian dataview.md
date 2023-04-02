@@ -3,7 +3,7 @@
 Here is the simplest way to collect a list from tags
 ```dataview
 LIST
-FROM #index
+FROM #ZZZ/index
 SORT file.mtime DESC
 ```
 

@@ -1,4 +1,4 @@
-tags: #CS/SoftSkills 
+tags: #CS/CoreSkills 
 
 # Reference 
 
