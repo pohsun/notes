@@ -38,25 +38,12 @@
             }
           },
           {
-            "id": "e5d5b11691c42486",
+            "id": "fd83c14e7dfad95f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/CoreSkills/CSAPP3e/Index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a53f72a7a02b386",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/DBMS/DB_and_DBMS_index.md",
+                "file": "CS/Python_Packaging.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -64,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,14 +88,6 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "ff881ecb26abad58",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
         ]
       }
@@ -130,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/DBMS/DB_and_DBMS_index.md"
+                "file": "CS/Python_Packaging.md"
               }
             }
           },
@@ -151,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/DBMS/DB_and_DBMS_index.md",
+                "file": "CS/Python_Packaging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,18 +147,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/DBMS/DB_and_DBMS_index.md",
+                "file": "CS/Python_Packaging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "4e2675ea53e8987e",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           }
         ]
@@ -196,11 +167,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "dbfolder:Create a new database table": false,
       "command-palette:Open command palette": false,
-      "templates:Insert template": false
+      "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "e75706f0fbb8a052",
+  "active": "fd83c14e7dfad95f",
   "lastOpenFiles": [
+    "Private/資金運用最佳化.md",
+    "Private/金融服務.md",
+    "Private/房地產.md",
+    "Finance/財務報表分析基礎.md",
+    "Finance/Stock.md",
+    "Finance/Finance_index.md",
+    "CS/DBMS/DB_and_DBMS_index.md",
     "CS/CoreSkills/SICP/Index.md",
     "CS/CoreSkills/CSAPP3e/Index.md",
     "CS/CoreSkills/CoreSkills_index.md",
@@ -215,22 +193,15 @@
     "Misc/Obsidian dataview.md",
     "media/15799246779952/jupyterCheatsheet.pdf.md",
     "CS/().md",
-    "Private/房地產.md",
     "CS/CS ZZZ Performance.md",
     "CS/Python_index.md",
     "CS/Python_Packaging.md",
     "CS/JupyterLab_and_Colab.md",
     "CS/DSA/ML/Tensorflow2.md",
     "CS/WebDev/Django.md",
-    "CS/WebDev/WebScraper.md",
     "Untitled.canvas",
     "media/15799246779952",
     "media",
-    "Physics/PullTest.md",
-    "CS/CoreSkills/Refactoring.md",
-    "Finance/Stock.md",
-    "Math/InformationTheory.md",
-    "Private/培茵的叮囑.md",
     "CS/CoreSkills/CSAPP3e",
     "Untitled 1.canvas"
   ]
