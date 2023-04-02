@@ -22,7 +22,12 @@
 ## Database design
 
 [wiki: Database design](https://en.wikipedia.org/wiki/Database_design)
-[Database schema templates from real world](https://drawsql.app/templates)
 
-## [Database Normalization](https://en.wikipedia.org/wiki/Database_normalization)
+### Schema
+
+[Database schema templates from real world](https://drawsql.app/templates)
+[DBML - Database Markup Language | DBML](https://www.dbml.org/home/)
+
+### Database Normalization
+* [wiki: Database normalization](https://en.wikipedia.org/wiki/Database_normalization)
 * [RulesOfDataNormalization](http://cc.cust.edu.tw/~ccchen/doc/db_04.pdf)
