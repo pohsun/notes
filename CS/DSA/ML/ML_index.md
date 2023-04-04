@@ -58,9 +58,9 @@ Here is a list of some special topics for AI/ML
 * [InformationTheory](/Math/InformationTheory.md)
 * [Hung-yi Lee (李宏毅) (ntu.edu.tw)](https://speech.ee.ntu.edu.tw/~hylee/index.php))
         * [某人的2020 ML上課筆記](https://hackmd.io/@shaoeChen/B1CoXxvmm/)
+        * [逐字稿](https://miblue119.github.io/hungyi_lectures/index.html)
     * [Next step of ML](https://www.youtube.com/watch?v=XnyM3-xtxHs&list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4)
-    * [Deep learning theory](http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html)
-    * [NLP](http://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html)
+    * [MLDS 2018 Spring (ntu.edu.tw)](https://speech.ee.ntu.edu.tw/~hylee/mlds/2018-spring.php)
 * 吳恩達
     * [ML筆記 in Python](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)
     * [DL筆記 in Python](https://github.com/fengdu78/deeplearning_ai_books)
