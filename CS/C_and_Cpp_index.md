@@ -11,7 +11,7 @@
     * [CnTransGroup/EffectiveModernCppChinese: 《Effective Modern C++》- 完成翻译 (github.com)](https://github.com/CnTransGroup/EffectiveModernCppChinese)
 * jserv講座
     * [「你所不知道的 C 語言」系列講座 - HackMD](https://hackmd.io/@sysprog/c-programming)
-    * [並行程式設計](https://hackmd.io/@sysprog/concurrency)
+    * [並行程式設計 in C](https://hackmd.io/@sysprog/concurrency)
 
 ## Table of Cpp-tagged notes
 ```dataview
