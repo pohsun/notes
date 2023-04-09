@@ -38,25 +38,12 @@
             }
           },
           {
-            "id": "fac943ce1cc701d3",
+            "id": "b2ab26acb0dde0da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/Obsidian dataview.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7811b382a53d1a26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc/Obsidian dataview.md",
+                "file": "CS/Cpp_index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -93,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CS/CoreSkills",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/Obsidian dataview.md"
+                "file": "CS/Cpp_index.md"
               }
             }
           },
@@ -143,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misc/Obsidian dataview.md",
+                "file": "CS/Cpp_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Misc/Obsidian dataview.md",
+                "file": "CS/Cpp_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,13 +170,14 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "fac943ce1cc701d3",
+  "active": "b2ab26acb0dde0da",
   "lastOpenFiles": [
+    "CS/Cpp_index.md",
+    "Misc/Obsidian dataview.md",
+    "Private/房地產.md",
     "CS/OS/Linux_index.md",
     "CS/Patterns/DesignPatterns_index.md",
     "CS/Patterns/Functional_Programming.md",
-    "Misc/Obsidian dataview.md",
-    "Private/房地產.md",
     "CS/Python_index.md",
     "CS/DSA/ML/ML_index.md",
     "CS/Python_Packaging.md",
@@ -211,7 +199,6 @@
     "media/15799246779952/jupyterCheatsheet.pdf.md",
     "CS/().md",
     "CS/CS ZZZ Performance.md",
-    "CS/JupyterLab_and_Colab.md",
     "Untitled.canvas",
     "media/15799246779952",
     "media",
