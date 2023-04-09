@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Cpp_index.md",
+                "file": "CS/C_and_Cpp_index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Cpp_index.md"
+                "file": "CS/C_and_Cpp_index.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Cpp_index.md",
+                "file": "CS/C_and_Cpp_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Cpp_index.md",
+                "file": "CS/C_and_Cpp_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
   },
   "active": "b2ab26acb0dde0da",
   "lastOpenFiles": [
-    "CS/Cpp_index.md",
+    "CS/C_and_Cpp_index.md",
     "Misc/Obsidian dataview.md",
     "Private/房地產.md",
     "CS/OS/Linux_index.md",
