@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/OS/Linux_index.md"
+                "file": "Private/房地產.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/OS/Linux_index.md",
+                "file": "Private/房地產.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/Linux_index.md",
+                "file": "Private/房地產.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,12 +170,12 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "b2ab26acb0dde0da",
+  "active": "5b4a80e93369c60d",
   "lastOpenFiles": [
+    "CS/OS/Linux_index.md",
+    "Private/房地產.md",
     "CS/C_and_Cpp_index.md",
     "Misc/Obsidian dataview.md",
-    "Private/房地產.md",
-    "CS/OS/Linux_index.md",
     "CS/Patterns/DesignPatterns_index.md",
     "CS/Patterns/Functional_Programming.md",
     "CS/Python_index.md",
