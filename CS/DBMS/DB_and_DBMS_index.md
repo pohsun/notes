@@ -6,6 +6,7 @@
     * https://www.tenlong.com.tw/products/9787111681816
 * [DB-engines](https://db-engines.com/en/ranking)
 * [Database 一代代的演化和傳承 ~2023](https://tachunwu.github.io/posts/db-history/)
+* [How Does a Database Work? | Let’s Build a Simple Database (cstack.github.io)](https://cstack.github.io/db_tutorial/)
 
 ## SQL (Relational model)
 
