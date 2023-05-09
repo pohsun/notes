@@ -93,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "db",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,8 +102,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,7 +184,7 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "5b4a80e93369c60d",
+  "active": "56d3e6d340256aa5",
   "lastOpenFiles": [
     "CS/Patterns/Architectures_index.md",
     "CS/DBMS/DB_and_DBMS_index.md",
