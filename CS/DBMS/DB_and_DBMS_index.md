@@ -17,7 +17,7 @@
 
 * Documents 系: [MongoDB: The Developer Data Platform | MongoDB](https://www.mongodb.com/)
 * Key-value pair 系: [redis](redis.md) 
-* Wide column 系: cassandra
+* Wide column 系: `cassandra`
 * [neo4j](https://neo4j.com/docs/) - A graph-based database
 
 ## Database design
