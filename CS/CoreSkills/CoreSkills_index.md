@@ -5,6 +5,7 @@
 ## Project management
 
 * [Refactoring](Refactoring.md)
+    * [Tennis Kata for refactoring](https://www.youtube.com/watch?v=d70T_lqxBmY)
 * [Version control with git](Version_control_with_git.md)
 * Test driven development(TDD)
     * Unit test, integration test, end-to-end test
@@ -16,4 +17,4 @@
 ## Programming practice
 
 * 計算機概論(?) [CS:APP 3e](CSAPP3e/Index.md)
-    * 計算機程序的構造和解釋: SICP
+    * 計算機程序的構造和解釋: [SICP](SICP/Index.md)

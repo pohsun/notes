@@ -188,16 +188,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "command-palette:Open command palette": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
-      "obsidian-map-view:Open map view": false,
-      "dbfolder:Create a new database table": false
+      "dbfolder:Create a new database table": false,
+      "obsidian-map-view:Open map view": false
     }
   },
   "active": "95a6af00ab30a356",
   "lastOpenFiles": [
-    "CS/DSA/DSA_index.md",
-    "CS/CoreSkills/CoreSkills_index.md",
-    "CS/CoreSkills/Refactoring.md",
     "CS/CoreSkills/SICP/Index.md",
+    "CS/CoreSkills/CoreSkills_index.md",
+    "CS/DSA/DSA_index.md",
+    "CS/CoreSkills/Refactoring.md",
     "CS/CoreSkills/CSAPP3e/Index.md",
     "Private/房地產.md",
     "CS/Python_index.md",
