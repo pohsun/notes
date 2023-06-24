@@ -194,8 +194,9 @@
   },
   "active": "95a6af00ab30a356",
   "lastOpenFiles": [
-    "CS/CoreSkills/SICP/Index.md",
+    "CS/Patterns/Architectures_index.md",
     "CS/CoreSkills/CoreSkills_index.md",
+    "CS/CoreSkills/SICP/Index.md",
     "CS/DSA/DSA_index.md",
     "CS/CoreSkills/Refactoring.md",
     "CS/CoreSkills/CSAPP3e/Index.md",
@@ -206,7 +207,6 @@
     "CS/DBMS/sqlite3.md",
     "CS/C_and_Cpp_index.md",
     "Finance/Stock.md",
-    "CS/Patterns/Architectures_index.md",
     "Private/資金運用最佳化.md",
     "Private/汽車.md",
     "CS/OS/Linux_index.md",

@@ -5,9 +5,10 @@
 ## Project management
 
 * [Refactoring](Refactoring.md)
-    * [Tennis Kata for refactoring](https://www.youtube.com/watch?v=d70T_lqxBmY)
+    * [Refactoring Tennis Kata](https://www.youtube.com/watch?v=d70T_lqxBmY)
 * [Version control with git](Version_control_with_git.md)
-* Test driven development(TDD)
+* Test driven development (TDD)
+    * [TDD Tennis Kata](https://www.youtube.com/watch?v=kSSdwfIH2kg)
     * Unit test, integration test, end-to-end test
     * Coverage test
 * #CS/ZZZ/Performance 
