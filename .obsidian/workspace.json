@@ -51,7 +51,7 @@
             }
           },
           {
-            "id": "a53f4d5dcb80a0d3",
+            "id": "95a6af00ab30a356",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -192,10 +192,13 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "a53f4d5dcb80a0d3",
+  "active": "95a6af00ab30a356",
   "lastOpenFiles": [
     "CS/DSA/DSA_index.md",
     "CS/CoreSkills/CoreSkills_index.md",
+    "CS/CoreSkills/Refactoring.md",
+    "CS/CoreSkills/SICP/Index.md",
+    "CS/CoreSkills/CSAPP3e/Index.md",
     "Private/房地產.md",
     "CS/Python_index.md",
     "CS/DBMS/DB_and_DBMS_index.md",
@@ -215,12 +218,9 @@
     "Private/金融服務.md",
     "Finance/財務報表分析基礎.md",
     "Finance/Finance_index.md",
-    "CS/CoreSkills/SICP/Index.md",
-    "CS/CoreSkills/CSAPP3e/Index.md",
     "CS/CoreSkills/SICP",
     "CS/SoftSkills/[How.md",
     "CS/Patterns/ZeroMQ.md",
-    "CS/Patterns/UnifiedModelingLanguage.md",
     "Untitled.canvas",
     "media/15799246779952",
     "media",
