@@ -4,6 +4,7 @@
 
 Reference:
 * [The UML language](https://www.uml-diagrams.org)
+    * [What is a proper diagram to describe software architecture?](https://softwareengineering.stackexchange.com/questions/361371/what-is-a-proper-diagram-to-describe-software-architecture)
 * [PlantUML](http://plantuml.com/zh/)
 * [Tutorialspoint](https://www.tutorialspoint.com/uml/uml_overview.htm)
 * [看懂UML建模語言](https://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html)
@@ -11,11 +12,8 @@ Reference:
 UML, **Unified Modeling Language**, is a standard language for specifying, visualizing, constructing, and documenting the artifacts of software systems.
 
 * UML is different from the other common programming languages such as C++, Java, COBOL, etc.
-
 * UML is a pictorial language used to make software blueprints.
-
 * UML can be described as a general purpose visual modeling language to visualize, specify, construct, and document software system.
-
 * Although UML is generally used to model software systems, it is not limited within this boundary. It is also used to model non-software systems as well. For example, the process flow in a manufacturing unit, etc.
 
 ## The object-oriented world
@@ -96,11 +94,11 @@ package "UML Diagrams" as pkg_root {
     package "Behavioral" as pkg_behavioral {
         class "Activity, 活動圖" as cls_activity
         class "Use case, 用例圖 " as cls_usecase
-        class "State Machine" as cls_stateMachine
+        class "State Machine, 狀態圖" as cls_stateMachine
         package "Interaction" as pkg_interaction {
             class "Sequence, 循序圖" as cls_sequence
             class "Timing" as cls_timing
-            class "Communication" as cls_communication
+            class "Communication, 溝通圖" as cls_communication
             class "Interaction overview" as cls_interactionOverview
         }
     }
