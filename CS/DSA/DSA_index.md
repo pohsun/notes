@@ -1,6 +1,6 @@
 # INDEX: Data structure and Algorithm
 
-[toc]
+[TOC]
 
 ----
   
