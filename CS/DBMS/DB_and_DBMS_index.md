@@ -15,10 +15,10 @@
 
 ## NoSQL (Not only SQL)
 
-* Documents 系: [MongoDB: The Developer Data Platform | MongoDB](https://www.mongodb.com/)
+* Documents 系: [MongoDB](MongoDB.md)
 * Key-value pair 系: [redis](redis.md) 
 * Wide column 系: `cassandra`
-* [neo4j](https://neo4j.com/docs/) - A graph-based database
+* Graph 系: [neo4j](https://neo4j.com/docs/)
 
 ## Database design
 
@@ -26,9 +26,20 @@
 
 ### Schema
 
-[Database schema templates from real world](https://drawsql.app/templates)
-[DBML - Database Markup Language | DBML](https://www.dbml.org/home/)
+* [Database schema templates from real world](https://drawsql.app/templates)
+* [DBML - Database Markup Language | DBML](https://www.dbml.org/home/)
+
+#### Version Control
+
 
 ### Database Normalization
+
 * [wiki: Database normalization](https://en.wikipedia.org/wiki/Database_normalization)
 * [RulesOfDataNormalization](http://cc.cust.edu.tw/~ccchen/doc/db_04.pdf)
+
+### Object Relational Mapping (ORM)
+
+* Pros
+    * SQL manipulation is abstract and hidden.  
+* Cons
+    * Object-oriented design could limit the design of application.

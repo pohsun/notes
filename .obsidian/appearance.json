@@ -5,5 +5,7 @@
   "showViewHeader": true,
   "nativeMenus": true,
   "translucency": false,
-  "baseFontSize": 15
+  "baseFontSize": 15,
+  "textFontFamily": "Menlo for Powerline,Microsoft JhengHei",
+  "monospaceFontFamily": "Menlo for Powerline"
 }
