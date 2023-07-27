@@ -62,19 +62,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8c9c179976da9644",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Lang/Python/Python_poetry.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -208,6 +195,7 @@
   "active": "5b4a80e93369c60d",
   "lastOpenFiles": [
     "CS/Lang/Python/Python_poetry.md",
+    "Private/房地產.md",
     "CS/DBMS/MongoDB.md",
     "CS/Lang/Python/Python_Packaging.md",
     "CS/Lang/Python/Python_index.md",
@@ -217,7 +205,6 @@
     "CS/DBMS/sqlite3.md",
     "CS/DBMS/redis.md",
     "CS/DSA/DSA_index.md",
-    "Private/房地產.md",
     "CS/Patterns/UnifiedModelingLanguage.md",
     "CS/CoreSkills/CoreSkills_index.md",
     "CS/Patterns/Architectures_index.md",
