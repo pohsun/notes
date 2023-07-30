@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/DBMS/MongoDB.md"
+                "file": "Private/房地產.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/DBMS/MongoDB.md",
+                "file": "Private/房地產.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/DBMS/MongoDB.md",
+                "file": "Private/房地產.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,11 +192,11 @@
       "obsidian-map-view:Open map view": false
     }
   },
-  "active": "d7f99cc54906c1e8",
+  "active": "5b4a80e93369c60d",
   "lastOpenFiles": [
+    "CS/DBMS/MongoDB.md",
     "Private/房地產.md",
     "CS/Lang/Python/Python_poetry.md",
-    "CS/DBMS/MongoDB.md",
     "CS/Lang/Python/Python_Packaging.md",
     "CS/Lang/Python/Python_index.md",
     "CS/Lang/Python",
