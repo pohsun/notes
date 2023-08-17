@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Patterns/Architectures_index.md"
+                "file": "Private/房地產.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Patterns/Architectures_index.md",
+                "file": "Private/房地產.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Patterns/Architectures_index.md",
+                "file": "Private/房地產.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,12 +192,12 @@
       "obsidian-map-view:Open map view": false
     }
   },
-  "active": "d7f99cc54906c1e8",
+  "active": "5b4a80e93369c60d",
   "lastOpenFiles": [
+    "CS/Patterns/Architectures_index.md",
     "CS/DBMS/DB_and_DBMS_index.md",
     "CS/DBMS/MongoDB.md",
     "CS/CoreSkills/VSCode.md",
-    "CS/Patterns/Architectures_index.md",
     "Private/房地產.md",
     "Private/資金運用最佳化.md",
     "CS/Lang/Python/Python_index.md",
