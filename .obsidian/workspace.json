@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/房地產.md"
+                "file": "CS/Patterns/Architectures_index.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/房地產.md",
+                "file": "CS/Patterns/Architectures_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Private/房地產.md",
+                "file": "CS/Patterns/Architectures_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,11 +192,11 @@
       "obsidian-map-view:Open map view": false
     }
   },
-  "active": "5b4a80e93369c60d",
+  "active": "cd180f1b8256012e",
   "lastOpenFiles": [
+    "Private/房地產.md",
     "CS/Patterns/Architectures_index.md",
     "CS/Patterns/C4 model.md",
-    "Private/房地產.md",
     "CS/Patterns/DesignPatterns_index.md",
     "CS/DBMS/DB_and_DBMS_index.md",
     "CS/Patterns/Functional_Programming.md",
