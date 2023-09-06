@@ -20,7 +20,7 @@
 
 ## NoSQL (Not only SQL)
 
-* Documents 系: [MongoDB](MongoDB.md)
+* Documents 系: [MongoDB](MongoDB.md)(CP), CouchDB(CA)
 * Key-value pair 系: [redis](redis.md) 
 * Wide column 系: `cassandra`
 * Graph 系: [neo4j](https://neo4j.com/docs/)
