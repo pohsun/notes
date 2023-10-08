@@ -19,6 +19,10 @@ Ref:
 
 盡可能用Haskell跟python兩種語法構成
 
+```include haskell
+exercise/ex1.hs
+```
+
 * Chapter 1
     * [Exercise_1_1](exercise/Exercise_1_1.md) 
     * 
