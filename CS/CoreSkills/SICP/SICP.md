@@ -17,20 +17,8 @@ Ref:
 
 ## Exercises
 
-盡可能用haskell跟python兩種語法構成
+盡可能用Haskell跟python兩種語法構成
 
-### 1.1
-
-![ex_1_1](exercise/ex_1_1.hs)
-
-```haskell
-main :: IO ()
-main = do
-    let result = show 10
-    putStrLn result
-
-    let result = show (sum [5, 3, 4])
-    putStrLn result
-```
-
-### 1.2 
+* Chapter 1
+    * [Exercise_1_1](exercise/Exercise_1_1.md) 
+    * 
