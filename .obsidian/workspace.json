@@ -43,7 +43,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Patterns/Functional_Programming.md",
+                "file": "CS/CoreSkills/SICP/SICP.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b483e35cc63dda14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Lang/Haskell_index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -77,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -143,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/房地產.md"
+                "file": "CS/CoreSkills/SICP/SICP.md"
               }
             }
           },
@@ -164,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/房地產.md",
+                "file": "CS/CoreSkills/SICP/SICP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Private/房地產.md",
+                "file": "CS/CoreSkills/SICP/SICP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,41 +218,44 @@
       "obsidian-map-view:Open map view": false
     }
   },
-  "active": "5b4a80e93369c60d",
+  "active": "d7f99cc54906c1e8",
   "lastOpenFiles": [
+    "CS/Lang/Haskell_index.md",
+    "CS/CoreSkills/SICP/SICP.md",
+    "CS/CoreSkills/SICP/exercise/ex_1_1",
+    "CS/CoreSkills/SICP/exercise/ex_1_1.o",
+    "CS/CoreSkills/SICP/exercise/ex_1_1.o.tmp",
+    "CS/CoreSkills/SICP/exercise/ex_1_1.hi",
+    "CS/CoreSkills/SICP/exercise/ex_1_1.hs",
+    "CS/CoreSkills/SICP/exercise",
+    "CS/Lang/Python/Python_index.md",
+    "CS/Lang/Python/Python_Packaging.md",
     "CS/DBMS/DB_and_DBMS_index.md",
+    "CS/DBMS/sqlite3.md",
+    "CS/DBMS/redis.md",
+    "CS/DBMS/MongoDB.md",
+    "CS/Patterns/Functional_Programming.md",
     "Private/房地產.md",
     "CS/Patterns/Architectures_index.md",
-    "CS/Patterns/Functional_Programming.md",
     "CS/Patterns/C4 model.md",
     "CS/Patterns/DesignPatterns_index.md",
-    "CS/Lang/Python/Python_index.md",
     "CS/Lang/Python/Python_poetry.md",
-    "CS/Lang/Python/Python_Packaging.md",
-    "CS/DBMS/MongoDB.md",
     "CS/CoreSkills/VSCode.md",
     "Private/資金運用最佳化.md",
     "CS/Lang/Python",
     "CS/Lang",
-    "CS/DBMS/sqlite3.md",
-    "CS/DBMS/redis.md",
     "CS/DSA/DSA_index.md",
     "CS/Patterns/UnifiedModelingLanguage.md",
     "CS/CoreSkills/CoreSkills_index.md",
-    "CS/CoreSkills/SICP/Index.md",
     "CS/CoreSkills/Refactoring.md",
     "CS/CoreSkills/CSAPP3e/Index.md",
     "CS/C_and_Cpp_index.md",
     "Finance/Stock.md",
     "Private/汽車.md",
     "CS/OS/Linux_index.md",
-    "Misc/Obsidian dataview.md",
-    "CS/DSA/ML/ML_index.md",
     "CS/CoreSkills/SICP",
     "Untitled.canvas",
     "media/15799246779952",
-    "media",
-    "CS/CoreSkills/CSAPP3e",
     "Untitled 1.canvas"
   ]
 }

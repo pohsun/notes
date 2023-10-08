@@ -18,4 +18,4 @@
 ## Programming practice
 
 * 計算機概論(?) [CS:APP 3e](CSAPP3e/Index.md)
-    * 計算機程序的構造和解釋: [SICP](SICP/Index.md)
+    * 計算機程序的構造和解釋: [SICP](SICP/SICP.md)

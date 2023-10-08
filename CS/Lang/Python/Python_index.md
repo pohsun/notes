@@ -1,6 +1,7 @@
 ---
 
 ---
+
 #ZZZ/index #CS/Lang/Python 
 
 ```dataview
@@ -10,12 +11,14 @@ FROM #CS/Lang/Python
 
 # Basics
 
+## Introduction
+
 * [Python 3: Deep Dive (Part 1 - Functional)](https://www.udemy.com/course/python-3-deep-dive-part-1/)
 * [Python 3: Deep Dive (Part 2 - Iteration, Generators)](https://www.udemy.com/course/python-3-deep-dive-part-2/)
 * [Python 3: Deep Dive (Part 3 - Hash Maps)](https://www.udemy.com/course/python-3-deep-dive-part-3/)
 * [Python 3: Deep Dive (Part 4 - OOP)](https://www.udemy.com/course/python-3-deep-dive-part-4/)
 
-# Features
+## Features
 
 * [PEP 0: Index of PEP](https://www.python.org/dev/peps/)
 * [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/) - 每個開發者都應該從基礎學起
@@ -37,6 +40,12 @@ FROM #CS/Lang/Python
 	* [Make SUID function on scripts](https://stackoverflow.com/questions/5523279/semantics-of-suid-set-user-id) [一些中文解釋](https://blog.csdn.net/dmjz_lk/article/details/97259258)
 	* [Redirecting all kinds of stdout in Python](https://eli.thegreenplace.net/2015/redirecting-all-kinds-of-stdout-in-python/)
         * [Python bytecode explained](https://github.com/MoserMichael/pyasmtool/blob/master/bytecode_disasm.md)
+
+## Advanced topics
+
+* Internals
+    * [Exploring the internals (python.org)](https://devguide.python.org/internals/exploring/)
+    * [Your Guide to the CPython Source Code – Real Python](https://realpython.com/cpython-source-code-guide/)
 
 # Useful Modules (Except for DevTools)
 
