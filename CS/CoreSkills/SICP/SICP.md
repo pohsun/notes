@@ -17,11 +17,14 @@ Ref:
 
 ## Exercises
 
-盡可能用Haskell跟python兩種語法構成
-
-```include haskell
-exercise/ex1.hs
-```
+* 作答原則
+    * 盡可能同時用`Haskell`跟`python`兩種語法作答
+    * `Haskell`
+        *  盡可能使用前綴形式(prefix form), 例如 `((+) 5 3 4)`
+    * `Python`
+        * 用`functool.reduce`製造出前綴形式
+        * 用`toolz`生出`curry`
+        * 用[`pyrsistent`](https://pyrsistent.readthedocs.io/en/master/)做出invariant
 
 * Chapter 1
     * [Exercise_1_1](exercise/Exercise_1_1.md) 

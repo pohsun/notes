@@ -51,7 +51,7 @@
             }
           },
           {
-            "id": "cd180f1b8256012e",
+            "id": "cfba48a5723d1880",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/CoreSkills/SICP/SICP.md"
+                "file": "CS/CoreSkills/SICP/exercise/Exercise_1_1.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/CoreSkills/SICP/SICP.md",
+                "file": "CS/CoreSkills/SICP/exercise/Exercise_1_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/CoreSkills/SICP/SICP.md",
+                "file": "CS/CoreSkills/SICP/exercise/Exercise_1_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,12 +192,14 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "d7f99cc54906c1e8",
+  "active": "cfba48a5723d1880",
   "lastOpenFiles": [
-    "CS/CoreSkills/SICP/exercise/Exercise_1_1.md",
     "CS/CoreSkills/SICP/SICP.md",
-    "CS/CoreSkills/SICP/exercise/ex1.hs",
+    "CS/CoreSkills/SICP/exercise/Exercise_1_1.md",
     "CS/Lang/Haskell_index.md",
+    "CS/CoreSkills/SICP/exercise/exercise_1_1.hs",
+    "CS/CoreSkills/SICP/exercise/exercise_1_1.py",
+    "CS/CoreSkills/SICP/exercise/ex1.hs",
     "CS/DBMS/DB_and_DBMS_index.md",
     "CS/Patterns/Architectures_index.md",
     "CS/CoreSkills/SICP/exercise/ex_1_1",
@@ -219,7 +221,6 @@
     "CS/CoreSkills/VSCode.md",
     "Private/資金運用最佳化.md",
     "CS/Lang/Python",
-    "CS/Lang",
     "CS/DSA/DSA_index.md",
     "CS/Patterns/UnifiedModelingLanguage.md",
     "CS/CoreSkills/CoreSkills_index.md",
@@ -228,7 +229,6 @@
     "CS/C_and_Cpp_index.md",
     "Finance/Stock.md",
     "Private/汽車.md",
-    "CS/CoreSkills/SICP",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
