@@ -27,5 +27,7 @@ Ref:
         * 用[`pyrsistent`](https://pyrsistent.readthedocs.io/en/master/)做出invariant
 
 * Chapter 1
-    * [Exercise_1_1](exercise/Exercise_1_1.md) 
+    * [1.1](exercise/exercise_1_1.md)
+    * [1.2](exercise/exercise_1_2.md)
+    * [1.3](exercise/exercise_1_3.md)
     * 
