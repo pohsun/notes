@@ -22,7 +22,8 @@ Ref:
         * 可以避免重複求值，一般來說比較有效率，且替換處理的複雜度會降低很多。
     * 正則序
         * 先代換參數完全展開再進行求值。
-        * 有時候(?)可以成為有價值的工具。
+        * 有時候可以成為有價值的工具。
+            * 避免沒必要的求值，見 [exercise_1_5](exercise/exercise_1_5.md)
     * 兩者可以被證明會得到相同的結果。
     * 更多討論在Chapter 3, 4
 * 
@@ -44,5 +45,6 @@ Ref:
     * [x] [exercise_1_2](exercise/exercise_1_2.md)
     * [x] [exercise_1_3](exercise/exercise_1_3.md)
     * [x] [exercise_1_4](exercise/exercise_1_4.md)
-    * [ ] [exercise_1_5](exercise/exercise_1_5.md)
+    * [x] [exercise_1_5](exercise/exercise_1_5.md)
+    * [ ] [exercise_1_6](exercise/exercise_1_6.md)
     * [ ] 

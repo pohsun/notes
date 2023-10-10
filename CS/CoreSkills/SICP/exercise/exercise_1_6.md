@@ -1,8 +1,8 @@
 
 ```include haskell
-exercise_1_4.hs
+exercise_1_6.hs
 ```
 
 ```include python
-exercise_1_4.py
+exercise_1_6.py
 ```
