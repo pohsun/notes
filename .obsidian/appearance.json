@@ -6,6 +6,6 @@
   "nativeMenus": true,
   "translucency": false,
   "baseFontSize": 15,
-  "textFontFamily": "Menlo for Powerline,Microsoft JhengHei",
-  "monospaceFontFamily": "Menlo for Powerline"
+  "textFontFamily": "Chalkboard,Microsoft JhengHei,Menlo for Powerline",
+  "monospaceFontFamily": "Inconsolata for Powerline,Menlo for Powerline"
 }

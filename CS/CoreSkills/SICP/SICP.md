@@ -12,11 +12,10 @@ Ref:
     * [SICP 解题集](https://sicp.readthedocs.io/en/latest/)
 * [Berkeley CS61A, Spring 2012 Online Textbook (SICP in Python)](https://inst.eecs.berkeley.edu//~cs61a/sp12/book/)
     * [SICP Python 描述 中文版](https://wizardforcel.gitbooks.io/sicp-py/content/)
-
 ## Concepts
 
 ### Chapter 1
-* 樹形累積: 對任意只用到基本、基於硬體operator的求值過程，可以一再被展開為回傳值作為節點、operator及arguments作為子節點的樹形表示。展開到最後，整個計算過程可以被表示為基於硬體的、對記憶體中的數值的序列操作。
+* 樹形累積: 對任意只用到基本、基於硬體operator的求值過程，可以一再被展開為回傳值作為節點、operator及arguments作為子節點的樹形表示。展開到最後，整個計算過程可以被表示為基於硬體的、對記憶體中的數值的深度優先遍歷操作(DFS)。
 * 應用序求值**applicative order evaluation**與正則序求值**normal order evaluation**
     * 應用序
         * 先對參數求值再進行應用。

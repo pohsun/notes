@@ -184,7 +184,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -204,8 +205,13 @@
   },
   "active": "d7f99cc54906c1e8",
   "lastOpenFiles": [
-    "CS/CoreSkills/SICP/exercise/exercise_1_5.md",
+    "CS/CoreSkills/Version_control_with_git.md",
+    "CS/CoreSkills/CoreSkills_index.md",
+    "CS/CoreSkills/Refactoring.md",
     "CS/CoreSkills/SICP/SICP.md",
+    "CS/Lang/Haskell_index.md",
+    "CS/Patterns/Functional_Programming.md",
+    "CS/CoreSkills/SICP/exercise/exercise_1_5.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_4.md",
     "exercise/exercise_1_4.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_3.md",
@@ -216,7 +222,6 @@
     "CS/CoreSkills/SICP/exercise/exercise_1_1.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_3.py",
     "CS/CoreSkills/SICP/exercise/exercise_1_2.py",
-    "CS/Lang/Haskell_index.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_1.hs",
     "CS/CoreSkills/SICP/exercise/exercise_1_1.py",
     "CS/CoreSkills/SICP/exercise/ex1.hs",
@@ -230,16 +235,12 @@
     "CS/DBMS/sqlite3.md",
     "CS/DBMS/redis.md",
     "CS/DBMS/MongoDB.md",
-    "CS/Patterns/Functional_Programming.md",
     "CS/Patterns/C4 model.md",
     "CS/Patterns/DesignPatterns_index.md",
     "CS/Lang/Python/Python_poetry.md",
     "CS/CoreSkills/VSCode.md",
     "Private/資金運用最佳化.md",
     "CS/DSA/DSA_index.md",
-    "CS/Patterns/UnifiedModelingLanguage.md",
-    "CS/CoreSkills/CoreSkills_index.md",
-    "CS/CoreSkills/Refactoring.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
