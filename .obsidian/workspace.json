@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1aedc320567e0acb",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Lang/Python/Python_index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "5b4a80e93369c60d",
             "type": "leaf",
             "pinned": true,
@@ -38,8 +23,24 @@
             }
           },
           {
+            "id": "1aedc320567e0acb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Lang/Python/Python_index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
             "id": "d7f99cc54906c1e8",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -47,7 +48,8 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -62,9 +64,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "03990431fd7227d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Patterns/C4 model visualization.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/CoreSkills/SICP/SICP.md"
+                "file": "CS/Patterns/C4 model visualization.md"
               }
             }
           },
@@ -151,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/CoreSkills/SICP/SICP.md",
+                "file": "CS/Patterns/C4 model visualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/CoreSkills/SICP/SICP.md",
+                "file": "CS/Patterns/C4 model visualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,12 +218,14 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "d7f99cc54906c1e8",
+  "active": "03990431fd7227d6",
   "lastOpenFiles": [
+    "CS/Lang/Python/Python_index.md",
+    "CS/CoreSkills/SICP/SICP.md",
+    "Private/房地產.md",
     "CS/CoreSkills/Version_control_with_git.md",
     "CS/CoreSkills/CoreSkills_index.md",
     "CS/CoreSkills/Refactoring.md",
-    "CS/CoreSkills/SICP/SICP.md",
     "CS/Lang/Haskell_index.md",
     "CS/Patterns/Functional_Programming.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_5.md",
@@ -217,7 +234,6 @@
     "CS/CoreSkills/SICP/exercise/exercise_1_3.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_4.py",
     "exercise",
-    "Private/房地產.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_2.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_1.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_3.py",
@@ -230,12 +246,11 @@
     "CS/CoreSkills/SICP/exercise/ex_1_1",
     "CS/CoreSkills/SICP/exercise/ex_1_1.o",
     "CS/CoreSkills/SICP/exercise/ex_1_1.o.tmp",
-    "CS/Lang/Python/Python_index.md",
     "CS/Lang/Python/Python_Packaging.md",
     "CS/DBMS/sqlite3.md",
     "CS/DBMS/redis.md",
     "CS/DBMS/MongoDB.md",
-    "CS/Patterns/C4 model.md",
+    "CS/Patterns/C4 model visualization.md",
     "CS/Patterns/DesignPatterns_index.md",
     "CS/Lang/Python/Python_poetry.md",
     "CS/CoreSkills/VSCode.md",

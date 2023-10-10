@@ -55,6 +55,7 @@ FROM #CS/Lang/Python
     * [`scikit-learn`](https://scikit-learn.org/stable/user_guide.html)
     * [PyTorch](DSA/ML/PyTorch.md)
     * [Tensorflow2](DSA/ML/Tensorflow2.md)
+* Patterns 
     * [`statmodels`](https://www.statsmodels.org/stable/index.html)
 * Interface
     * Web: [Django](WebDev/Django.md), `Flask`, `fastAPI`
