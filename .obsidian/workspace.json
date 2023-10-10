@@ -49,6 +49,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "60ffc68fb61f23fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/CoreSkills/SICP/exercise/exercise_1_5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -191,11 +204,12 @@
   },
   "active": "d7f99cc54906c1e8",
   "lastOpenFiles": [
-    "exercise/exercise_1_4.md",
+    "CS/CoreSkills/SICP/exercise/exercise_1_5.md",
     "CS/CoreSkills/SICP/SICP.md",
+    "CS/CoreSkills/SICP/exercise/exercise_1_4.md",
+    "exercise/exercise_1_4.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_3.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_4.py",
-    "CS/CoreSkills/SICP/exercise/exercise_1_4.md",
     "exercise",
     "Private/房地產.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_2.md",
