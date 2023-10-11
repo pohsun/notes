@@ -57,8 +57,10 @@ FROM #CS/Lang/Python
     * [Tensorflow2](DSA/ML/Tensorflow2.md)
 * Patterns 
     * [`statmodels`](https://www.statsmodels.org/stable/index.html)
+    * [Does Python optimize tail recursion? - Stack Overflow](https://stackoverflow.com/questions/13591970/does-python-optimize-tail-recursion)
 * Interface
     * Web: [Django](WebDev/Django.md), `Flask`, `fastAPI`
+    * Interface: [`attrs`](https://www.attrs.org/en/stable/)
     * GUI: `pyQt`, [`kivy`](https://kivy.org/)
 * Automator
     * [網路爬蟲大全](WebDev/WebScraper.md)  

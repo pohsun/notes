@@ -1,3 +1,43 @@
+# 1.1
+
+```include haskell
+exercise_1_1.hs
+```
+
+```include python
+exercise_1_1.py
+```
+
+# 1.2
+
+```include haskell
+exercise_1_2.hs
+```
+
+```include python
+exercise_1_2.py
+```
+
+# 1.3
+
+```include haskell
+exercise_1_3.hs
+```
+
+```include python
+exercise_1_3.py
+```
+# 1.4
+
+```include haskell
+exercise_1_4.hs
+```
+
+```include python
+exercise_1_4.py
+```
+# 1.5
+
 ```scheme
 (define (p) (p))
 
@@ -26,3 +66,13 @@ exercise_1_5.hs
 ```include python
 exercise_1_5.py
 ```
+# 1.6
+
+```include haskell
+exercise_1_6.hs
+```
+
+```include python
+exercise_1_6.py
+```
+

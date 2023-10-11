@@ -23,11 +23,10 @@ Ref:
     * 正則序
         * 先代換參數完全展開再進行求值。
         * 有時候可以成為有價值的工具。
-            * 避免沒必要的求值，見 [exercise_1_5](exercise/exercise_1_5.md)
+            * 可跳過沒必要的求值，見[習題1.5](exercise/chap_1.md)
     * 兩者可以被證明會得到相同的結果。
     * 更多討論在Chapter 3, 4
 * 
-
 ## Exercises
 
 * 作答原則
@@ -39,12 +38,5 @@ Ref:
         * 用`toolz`生出`curry`
         * 用[`pyrsistent`](https://pyrsistent.readthedocs.io/en/master/)做出invariant
         * 參考[Mastering Monad Design Patterns](https://dev.to/hamzzak/mastering-monad-design-patterns-simplify-your-python-code-and-boost-efficiency-kal)自定義[Monad](https://en.wikipedia.org/wiki/Monad_(functional_programming))
-
-* Chapter 1
-    * [x] [exercise_1_1](exercise/exercise_1_1.md)
-    * [x] [exercise_1_2](exercise/exercise_1_2.md)
-    * [x] [exercise_1_3](exercise/exercise_1_3.md)
-    * [x] [exercise_1_4](exercise/exercise_1_4.md)
-    * [x] [exercise_1_5](exercise/exercise_1_5.md)
-    * [ ] [exercise_1_6](exercise/exercise_1_6.md)
-    * [ ] 
+* 各章節解答
+    * [Chap 1](exercise/chap_1.md)
