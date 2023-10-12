@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Lang/Python/Python_index.md"
+                "file": "CS/CoreSkills/SICP/exercise/chap_1.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Lang/Python/Python_index.md",
+                "file": "CS/CoreSkills/SICP/exercise/chap_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Lang/Python/Python_index.md",
+                "file": "CS/CoreSkills/SICP/exercise/chap_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,10 +202,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1aedc320567e0acb",
+  "active": "e51c9cfb39d20f5f",
   "lastOpenFiles": [
-    "CS/CoreSkills/SICP/SICP.md",
     "CS/Lang/Python/Python_index.md",
+    "CS/CoreSkills/SICP/SICP.md",
     "CS/CoreSkills/SICP/exercise/chap_1.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_5.md",
     "exercise/exercise_1_4.md",
