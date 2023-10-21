@@ -66,7 +66,8 @@ exercise_1_5.hs
 ```include python
 exercise_1_5.py
 ```
-# 1.6
+# TODO 1.6
+* [What's the explanation for Exercise 1.6 in SICP? - Stack Overflow](https://stackoverflow.com/questions/1171252/whats-the-explanation-for-exercise-1-6-in-sicp)
 
 ```include haskell
 exercise_1_6.hs
@@ -75,4 +76,26 @@ exercise_1_6.hs
 ```include python
 exercise_1_6.py
 ```
+
+# 1.7
+
+```include haskell
+exercise_1_7.hs
+```
+
+```include python
+exercise_1_7.py
+```
+# 1.8
+
+```include haskell
+exercise_1_8.hs
+```
+
+```include python
+exercise_1_8.py
+```
+
+
+
 

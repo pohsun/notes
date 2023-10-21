@@ -4,16 +4,20 @@ According to wikipedia ... **Software architecture** is the set of structures n
 
 * Roadmap
     * [Software Architect Roadmap](https://roadmap.sh/software-architect)
-    * [donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. (github.com)](https://github.com/donnemartin/system-design-primer)
+    * [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
+    * [ByteByteGo | Technical Interview Prep](https://bytebytego.com)
+        * [**ByteByteGoHq/system-design-101**](https://github.com/ByteByteGoHq/system-design-101)
+        * [ByteByteGo | The learning continues](https://bytebytego.com/courses/system-design-interview/the-learning-continues)
     * [從程序員到架構師](https://mp.weixin.qq.com/s/CqRruULCJQCa5cbxVk66uA)
     * [軟體架構師的自我修養 :: 2022 iThome 鐵人賽](https://ithelp.ithome.com.tw/users/20146414/ironman/5313)
     * [閒談軟體架構 – Medium](https://medium.com/%E9%96%92%E8%AB%87%E8%BB%9F%E9%AB%94%E6%9E%B6%E6%A7%8B)
-    * [ByteByteGo | Technical Interview Prep](https://bytebytego.com)
-        * [ByteByteGo | The learning continues](https://bytebytego.com/courses/system-design-interview/the-learning-continues)
 * Design paradigm
     * Domain-Driven Design (DDD)
     * Test-Driven Design (TDD)
+        * Behavior-Driven Design (BDD)
+        * Acceptance-Test-Driven Design (ATDD)
     * [REST](CS/Patterns/REST.md)
+    * [SOAP - Wikipedia](https://en.wikipedia.org/wiki/SOAP)
 * Commonly used tools
 	* [UnifiedModelingLanguage](CS/Patterns/UnifiedModelingLanguage.md)
 	* Socket programming

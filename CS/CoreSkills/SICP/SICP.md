@@ -15,8 +15,8 @@ Ref:
 ## Concepts
 
 ### Chapter 1
-* 樹形累積: 對任意只用到基本、基於硬體operator的求值過程，可以一再被展開為回傳值作為節點、operator及arguments作為子節點的樹形表示。展開到最後，整個計算過程可以被表示為基於硬體的、對記憶體中的數值的深度優先遍歷操作(DFS)。
-* 應用序求值**applicative order evaluation**與正則序求值**normal order evaluation**
+* (p6) 樹形累積: 對任意組合式(function)求值過程，可以一再被展開為回傳值作為節點、單一operator及一個以上arguments（不考慮currying）作為子節點的樹形表示。展開到最後，整個計算過程可以被表示為基於硬體的、對記憶體中的數值的深度優先遍歷操作(DFS)。
+* (p10) 應用序求值*applicative order evaluation*與正則序求值*normal order evaluation*
     * 應用序
         * 先對參數求值再進行應用。
         * 可以避免重複求值，一般來說比較有效率，且替換處理的複雜度會降低很多。
@@ -26,7 +26,9 @@ Ref:
             * 可跳過沒必要的求值，見[習題1.5](exercise/chap_1.md)
     * 兩者可以被證明會得到相同的結果。
     * 更多討論在Chapter 3, 4
-* 
+* (p22) 遞迴(*Recursion*)與迭代(*Iteration*)
+    * 遞迴
+    * 迭代
 ## Exercises
 
 * 作答原則

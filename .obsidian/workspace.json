@@ -53,20 +53,20 @@
             }
           },
           {
-            "id": "e51c9cfb39d20f5f",
+            "id": "1fc24a5beafd465d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/CoreSkills/SICP/exercise/chap_1.md",
-                "mode": "preview",
+                "file": "CS/Patterns/Functional_Programming.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/CoreSkills/SICP/exercise/chap_1.md"
+                "file": "CS/CoreSkills/SICP/SICP.md"
               }
             }
           },
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/CoreSkills/SICP/exercise/chap_1.md",
+                "file": "CS/CoreSkills/SICP/SICP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/CoreSkills/SICP/exercise/chap_1.md",
+                "file": "CS/CoreSkills/SICP/SICP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,11 +202,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e51c9cfb39d20f5f",
+  "active": "d7f99cc54906c1e8",
   "lastOpenFiles": [
-    "CS/Lang/Python/Python_index.md",
+    "CS/Patterns/Functional_Programming.md",
     "CS/CoreSkills/SICP/SICP.md",
+    "CS/Patterns/Architectures_index.md",
     "CS/CoreSkills/SICP/exercise/chap_1.md",
+    "CS/DSA/DSA_index.md",
+    "CS/CoreSkills/SICP/exercise/exercise_1_8.py",
+    "CS/CoreSkills/SICP/exercise/exercise_1_7.py",
+    "CS/CoreSkills/SICP/exercise/exercise_1_7.hs",
+    "CS/CoreSkills/SICP/exercise/exercise_1_6.hs",
+    "CS/CoreSkills/SICP/exercise/exercise_1_6.py",
+    "CS/Lang/Python/Python_index.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_5.md",
     "exercise/exercise_1_4.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_3.md",
@@ -220,18 +228,11 @@
     "Private/房地產.md",
     "CS/CoreSkills/Version_control_with_git.md",
     "CS/CoreSkills/Refactoring.md",
-    "CS/Patterns/Functional_Programming.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_4.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_4.py",
     "exercise",
     "CS/CoreSkills/SICP/exercise/exercise_1_3.py",
-    "CS/CoreSkills/SICP/exercise/exercise_1_2.py",
-    "CS/CoreSkills/SICP/exercise/exercise_1_1.hs",
-    "CS/CoreSkills/SICP/exercise/exercise_1_1.py",
-    "CS/CoreSkills/SICP/exercise/ex1.hs",
     "CS/DBMS/DB_and_DBMS_index.md",
-    "CS/Patterns/Architectures_index.md",
-    "CS/CoreSkills/SICP/exercise/ex_1_1",
     "CS/Lang/Python/Python_Packaging.md",
     "CS/DBMS/sqlite3.md",
     "CS/DBMS/redis.md",
@@ -239,7 +240,6 @@
     "CS/Patterns/DesignPatterns_index.md",
     "CS/Lang/Python/Python_poetry.md",
     "CS/CoreSkills/VSCode.md",
-    "Private/資金運用最佳化.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

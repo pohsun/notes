@@ -54,3 +54,4 @@
     * [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
     * [Second Round: 資料結構與演算法目錄](http://alrightchiu.github.io/SecondRound/mu-lu-yan-suan-fa-yu-zi-liao-jie-gou.html)
     * [Data structures in practice](https://www.data-structures-in-practice.com/)
+    * [OI Wiki - 中國資訊奧賽wiki](https://oi-wiki.org/)
