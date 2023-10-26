@@ -6,6 +6,7 @@
 
 * [Refactoring](Refactoring.md)
     * [Refactoring Tennis Kata](https://www.youtube.com/watch?v=d70T_lqxBmY)
+    * [Code Diagnosis Workshop (arjancodes.com)](https://www.arjancodes.com/diagnosis/3859481204)
 * [Version control with git](Version_control_with_git.md)
 * Test driven development (TDD)
     * [TDD Tennis Kata](https://www.youtube.com/watch?v=kSSdwfIH2kg)
