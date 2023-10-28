@@ -4,7 +4,8 @@
 
 ## Concepts 
 
-Most conceptions are introduced in [SICP](../CoreSkills/SICP/SICP.md). Here we collect missing and derived concepts.
+Most conceptions are introduced in [SICP](../CoreSkills/SICP/SICP.md). Here we mainly illustrate missing, implicit or derived concepts.
+### Recursion
 ### Monad
 
 
