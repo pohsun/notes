@@ -4,6 +4,7 @@
 
 ## Project management
 
+* [Google 工程實踐](https://eng-practices.gh.miniasp.com/)
 * [Refactoring](Refactoring.md)
     * [Refactoring Tennis Kata](https://www.youtube.com/watch?v=d70T_lqxBmY)
     * [Code Diagnosis Workshop (arjancodes.com)](https://www.arjancodes.com/diagnosis/3859481204)
