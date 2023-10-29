@@ -230,9 +230,10 @@
   },
   "active": "dfd1bf2b01ef210a",
   "lastOpenFiles": [
+    "CS/CoreSkills/VSCode.md",
+    "CS/Lang/Python/Python_xmlrpc.md",
     "CS/DBMS/DB_and_DBMS_index.md",
     "CS/CoreSkills/CoreSkills_index.md",
-    "CS/Lang/Python/Python_xmlrpc.md",
     "CS/Patterns/Functional_Programming.md",
     "CS/CoreSkills/SICP/exercise/chap_1.md",
     "CS/CoreSkills/SICP/SICP.md",
@@ -265,7 +266,6 @@
     "CS/DBMS/redis.md",
     "CS/DBMS/MongoDB.md",
     "CS/Patterns/DesignPatterns_index.md",
-    "CS/Lang/Python/Python_poetry.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
