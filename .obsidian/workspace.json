@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Patterns/Functional_Programming.md"
+                "file": "Private/房地產.md"
               }
             }
           },
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Patterns/Functional_Programming.md",
+                "file": "Private/房地產.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Patterns/Functional_Programming.md",
+                "file": "Private/房地產.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,16 +228,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1fc24a5beafd465d",
+  "active": "ab210404a7c0b90d",
   "lastOpenFiles": [
-    "CS/Lang/Python/Python_poetry.md",
+    "CS/JupyterLab_and_Colab.md",
     "Private/房地產.md",
+    "CS/Patterns/Functional_Programming.md",
+    "CS/Lang/Python/Python_poetry.md",
     "CS/Lang/Python/Python_index.md",
     "CS/Lang/Python/Python_xmlrpc.md",
     "CS/CoreSkills/VSCode.md",
     "CS/DBMS/DB_and_DBMS_index.md",
     "CS/CoreSkills/CoreSkills_index.md",
-    "CS/Patterns/Functional_Programming.md",
     "CS/CoreSkills/SICP/exercise/chap_1.md",
     "CS/CoreSkills/SICP/SICP.md",
     "Private/1071002-臺北市大安區都市計畫通盤檢討(主要計畫)案及臺北市大安區都市計畫通盤檢討(細部計畫)案-公展說明會-簡報.pdf",
@@ -265,7 +266,6 @@
     "CS/Lang/Python/Python_Packaging.md",
     "CS/DBMS/sqlite3.md",
     "CS/DBMS/redis.md",
-    "CS/DBMS/MongoDB.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
