@@ -9,6 +9,8 @@
     * [Refactoring Tennis Kata](https://www.youtube.com/watch?v=d70T_lqxBmY)
     * [Code Diagnosis Workshop (arjancodes.com)](https://www.arjancodes.com/diagnosis/3859481204)
 * [Version control with git](Version_control_with_git.md)
+* Paired programming 
+    * [microsoft/Mastering-GitHub-Copilot-for-Paired-Programming: A 6 Lesson course teaching everything you need to know about harnessing GitHub Copilot and an AI Paired Programing resource.](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 * Test driven development (TDD)
     * [TDD Tennis Kata](https://www.youtube.com/watch?v=kSSdwfIH2kg)
     * Unit test, integration test, end-to-end test
