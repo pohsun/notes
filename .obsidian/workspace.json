@@ -90,19 +90,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9018f85e28ec9abc",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -248,7 +238,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9018f85e28ec9abc",
+  "active": "ab210404a7c0b90d",
   "lastOpenFiles": [
     "CS/JupyterLab_and_Colab.md",
     "Private/房地產.md",
