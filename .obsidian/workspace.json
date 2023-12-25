@@ -90,6 +90,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c20f8a58558bf2e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Private/都市更新方法.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 5
@@ -220,7 +233,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -240,8 +254,10 @@
   },
   "active": "ab210404a7c0b90d",
   "lastOpenFiles": [
-    "CS/JupyterLab_and_Colab.md",
+    "CS/Patterns/Architectures_index.md",
     "Private/房地產.md",
+    "Private/都市更新方法.md",
+    "CS/JupyterLab_and_Colab.md",
     "CS/Patterns/Functional_Programming.md",
     "CS/Lang/Python/Python_poetry.md",
     "CS/Lang/Python/Python_index.md",
@@ -253,7 +269,6 @@
     "CS/CoreSkills/SICP/SICP.md",
     "Private/1071002-臺北市大安區都市計畫通盤檢討(主要計畫)案及臺北市大安區都市計畫通盤檢討(細部計畫)案-公展說明會-簡報.pdf",
     "Private/1071012-臺北市中正區都市計畫通盤檢討（主要計畫）案及臺北市中正區都市計畫通盤檢討（細部計畫）案-第1次公展說明會-會議簡報.pdf",
-    "CS/Patterns/Architectures_index.md",
     "CS/DSA/DSA_index.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_8.py",
     "CS/CoreSkills/SICP/exercise/exercise_1_7.py",
@@ -275,7 +290,6 @@
     "CS/CoreSkills/SICP/exercise/exercise_1_4.py",
     "CS/Lang/Python/Python_Packaging.md",
     "CS/DBMS/sqlite3.md",
-    "CS/DBMS/redis.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

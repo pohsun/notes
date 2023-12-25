@@ -46,3 +46,7 @@ in containers [(software architecture)]() and finally
 
 ## Roadmap
 
+## References
+
+* [karanpratapsingh/system-design: Learn how to design systems at scale and prepare for system design interviews (github.com)](https://github.com/karanpratapsingh/system-design)
+* [madd86/awesome-system-design: A curated list of awesome System Design (A.K.A. Distributed Systems) resources. (github.com)](https://github.com/madd86/awesome-system-design)
