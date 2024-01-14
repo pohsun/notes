@@ -46,18 +46,18 @@ FROM #CS/Lang/Python
 * Internals
     * [Exploring the internals (python.org)](https://devguide.python.org/internals/exploring/)
     * [Your Guide to the CPython Source Code – Real Python](https://realpython.com/cpython-source-code-guide/)
-
 # Useful Modules (Except for DevTools)
 
 * Data analysis
     * Data structures for data analysis with Python:  
         含`numpy`, `pandas`/`vaex`/`modin`, `dask`, `scikit-hep/awkward-array`, ~~`uproot`~~ etc..
     * [`scikit-learn`](https://scikit-learn.org/stable/user_guide.html)
+    * [`statmodels`](https://www.statsmodels.org/stable/index.html)
     * [PyTorch](DSA/ML/PyTorch.md)
     * [Tensorflow2](DSA/ML/Tensorflow2.md)
 * Patterns 
-    * [`statmodels`](https://www.statsmodels.org/stable/index.html)
-    * [Does Python optimize tail recursion? - Stack Overflow](https://stackoverflow.com/questions/13591970/does-python-optimize-tail-recursion)
+    * [Awesome Functional Python](https://github.com/sfermigier/awesome-functional-python)
+        * [Does Python optimize tail recursion? - Stack Overflow](https://stackoverflow.com/questions/13591970/does-python-optimize-tail-recursion)
 * Interface
     * Web: [Django](WebDev/Django.md), `Flask`, `fastAPI`
     * Interface: [`attrs`](https://www.attrs.org/en/stable/)
@@ -96,16 +96,13 @@ FROM #CS/Lang/Python
 * memory_profiler
 * cProfile
 * [py_spy](https://github.com/benfred/py-spy)
-
 ## Debugger
 
 * [`pdb`](https://docs.python.org/3/library/pdb.html) [`pudb`](https://documen.tician.de/pudb/)
 * [`objgraph`](https://pypi.org/project/objgraph/)
-
 ## Unittest
 
 * [Effective Python Testing With `Pytest`](https://realpython.com/pytest-python-testing/)
-
 ### Tools
 
 # Performance issues

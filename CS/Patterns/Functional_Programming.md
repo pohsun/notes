@@ -1,6 +1,4 @@
-#CS/Patterns 
-
-
+#CS/CoreSkills #CS/Patterns  
 
 ## Concepts 
 

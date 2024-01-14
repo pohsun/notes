@@ -1,4 +1,4 @@
-#CS/CoreSkills 
+#CS/CoreSkills #CS/Patterns 
 
 ## SOLID
 * 

@@ -31,8 +31,6 @@ keywords: `grequests`, `aiohttp`
 
 * Useful, but it's slow and memory-consuming. 
 
-
-
 ## Anti-spider solutions
 
 * https://www.learncodewithmike.com/2020/09/7-tips-to-avoid-getting-blocked-while-scraping.html

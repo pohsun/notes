@@ -84,7 +84,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Private/房地產.md",
+                "file": "CS/CoreSkills/CoreSkills_index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/房地產.md"
+                "file": "CS/CoreSkills/CoreSkills_index.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/房地產.md",
+                "file": "CS/CoreSkills/CoreSkills_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Private/房地產.md",
+                "file": "CS/CoreSkills/CoreSkills_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,16 +253,19 @@
   },
   "active": "ab210404a7c0b90d",
   "lastOpenFiles": [
-    "Private/都市更新方法.md",
-    "Private/房地產.md",
-    "Private/萬萬稅.md",
-    "CS/Patterns/Functional_Programming.md",
-    "CS/CoreSkills/SICP/exercise/chap_1.md",
+    "CS/CoreSkills/CSAPP3e/Index.md",
     "CS/CoreSkills/CoreSkills_index.md",
+    "CS/Patterns/Functional_Programming.md",
+    "CS/Patterns/Object_Oriented_Programming.md",
+    "CS/Lang/Python/Python_index.md",
+    "Private/房地產.md",
+    "CS/WebDev/WebScraper.md",
+    "Private/都市更新方法.md",
+    "Private/萬萬稅.md",
+    "CS/CoreSkills/SICP/exercise/chap_1.md",
     "CS/Patterns/Architectures_index.md",
     "CS/JupyterLab_and_Colab.md",
     "CS/Lang/Python/Python_poetry.md",
-    "CS/Lang/Python/Python_index.md",
     "CS/Lang/Python/Python_xmlrpc.md",
     "CS/CoreSkills/VSCode.md",
     "CS/DBMS/DB_and_DBMS_index.md",
@@ -285,10 +288,7 @@
     "CS/CoreSkills/SICP/exercise/exercise_1_5.hs",
     "CS/Patterns/C4 model visualization.md",
     "CS/CoreSkills/Version_control_with_git.md",
-    "CS/CoreSkills/Refactoring.md",
-    "CS/CoreSkills/SICP/exercise/exercise_1_4.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_4.py",
-    "CS/Lang/Python/Python_Packaging.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
