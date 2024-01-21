@@ -84,7 +84,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/CoreSkills/CoreSkills_index.md",
+                "file": "Private/房地產.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/CoreSkills/CoreSkills_index.md"
+                "file": "Private/房地產.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/CoreSkills/CoreSkills_index.md",
+                "file": "Private/房地產.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/CoreSkills/CoreSkills_index.md",
+                "file": "Private/房地產.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,14 +253,14 @@
   },
   "active": "ab210404a7c0b90d",
   "lastOpenFiles": [
-    "CS/CoreSkills/CSAPP3e/Index.md",
-    "CS/CoreSkills/CoreSkills_index.md",
+    "Private/都市更新方法.md",
     "CS/Patterns/Functional_Programming.md",
+    "Private/房地產.md",
+    "CS/CoreSkills/CoreSkills_index.md",
+    "CS/CoreSkills/CSAPP3e/Index.md",
     "CS/Patterns/Object_Oriented_Programming.md",
     "CS/Lang/Python/Python_index.md",
-    "Private/房地產.md",
     "CS/WebDev/WebScraper.md",
-    "Private/都市更新方法.md",
     "Private/萬萬稅.md",
     "CS/CoreSkills/SICP/exercise/chap_1.md",
     "CS/Patterns/Architectures_index.md",
