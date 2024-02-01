@@ -79,7 +79,7 @@
             }
           },
           {
-            "id": "ab210404a7c0b90d",
+            "id": "4c2a5a22b05f632e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -251,8 +251,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "56d3e6d340256aa5",
+  "active": "4c2a5a22b05f632e",
   "lastOpenFiles": [
+    "CS/Patterns/Functional_Programming.md",
+    "Private/房地產.md",
     "Private/real_assert_analyzer/data/A_lvr_land_A.csv",
     "Private/real_assert_analyzer/data/11301.zip",
     "Private/real_assert_analyzer/data_preprocessor.py",
@@ -263,10 +265,7 @@
     "Private/real_assert_analyzer/data/raw/112Q1.zip",
     "Private/real_assert_analyzer/data/raw/111Q4.zip",
     "Private/real_assert_analyzer/data/raw/112Q4.csv",
-    "Private/real_assert_analyzer/data/raw",
     "Private/都市更新方法.md",
-    "CS/Patterns/Functional_Programming.md",
-    "Private/房地產.md",
     "CS/CoreSkills/CoreSkills_index.md",
     "CS/CoreSkills/CSAPP3e/Index.md",
     "CS/Patterns/Object_Oriented_Programming.md",
