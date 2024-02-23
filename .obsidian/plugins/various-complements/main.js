@@ -689,6 +689,12 @@ function excludeEmoji(text2) {
 function encodeSpace(text2) {
   return text2.replace(/ /g, "%20");
 }
+function removeFromPattern(pattern, removeChars) {
+  return new RegExp(
+    pattern.source.replace(new RegExp(`[${removeChars}]`, "g"), ""),
+    pattern.flags
+  );
+}
 function normalizeAccentsDiacritics(text2) {
   return text2.replace(/[^\u0000-\u007E]/g, (x) => {
     var _a;
@@ -808,20 +814,51 @@ function joinNumberWithSymbol(tokens) {
   return ret;
 }
 
+// src/errors.ts
+var ExhaustiveError = class extends Error {
+  constructor(value, message = `Unsupported type: ${value}`) {
+    super(message);
+  }
+};
+
+// src/tokenizer/tokenizers/AbstractTokenizer.ts
+var INPUT_TRIM_CHAR_PATTERN = /[\n\t\[\]$/:?!=()<>"',|;*~ `_“„«»‹›‚‘’”]/g;
+var INDEXING_TRIM_CHAR_PATTERN = /[\n\t\[\]/:?!=()<>"',|;*~ `_“„«»‹›‚‘’”]/g;
+var AbstractTokenizer = class {
+  constructor(args) {
+    this.inputTrimCharPattern = (args == null ? void 0 : args.treatUnderscoreAsPartOfWord) ? removeFromPattern(INPUT_TRIM_CHAR_PATTERN, "_") : INPUT_TRIM_CHAR_PATTERN;
+    this.indexingTrimCharPattern = (args == null ? void 0 : args.treatUnderscoreAsPartOfWord) ? removeFromPattern(INDEXING_TRIM_CHAR_PATTERN, "_") : INDEXING_TRIM_CHAR_PATTERN;
+  }
+  getTrimPattern(target) {
+    switch (target) {
+      case "input":
+        return this.inputTrimCharPattern;
+      case "indexing":
+        return this.indexingTrimCharPattern;
+      default:
+        throw new ExhaustiveError(target);
+    }
+  }
+  shouldIgnoreOnCurrent(_str) {
+    return false;
+  }
+};
+
 // src/tokenizer/tokenizers/DefaultTokenizer.ts
 function pickTokens(content, trimPattern) {
   return content.split(trimPattern).filter((x) => x !== "");
 }
-var TRIM_CHAR_PATTERN = /[\n\t\[\]$/:?!=()<>"',|;*~ `_“„«»‹›‚‘’”]/g;
-var DefaultTokenizer = class {
+var DefaultTokenizer = class extends AbstractTokenizer {
   tokenize(content, raw) {
-    const tokens = raw ? Array.from(splitRaw(content, this.getTrimPattern())).filter(
+    const tokens = raw ? Array.from(splitRaw(content, this.getTrimPattern("indexing"))).filter(
       (x) => x !== " "
-    ) : pickTokens(content, this.getTrimPattern());
+    ) : pickTokens(content, this.getTrimPattern("indexing"));
     return tokens.map((x) => x.replace(/\.+$/g, ""));
   }
   recursiveTokenize(content) {
-    const trimIndexes = Array.from(content.matchAll(this.getTrimPattern())).sort((a, b) => a.index - b.index).map((x) => x.index);
+    const trimIndexes = Array.from(
+      content.matchAll(this.getTrimPattern("input"))
+    ).sort((a, b) => a.index - b.index).map((x) => x.index);
     return [
       { word: content, offset: 0 },
       ...trimIndexes.map((i) => ({
@@ -830,19 +867,16 @@ var DefaultTokenizer = class {
       }))
     ];
   }
-  getTrimPattern() {
-    return TRIM_CHAR_PATTERN;
-  }
-  shouldIgnoreOnCurrent(str) {
-    return false;
-  }
 };
 
 // src/tokenizer/tokenizers/ArabicTokenizer.ts
-var ARABIC_TRIM_CHAR_PATTERN = /[\n\t\[\]$/:?!=()<>"'.,|;*~ `،؛]/g;
+var INPUT_ARABIC_TRIM_CHAR_PATTERN = /[\n\t\[\]/:?!=()<>"'.,|;*~ `،؛]/g;
+var INDEXING_ARABIC_TRIM_CHAR_PATTERN = /[\n\t\[\]$/:?!=()<>"'.,|;*~ `،؛]/g;
 var ArabicTokenizer = class extends DefaultTokenizer {
-  getTrimPattern() {
-    return ARABIC_TRIM_CHAR_PATTERN;
+  constructor(_args) {
+    super();
+    this.inputTrimCharPattern = INPUT_ARABIC_TRIM_CHAR_PATTERN;
+    this.indexingTrimCharPattern = INDEXING_ARABIC_TRIM_CHAR_PATTERN;
   }
 };
 
@@ -2341,13 +2375,14 @@ var tiny_segmenter_default = TinySegmenter;
 // src/tokenizer/tokenizers/JapaneseTokenizer.ts
 var segmenter = new tiny_segmenter_default();
 function pickTokensAsJapanese(content, trimPattern) {
-  return joinNumberWithSymbol(
-    content.split(trimPattern).filter((x) => x !== "").flatMap((x) => segmenter.segment(x))
-  );
+  return content.split(trimPattern).filter((x) => x !== "").flatMap((x) => joinNumberWithSymbol(segmenter.segment(x)));
 }
-var JapaneseTokenizer = class {
+var JapaneseTokenizer = class extends AbstractTokenizer {
   tokenize(content, raw) {
-    return pickTokensAsJapanese(content, raw ? / /g : this.getTrimPattern());
+    return pickTokensAsJapanese(
+      content,
+      raw ? / /g : this.getTrimPattern("indexing")
+    );
   }
   recursiveTokenize(content) {
     const tokens = joinNumberWithSymbol(
@@ -2366,9 +2401,6 @@ var JapaneseTokenizer = class {
     }
     return ret;
   }
-  getTrimPattern() {
-    return TRIM_CHAR_PATTERN;
-  }
   shouldIgnoreOnCurrent(str) {
     return Boolean(str.match(/^[ぁ-んａ-ｚＡ-Ｚ。、ー　]*$/));
   }
@@ -2378,13 +2410,13 @@ var JapaneseTokenizer = class {
 var ENGLISH_PATTERN = /[a-zA-Z0-9_\-\\]/;
 var EnglishOnlyTokenizer = class extends DefaultTokenizer {
   tokenize(content, raw) {
-    const tokenized = Array.from(this._tokenize(content)).filter(
+    const tokenized = Array.from(this._tokenize(content, "indexing")).filter(
       (x) => x.word.match(ENGLISH_PATTERN)
     );
-    return raw ? tokenized.map((x) => x.word) : tokenized.map((x) => x.word).filter((x) => !x.match(this.getTrimPattern()));
+    return raw ? tokenized.map((x) => x.word) : tokenized.map((x) => x.word).filter((x) => !x.match(this.getTrimPattern("indexing")));
   }
   recursiveTokenize(content) {
-    const offsets = Array.from(this._tokenize(content)).filter((x) => !x.word.match(this.getTrimPattern())).map((x) => x.offset);
+    const offsets = Array.from(this._tokenize(content, "input")).filter((x) => !x.word.match(this.getTrimPattern("input"))).map((x) => x.offset);
     return [
       ...offsets.map((i) => ({
         word: content.slice(i),
@@ -2392,11 +2424,11 @@ var EnglishOnlyTokenizer = class extends DefaultTokenizer {
       }))
     ];
   }
-  *_tokenize(content) {
+  *_tokenize(content, target) {
     let startIndex = 0;
     let previousType = "none";
     for (let i = 0; i < content.length; i++) {
-      if (content[i].match(super.getTrimPattern())) {
+      if (content[i].match(super.getTrimPattern(target))) {
         yield { word: content.slice(startIndex, i), offset: startIndex };
         previousType = "trim";
         startIndex = i;
@@ -2429,20 +2461,20 @@ var EnglishOnlyTokenizer = class extends DefaultTokenizer {
 
 // src/tokenizer/tokenizers/ChineseTokenizer.ts
 var import_chinese_tokenizer = __toESM(require_main());
-var ChineseTokenizer = class {
+var ChineseTokenizer = class extends AbstractTokenizer {
   static create(dict) {
     const ins = new ChineseTokenizer();
     ins._tokenize = import_chinese_tokenizer.default.load(dict);
     return ins;
   }
   tokenize(content, raw) {
-    return content.split(raw ? / /g : this.getTrimPattern()).filter((x) => x !== "").flatMap((x) => this._tokenize(x)).map((x) => x.text);
+    return content.split(raw ? / /g : this.getTrimPattern("indexing")).filter((x) => x !== "").flatMap((x) => this._tokenize(x)).map((x) => x.text);
   }
   recursiveTokenize(content) {
     const tokens = this._tokenize(content).map((x) => x.text);
     const ret = [];
     for (let i = 0; i < tokens.length; i++) {
-      if (i === 0 || tokens[i].length !== 1 || !Boolean(tokens[i].match(this.getTrimPattern()))) {
+      if (i === 0 || tokens[i].length !== 1 || !Boolean(tokens[i].match(this.getTrimPattern("input")))) {
         ret.push({
           word: tokens.slice(i).join(""),
           offset: tokens.slice(0, i).join("").length
@@ -2451,21 +2483,19 @@ var ChineseTokenizer = class {
     }
     return ret;
   }
-  getTrimPattern() {
-    return TRIM_CHAR_PATTERN;
-  }
-  shouldIgnoreOnCurrent(str) {
-    return false;
-  }
 };
 
 // src/tokenizer/tokenizer.ts
 async function createTokenizer(strategy, app2, settings) {
   switch (strategy.name) {
     case "default":
-      return new DefaultTokenizer();
+      return new DefaultTokenizer({
+        treatUnderscoreAsPartOfWord: settings.treatUnderscoreAsPartOfWord
+      });
     case "english-only":
-      return new EnglishOnlyTokenizer();
+      return new EnglishOnlyTokenizer({
+        treatUnderscoreAsPartOfWord: settings.treatUnderscoreAsPartOfWord
+      });
     case "arabic":
       return new ArabicTokenizer();
     case "japanese":
@@ -2484,10 +2514,11 @@ async function createTokenizer(strategy, app2, settings) {
 
 // src/tokenizer/TokenizeStrategy.ts
 var _TokenizeStrategy = class {
-  constructor(name, triggerThreshold, indexingThreshold) {
+  constructor(name, triggerThreshold, indexingThreshold, canTreatUnderscoreAsPartOfWord) {
     this.name = name;
     this.triggerThreshold = triggerThreshold;
     this.indexingThreshold = indexingThreshold;
+    this.canTreatUnderscoreAsPartOfWord = canTreatUnderscoreAsPartOfWord;
     _TokenizeStrategy._values.push(this);
   }
   static fromName(name) {
@@ -2499,11 +2530,16 @@ var _TokenizeStrategy = class {
 };
 var TokenizeStrategy = _TokenizeStrategy;
 TokenizeStrategy._values = [];
-TokenizeStrategy.DEFAULT = new _TokenizeStrategy("default", 3, 5);
-TokenizeStrategy.ENGLISH_ONLY = new _TokenizeStrategy("english-only", 3, 5);
-TokenizeStrategy.JAPANESE = new _TokenizeStrategy("japanese", 2, 2);
-TokenizeStrategy.ARABIC = new _TokenizeStrategy("arabic", 3, 3);
-TokenizeStrategy.CHINESE = new _TokenizeStrategy("chinese", 1, 2);
+TokenizeStrategy.DEFAULT = new _TokenizeStrategy("default", 3, 5, true);
+TokenizeStrategy.ENGLISH_ONLY = new _TokenizeStrategy(
+  "english-only",
+  3,
+  5,
+  true
+);
+TokenizeStrategy.JAPANESE = new _TokenizeStrategy("japanese", 2, 2, false);
+TokenizeStrategy.ARABIC = new _TokenizeStrategy("arabic", 3, 3, false);
+TokenizeStrategy.CHINESE = new _TokenizeStrategy("chinese", 1, 2, false);
 
 // src/app-helper.ts
 var import_obsidian = require("obsidian");
@@ -4326,7 +4362,7 @@ var AutoCompleteSuggest = class extends import_obsidian4.EditorSuggest {
     );
   }
   onTrigger(cursor, editor) {
-    var _a, _b, _c, _d, _e, _f;
+    var _a, _b, _c, _d, _e;
     const start = performance.now();
     const showDebugLog = (message) => {
       this.showDebugLog(() => `[onTrigger] ${message}`);
@@ -4372,14 +4408,14 @@ var AutoCompleteSuggest = class extends import_obsidian4.EditorSuggest {
     const tokens = this.tokenizer.tokenize(currentLineUntilCursor, true);
     showDebugLog(`tokens is ${tokens}`);
     const tokenized = this.tokenizer.recursiveTokenize(currentLineUntilCursor);
-    const currentTokens = tokenized.slice(
+    let currentTokens = tokenized.slice(
       tokenized.length > this.settings.maxNumberOfWordsAsPhrase ? tokenized.length - this.settings.maxNumberOfWordsAsPhrase : 0
     );
     showDebugLog(`currentTokens is ${JSON.stringify(currentTokens)}`);
-    const currentToken = (_a = currentTokens[0]) == null ? void 0 : _a.word;
-    showDebugLog(`currentToken is ${currentToken}`);
-    if (!currentToken) {
-      onReturnNull(`Don't show suggestions because currentToken is empty`);
+    const currentPhrase = (_a = currentTokens.first()) == null ? void 0 : _a.word;
+    showDebugLog(`currentPhrase is ${currentPhrase}`);
+    if (!currentPhrase) {
+      onReturnNull(`Don't show suggestions because currentPhrase is empty`);
       return null;
     }
     const currentTokenSeparatedWhiteSpace = (_b = currentLineUntilCursor.split(" ").last()) != null ? _b : "";
@@ -4398,15 +4434,15 @@ var AutoCompleteSuggest = class extends import_obsidian4.EditorSuggest {
       );
       return null;
     }
-    if (currentToken.length === 1 && Boolean(currentToken.match(this.tokenizer.getTrimPattern()))) {
+    if (currentPhrase.length === 1 && Boolean(currentPhrase.match(this.tokenizer.getTrimPattern("input")))) {
       onReturnNull(
-        `Don't show suggestions because currentToken is TRIM_PATTERN`
+        `Don't show suggestions because currentPhrase is TRIM_PATTERN`
       );
       return null;
     }
-    if (!this.runManually && !currentFrontMatter && currentToken.length < this.minNumberTriggered) {
+    if (!this.runManually && !currentFrontMatter && currentPhrase.length < this.minNumberTriggered) {
       onReturnNull(
-        "Don't show suggestions because currentToken is less than minNumberTriggered option"
+        "Don't show suggestions because currentPhrase is less than minNumberTriggered option"
       );
       return null;
     }
@@ -4417,19 +4453,30 @@ var AutoCompleteSuggest = class extends import_obsidian4.EditorSuggest {
     }
     showDebugLog(buildLogMessage("onTrigger", performance.now() - start));
     this.runManually = false;
-    if (currentFrontMatter && ((_c = currentTokens.last()) == null ? void 0 : _c.word.match(/[^ ] $/))) {
+    const patterns = this.settings.phrasePatternsToSuppressTrigger;
+    const suppressedTokens = patterns.length === 0 || currentFrontMatter ? currentTokens : currentTokens.filter(
+      (t) => patterns.every((p) => !new RegExp(`^${p}$`).test(t.word))
+    );
+    if (suppressedTokens.length === 0) {
+      onReturnNull(
+        `Don't show suggestions because all tokens are ignored by token pattern: ${String.raw`^[\u3040-\u309F\u30A0-\u30FF]{1,2}$`}`
+      );
+      return null;
+    }
+    const currentToken = currentTokens.last().word;
+    if (currentFrontMatter && currentToken.match(/[^ ] $/)) {
       currentTokens.push({ word: "", offset: currentLineUntilCursor.length });
     }
-    this.contextStartCh = cursor.ch - currentToken.length;
+    this.contextStartCh = cursor.ch - currentPhrase.length;
     return {
       start: {
-        ch: cursor.ch - ((_f = (_e = (_d = currentTokens.last()) == null ? void 0 : _d.word) == null ? void 0 : _e.length) != null ? _f : 0),
+        ch: cursor.ch - ((_e = (_d = (_c = currentTokens.last()) == null ? void 0 : _c.word) == null ? void 0 : _d.length) != null ? _e : 0),
         line: cursor.line
       },
       end: cursor,
       query: JSON.stringify({
         currentFrontMatter,
-        queries: currentTokens.map((x) => ({
+        queries: suppressedTokens.map((x) => ({
           ...x,
           offset: x.offset - currentTokens[0].offset
         }))
@@ -4650,6 +4697,7 @@ var DEFAULT_SETTINGS = {
   minFuzzyMatchScore: 0.5,
   matchingWithoutEmoji: true,
   treatAccentDiacriticsAsAlphabeticCharacters: false,
+  treatUnderscoreAsPartOfWord: false,
   maxNumberOfSuggestions: 5,
   maxNumberOfWordsAsPhrase: 3,
   minNumberOfCharactersTriggered: 0,
@@ -4660,6 +4708,7 @@ var DEFAULT_SETTINGS = {
   insertAfterCompletion: true,
   firstCharactersDisableSuggestions: ":/^",
   patternsToSuppressTrigger: ["^~~~.*", "^```.*"],
+  phrasePatternsToSuppressTrigger: [],
   noAutoFocusUntilCycle: false,
   showMatchStrategy: true,
   showComplementAutomatically: true,
@@ -4759,9 +4808,6 @@ var VariousComplementsSettingTab = class extends import_obsidian6.PluginSettingT
       })
     );
     if (this.plugin.settings.strategy === TokenizeStrategy.CHINESE.name) {
-      const el = containerEl.createEl("div", {
-        cls: "various-complements__settings__warning"
-      });
       const df = document.createDocumentFragment();
       df.append(
         createSpan({
@@ -4829,6 +4875,23 @@ var VariousComplementsSettingTab = class extends import_obsidian6.PluginSettingT
         });
       });
     });
+    if (TokenizeStrategy.fromName(this.plugin.settings.strategy).canTreatUnderscoreAsPartOfWord) {
+      new import_obsidian6.Setting(containerEl).setName("Treat an underscore as a part of a word.").setDesc(
+        "If this setting is enabled, aaa_bbb will be tokenized as a single token aaa_bbb, rather than being split into aaa and bbb."
+      ).addToggle((tc) => {
+        tc.setValue(
+          this.plugin.settings.treatUnderscoreAsPartOfWord
+        ).onChange(async (value) => {
+          this.plugin.settings.treatUnderscoreAsPartOfWord = value;
+          await this.plugin.saveSettings({
+            internalLink: true,
+            customDictionary: true,
+            currentVault: true,
+            currentFile: true
+          });
+        });
+      });
+    }
     new import_obsidian6.Setting(containerEl).setName("Matching without emoji").setDesc("Ex: If enabled, 'aaa' matches with '\u{1F600}aaa'").addToggle((tc) => {
       tc.setValue(this.plugin.settings.matchingWithoutEmoji).onChange(
         async (value) => {
@@ -4854,7 +4917,9 @@ var VariousComplementsSettingTab = class extends import_obsidian6.PluginSettingT
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian6.Setting(containerEl).setName("Min number of characters for trigger").setDesc("It uses a default value of Strategy if set 0.").addSlider(
+    new import_obsidian6.Setting(containerEl).setName("Min number of characters for trigger").setDesc(
+      "Setting the value to 0 does not mean the suggestion will be triggered without any inputted character. Instead, a designated value will be used depending on the Strategy you choose."
+    ).addSlider(
       (sc) => sc.setLimits(0, 10, 1).setValue(this.plugin.settings.minNumberOfCharactersTriggered).setDynamicTooltip().onChange(async (value) => {
         this.plugin.settings.minNumberOfCharactersTriggered = value;
         await this.plugin.saveSettings();
@@ -4904,14 +4969,28 @@ var VariousComplementsSettingTab = class extends import_obsidian6.PluginSettingT
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian6.Setting(containerEl).setName("Patterns to suppress trigger").setDesc(
-      "RegExp line patterns until the cursor, which suppresses the auto-completion trigger. It can set multi patterns by line breaks."
-    ).addTextArea(
-      (tc) => tc.setValue(this.plugin.settings.patternsToSuppressTrigger.join("\n")).onChange(async (value) => {
+    new import_obsidian6.Setting(containerEl).setName("Line patterns to suppress trigger").setDesc(
+      "Regular expression line patterns (partial match) until the cursor, that suppresses the activation of autocomplete. Multiple patterns can be defined with line breaks."
+    ).addTextArea((tc) => {
+      const el = tc.setValue(this.plugin.settings.patternsToSuppressTrigger.join("\n")).onChange(async (value) => {
         this.plugin.settings.patternsToSuppressTrigger = smartLineBreakSplit(value);
         await this.plugin.saveSettings();
-      })
-    );
+      });
+      el.inputEl.className = "various-complements__settings__text-area-path-dense";
+      return el;
+    });
+    new import_obsidian6.Setting(containerEl).setName("Phrase patterns to suppress trigger").setDesc(
+      "Regular expression patterns (exact match) that suppress the activation of autocomplete. Multiple patterns can be defined with line breaks."
+    ).addTextArea((tc) => {
+      const el = tc.setValue(
+        this.plugin.settings.phrasePatternsToSuppressTrigger.join("\n")
+      ).onChange(async (value) => {
+        this.plugin.settings.phrasePatternsToSuppressTrigger = smartLineBreakSplit(value);
+        await this.plugin.saveSettings();
+      });
+      el.inputEl.className = "various-complements__settings__text-area-path-dense";
+      return el;
+    });
     new import_obsidian6.Setting(containerEl).setName("No auto-focus until the cycle").setDesc("No focus on the suggestions until the cycle key is pressed.").addToggle((tc) => {
       tc.setValue(this.plugin.settings.noAutoFocusUntilCycle).onChange(
         async (value) => {
