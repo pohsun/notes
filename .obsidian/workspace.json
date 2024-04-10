@@ -247,14 +247,20 @@
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "obsidian-map-view:Open map view": false,
-      "dbfolder:Create a new database table": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "dbfolder:Create a new database table": false
     }
   },
-  "active": "4c2a5a22b05f632e",
+  "active": "56d3e6d340256aa5",
   "lastOpenFiles": [
+    "Private/資金運用最佳化.md",
     "Private/都市更新方法.md",
+    "Finance/Stock.md",
     "Private/房地產.md",
+    "Private/macbook pro 2018.md",
+    "Private/1071002-臺北市大安區都市計畫通盤檢討(主要計畫)案及臺北市大安區都市計畫通盤檢討(細部計畫)案-公展說明會-簡報.pdf",
+    "Private/PhD_defense_presenter_notes.md",
+    "Private/培茵的叮囑.md",
     "CS/Patterns/Functional_Programming.md",
     "Private/real_assert_analyzer/data/A_lvr_land_A.csv",
     "Private/real_assert_analyzer/data/11301.zip",
@@ -265,7 +271,6 @@
     "Private/real_assert_analyzer/data/raw/112Q2.zip",
     "Private/real_assert_analyzer/data/raw/112Q1.zip",
     "Private/real_assert_analyzer/data/raw/111Q4.zip",
-    "Private/real_assert_analyzer/data/raw/112Q4.csv",
     "CS/CoreSkills/CoreSkills_index.md",
     "CS/CoreSkills/CSAPP3e/Index.md",
     "CS/Patterns/Object_Oriented_Programming.md",
@@ -284,10 +289,6 @@
     "CS/CoreSkills/SICP/exercise/exercise_1_5.md",
     "exercise/exercise_1_4.md",
     "CS/CoreSkills/SICP/exercise/exercise_1_3.md",
-    "CS/CoreSkills/SICP/exercise/exercise_1_2.md",
-    "CS/CoreSkills/SICP/exercise/exercise_1_6.md",
-    "CS/Lang/Haskell_index.md",
-    "CS/Patterns/C4 model visualization.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
