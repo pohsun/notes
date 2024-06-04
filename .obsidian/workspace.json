@@ -103,9 +103,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "762c7033065f14e9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -229,7 +239,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -251,7 +263,7 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "56d3e6d340256aa5",
+  "active": "762c7033065f14e9",
   "lastOpenFiles": [
     "Private/資金運用最佳化.md",
     "Private/都市更新方法.md",
