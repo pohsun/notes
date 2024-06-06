@@ -108,9 +108,12 @@
             "id": "762c7033065f14e9",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.12"
+                "file": "Private/房地產.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -265,10 +268,10 @@
   },
   "active": "762c7033065f14e9",
   "lastOpenFiles": [
+    "Private/房地產.md",
     "Private/資金運用最佳化.md",
     "Private/都市更新方法.md",
     "Finance/Stock.md",
-    "Private/房地產.md",
     "Private/macbook pro 2018.md",
     "Private/1071002-臺北市大安區都市計畫通盤檢討(主要計畫)案及臺北市大安區都市計畫通盤檢討(細部計畫)案-公展說明會-簡報.pdf",
     "Private/PhD_defense_presenter_notes.md",
