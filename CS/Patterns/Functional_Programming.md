@@ -11,7 +11,6 @@ Most conceptions are introduced in [SICP](../CoreSkills/SICP/SICP.md). Here we m
 ### Maybe
 
 
-
 ## References
 
 * [函數式程序設計爲什麼至關重要 (byvoid.com)](https://byvoid.com/zht/blog/why-functional-programming/)
