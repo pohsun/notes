@@ -1,15 +1,15 @@
 {
   "settings": {
-    "migrated": 4,
+    "migrated": 5,
     "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🏗",
       "🧮",
       "🚫",
       "🛣",
-      "💌",
-      "🎓"
+      "💌"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -19,13 +19,18 @@
       "bottom": 0,
       "left": 0
     },
-    "emojiStyle": "none",
+    "emojiStyle": "native",
     "iconInTabsEnabled": false,
     "iconsBackgroundCheckEnabled": false,
     "iconInTitleEnabled": false,
     "iconInFrontmatterEnabled": false,
     "iconsInNotesEnabled": true,
-    "iconIdentifier": ":"
+    "iconIdentifier": ":",
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "debugMode": false
   },
   "Playground": "🛝",
   "Physics": "⚛",
@@ -36,5 +41,6 @@
   "Private/培茵的叮囑.md": "💌",
   "Private": "🚫",
   "Private/資金運用最佳化.md": "🧮",
-  "Private/汽車.md": "🛣"
+  "Private/汽車.md": "🛣",
+  "Private/都市更新方法.md": "🏗"
 }
