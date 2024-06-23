@@ -27,9 +27,13 @@ FROM #CS/Lang/Python
 * [PEP 517 – A build-system independent format for source trees](https://peps.python.org/pep-0517/)
 * [PEP 3143 – Standard daemon process library](https://peps.python.org/pep-3143/)
 * `GIL` and `Concurrency` issues
-    * [Python的GIL是什么鬼，多线程性能究竟如何](http://cenalulu.github.io/python/gil-in-python/)
+    * GIL
+        * [Python的GIL是什么鬼，多线程性能究竟如何](http://cenalulu.github.io/python/gil-in-python/)
+        * [天使还是魔鬼？GIL的前世今生。一期视频全面了解GIL！](https://www.youtube.com/watch?v=XjBsk8JGHhQ)
     * [Concurrent Execution](https://docs.python.org/3/library/concurrency.html)
-    * [PEP 492: Coroutines with async and await syntax](https://www.python.org/dev/peps/pep-0492/)
+        * [PEP 492: Coroutines with async and await syntax](https://www.python.org/dev/peps/pep-0492/)
+        * [Build Your Own Async (youtube.com)](https://www.youtube.com/watch?v=Y4Gt3Xjd7G8)
+        * [await机制详解。再来个硬核内容，把并行和依赖背后的原理全给你讲明白](https://www.youtube.com/watch?v=K0BjgYZbgfE)
         * [asyncio從不會到上路](https://myapollo.com.tw/zh-tw/begin-to-asyncio/)
 * [Python module and packaging](Python_Packaging.md)
 	* [PEP 420: Implicit Namespace Packages](https://www.python.org/dev/peps/pep-0420/)  - 實用的namespace打包方法
@@ -46,6 +50,7 @@ FROM #CS/Lang/Python
 * Internals
     * [Exploring the internals (python.org)](https://devguide.python.org/internals/exploring/)
     * [Your Guide to the CPython Source Code – Real Python](https://realpython.com/cpython-source-code-guide/)
+    * [码农高天 - YouTube](https://www.youtube.com/@minkoder/videos)
 # Useful Modules (Except for DevTools)
 
 * Data analysis
