@@ -43,7 +43,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/Linux_index.md",
+                "file": "CS/CoreSkills/Concurrent_Computing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4db2f8113802761a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/CoreSkills/Concurrent_Computing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +118,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/OS/Linux_index.md"
+                "file": "CS/CoreSkills/Concurrent_Computing.md"
               }
             }
           },
@@ -192,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/OS/Linux_index.md",
+                "file": "CS/CoreSkills/Concurrent_Computing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/Linux_index.md",
+                "file": "CS/CoreSkills/Concurrent_Computing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +248,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -253,9 +267,12 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "4cefbe19870fbbb5",
+  "active": "4db2f8113802761a",
   "lastOpenFiles": [
+    "CS/CoreSkills/Distributed_Computing.md",
+    "CS/CoreSkills/Concurrent_Computing.md",
     "CS/CoreSkills/CoreSkills_index.md",
+    "CS/OS/Linux_index.md",
     "CS/CoreSkills/CSAPP3e/Index.md",
     "CS/CoreSkills/Refactoring.md",
     "CS/Lang/Python/Python_index.md",
@@ -288,9 +305,6 @@
     "CS/Patterns/Architectures_index.md",
     "CS/JupyterLab_and_Colab.md",
     "CS/Lang/Python/Python_poetry.md",
-    "CS/Lang/Python/Python_xmlrpc.md",
-    "CS/CoreSkills/VSCode.md",
-    "CS/DSA/DSA_index.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
