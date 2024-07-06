@@ -35,6 +35,7 @@ FROM #CS/Lang/Python
         * [Build Your Own Async (youtube.com)](https://www.youtube.com/watch?v=Y4Gt3Xjd7G8)
         * [await机制详解。再来个硬核内容，把并行和依赖背后的原理全给你讲明白](https://www.youtube.com/watch?v=K0BjgYZbgfE)
         * [asyncio從不會到上路](https://myapollo.com.tw/zh-tw/begin-to-asyncio/)
+        * [asyncio: We Did It Wrong – roguelynn](https://www.roguelynn.com/words/asyncio-we-did-it-wrong/)
 * [Python module and packaging](Python_Packaging.md)
 	* [PEP 420: Implicit Namespace Packages](https://www.python.org/dev/peps/pep-0420/)  - 實用的namespace打包方法
 	* [PEP518: `pyproject.toml`]()

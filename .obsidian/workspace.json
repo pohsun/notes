@@ -71,20 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Patterns/Functional_Programming.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a9e8d7564549a3d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Private/房地產.md",
+                "file": "CS/CoreSkills/SICP/exercise/chap_1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -158,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Patterns/Functional_Programming.md"
+                "file": "CS/CoreSkills/SICP/exercise/chap_1.md"
               }
             }
           },
@@ -179,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Patterns/Functional_Programming.md",
+                "file": "CS/CoreSkills/SICP/exercise/chap_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Patterns/Functional_Programming.md",
+                "file": "CS/CoreSkills/SICP/exercise/chap_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +230,12 @@
   },
   "active": "1fc24a5beafd465d",
   "lastOpenFiles": [
+    "CS/Patterns/Functional_Programming.md",
+    "Private/房地產.md",
+    "CS/DBMS/DB_and_DBMS_index.md",
+    "CS/Lang/Python/Python_poetry.md",
     "CS/Lang/Python/Python_index.md",
+    "CS/Lang/Haskell_index.md",
     "CS/CoreSkills/Concurrent_Computing.md",
     "CS/CoreSkills/Distributed_Computing.md",
     "CS/CoreSkills/CoreSkills_index.md",
@@ -252,13 +244,10 @@
     "CS/CoreSkills/Refactoring.md",
     "CS/CoreSkills/SICP/SICP.md",
     "CS/CoreSkills/SICP/exercise/chap_1.md",
-    "Private/房地產.md",
-    "CS/DBMS/DB_and_DBMS_index.md",
     "Private/金融服務.md",
     "Private/都市更新方法.md",
     "Private/萬萬稅.md",
     "Private/汽車.md",
-    "CS/Patterns/Functional_Programming.md",
     "Private/資金運用最佳化.md",
     "Private/attachments/1071002-臺北市大安區都市計畫通盤檢討(主要計畫)案及臺北市大安區都市計畫通盤檢討(細部計畫)案-公展說明會-簡報.pdf",
     "Private/attachments/1071012-臺北市中正區都市計畫通盤檢討（主要計畫）案及臺北市中正區都市計畫通盤檢討（細部計畫）案-第1次公展說明會-會議簡報.pdf",
@@ -277,8 +266,6 @@
     "CS/Patterns/Object_Oriented_Programming.md",
     "CS/WebDev/WebScraper.md",
     "CS/Patterns/Architectures_index.md",
-    "CS/JupyterLab_and_Colab.md",
-    "CS/Lang/Python/Python_poetry.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
