@@ -26,6 +26,7 @@ FROM #CS/Lang/Python
 * [PEP 484 – Type Hints](https://peps.python.org/pep-0484/)
 * [PEP 517 – A build-system independent format for source trees](https://peps.python.org/pep-0517/)
 * [PEP 3143 – Standard daemon process library](https://peps.python.org/pep-3143/)
+* [PEP 684 – A Per-Interpreter GIL](https://peps.python.org/pep-0684/)
 * `GIL` and `Concurrency` issues
     * GIL
         * [Python的GIL是什么鬼，多线程性能究竟如何](http://cenalulu.github.io/python/gil-in-python/)
@@ -104,7 +105,7 @@ FROM #CS/Lang/Python
 * [py_spy](https://github.com/benfred/py-spy)
 ## Debugger
 
-* [`pdb`](https://docs.python.org/3/library/pdb.html) [`pudb`](https://documen.tician.de/pudb/)
+* [`pdb`](https://docs.python.org/3/library/pdb.html) [`pudb`](https://documen.tician.de/pudb/) -> [`breakpoint()`](https://docs.python.org/3/library/functions.html#breakpoint))
 * [`objgraph`](https://pypi.org/project/objgraph/)
 ## Unittest
 
@@ -134,7 +135,6 @@ Some auxiliary modules are provides to support the concurrency, such as
 
 *  [Concurrent execution](https://docs.python.org/3/library/concurrency.html)
 *  [`asynio`](https://docs.python.org/3/library/asyncio.html)
-
 ### See also
 
 * [Python Parallel Programming Cookbook 中文版](https://python-parallel-programmning-cookbook.readthedocs.io/)
@@ -160,6 +160,11 @@ Some auxiliary modules are provides to support the concurrency, such as
     * Support for `CUDA` and etc..
     * Could be 2x slower than `Numba`.
 * (Optional) [Python C API](https://docs.python.org/3/c-api/index.html) 
+
+## Solution - subinterpreter
+
+* 
+* [Python 3.12 Preview: Subinterpreters – Real Python](https://realpython.com/python312-subinterpreters/)
 
 ## Solution - GPGPU
 
