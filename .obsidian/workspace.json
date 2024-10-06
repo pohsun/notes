@@ -77,9 +77,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "24ef29670436192a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -228,7 +238,7 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "1fc24a5beafd465d",
+  "active": "24ef29670436192a",
   "lastOpenFiles": [
     "CS/Patterns/Functional_Programming.md",
     "Private/房地產.md",
