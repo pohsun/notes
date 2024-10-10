@@ -22,7 +22,6 @@ FROM #CS/Lang/Python
 
 * [PEP 0: Index of PEP](https://www.python.org/dev/peps/)
 * [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/) - 每個開發者都應該從基礎學起
-* [PEP 328 – Imports: Multi-Line and Absolute/Relative](https://peps.python.org/pep-0328/)
 * [PEP 484 – Type Hints](https://peps.python.org/pep-0484/)
 * [PEP 517 – A build-system independent format for source trees](https://peps.python.org/pep-0517/)
 * [PEP 3143 – Standard daemon process library](https://peps.python.org/pep-3143/)
@@ -37,13 +36,21 @@ FROM #CS/Lang/Python
         * [await机制详解。再来个硬核内容，把并行和依赖背后的原理全给你讲明白](https://www.youtube.com/watch?v=K0BjgYZbgfE)
         * [asyncio從不會到上路](https://myapollo.com.tw/zh-tw/begin-to-asyncio/)
         * [asyncio: We Did It Wrong – roguelynn](https://www.roguelynn.com/words/asyncio-we-did-it-wrong/)
-* [Python module and packaging](Python_Packaging.md)
+    * Sub-interpreter
+* Import system
+    * [PEP 328 – Imports: Multi-Line and Absolute/Relative](https://peps.python.org/pep-0328/)
+    * [How python's import machinery works](https://alone-djangonaut.com/how-pythons-import-machinery-works)
+        * [An example github importer](https://gist.github.com/MineRobber9000/998fe8c5a183fa2649f937c9d2e0b8b0)
+        * [pypi: httpimport](https://pypi.org/project/httpimport/)
+* [Module and packaging](Python_Packaging.md)
 	* [PEP 420: Implicit Namespace Packages](https://www.python.org/dev/peps/pep-0420/)  - 實用的namespace打包方法
 	* [PEP518: `pyproject.toml`]()
 	* [利用 pkgutil & importlib 打造可擴充式模組](https://myapollo.com.tw/blog/python-pkgutil-importlib/)
 * [WTF Python - 一些鮮為人知的特性](https://github.com/satwikkansal/wtfpython)
 * 奇技
 	* [Make SUID function on scripts](https://stackoverflow.com/questions/5523279/semantics-of-suid-set-user-id) [一些中文解釋](https://blog.csdn.net/dmjz_lk/article/details/97259258)
+    	* https://stackoverflow.com/questions/5523279/semantics-of-suid-set-user-id 
+    	* https://selliott.org/python/suid-python.c
 	* [Redirecting all kinds of stdout in Python](https://eli.thegreenplace.net/2015/redirecting-all-kinds-of-stdout-in-python/)
         * [Python bytecode explained](https://github.com/MoserMichael/pyasmtool/blob/master/bytecode_disasm.md)
 
