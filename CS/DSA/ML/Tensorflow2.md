@@ -3,7 +3,6 @@
 
 * [TF2 official doc](https://www.tensorflow.org/guide)
 * [Cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/master/keras.pdf)
-
 # Tutorial
 
 * [TF2 official doc](https://www.tensorflow.org/tutorials)

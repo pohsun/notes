@@ -3,7 +3,9 @@
 
 #CS/DSA/ML #CS/Lang/Python 
 
-* [Official API](https://pytorch.org/docs/stable/index.html), [official tutorials](https://pytorch.org/tutorials/) and [Advanced topics: The incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)
+* [Official API](https://pytorch.org/docs/stable/index.html), [official tutorials](https://pytorch.org/tutorials/)
+    *  [Advanced topics: The incredible PyTorch](https://github.com/ritchieng/the-incredible-pytorch)
+    * 
 * Supportive packages
     * [`pytorch-lightning`: High-level lib to help training and evaluating](https://github.com/PyTorchLightning/pytorch-lightning)
     * [`torchsummary`: Better way showing the figure](https://github.com/sksq96/pytorch-summary)
@@ -21,6 +23,8 @@
     * https://github.com/szagoruyko/pytorchviz
 * Performance
     * [Optimize PyTorch Performance for Speed and Memory Efficiency (2022) | by Jack Chih-Hsu Lin | Towards Data Science](https://towardsdatascience.com/optimize-pytorch-performance-for-speed-and-memory-efficiency-2022-84f453916ea6)
+* Internals
+    * [How Computational Graphs are Constructed in PyTorch](https://pytorch.org/blog/computational-graphs-constructed-in-pytorch/)
 
 ## Workflow
 
